@@ -132,7 +132,7 @@ Keyboard shortcuts can be used to access the emoji keyboard on your computer. Be
 
 **Windows**
 
-Select Windows and press the full stop at the same time.
+Select Windows and press the dot '.' (full stop or period) at the same time.
 
 **Linux**
 
@@ -171,7 +171,7 @@ Note that your emoji will look different on different operating systems.
 
 Add the code for the remaining list items `<li>`. 
 
-Some emoji, for example thumps up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list. 
+Some emoji, for example thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list. 
 
 --- code ---
 ---
@@ -195,5 +195,13 @@ line_highlights: 39-42
     </main>
 
 --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items. 
+
+**Tip:** If your computer doesn't support emoji then you can make them from characters such as ';)'.
 
 --- /task ---
