@@ -1,11 +1,11 @@
-# top-5-emoji-list
+# anime-expressions
 
-![top-5-emoji-list](banner.png)
+![anime-expressions](banner.png)
 
-Find the project online at [projects.raspberrypi.org/en/projects/top-5-emoji-list](https://projects.raspberrypi.org/en/projects/top-5-emoji-list)
+Find the project online at [projects.raspberrypi.org/en/projects/anime-expressions](https://projects.raspberrypi.org/en/projects/anime-expressions)
 
 ## Resources
-For project materials and solutions, see [en/resources](https://github.com/raspberrypilearning/top-5-emoji-list/tree/master/en/resources) and [en/solutions](https://github.com/raspberrypilearning/top-5-emoji-list/tree/master/en/solutions).
+For project materials and solutions, see [en/resources](https://github.com/raspberrypilearning/anime-expressions/tree/master/en/resources) and [en/solutions](https://github.com/raspberrypilearning/anime-expressions/tree/master/en/solutions).
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md)

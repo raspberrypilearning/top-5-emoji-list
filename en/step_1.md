@@ -1,59 +1,34 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In this project, you will create a top 5 list of emoji with animated emoji and an emoji background. 
 
-### What you will make
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">CSS animations</span> are used to grab attention and make a website engaging without slowing down the loading of pages. The animations work by changing one or more properties of an element over a period of time. Examples of animations could be; hover effects, loading images, text animation, particle effects, or animated images.
+</p>
+
+You will:
++ Use **lists**, **block quotes** and **links** in HTML
++ Use CSS **animations** to make your page stand out
++ Create your own **CSS class** that makes elements transparent so you can see a background image.
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A <span style="color: #0faeb0">**content writer**</span> or content author researches and writes interesting articles for a web site. Top 5 or 10 lists are popular. What would you make a list about?
+</p>
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+--- task ---
+### Try it
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 175px; flex-grow: 1">  
+Watch the animations on this web page. How often do they repeat? Can you spot a list, a quote and a link?
 </div>
+<div>
+<iframe src="https://trinket.io/embed/html/092b44465f?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+</div>
+--- /task ---
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Completed project](images/solution.PNG)
 --- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
