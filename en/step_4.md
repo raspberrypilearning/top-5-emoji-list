@@ -19,7 +19,7 @@ The CSS `background-image` property allows you to set an image to be the backgro
 
 --- code ---
 ---
-language: html
+language: css
 filename: style.css
 line_numbers: true
 line_number_start: 58
@@ -52,7 +52,7 @@ body {
 
 --- code ---
 ---
-language: html
+language: css
 filename: style.css
 line_numbers: true
 line_number_start: 98
@@ -76,7 +76,7 @@ Add the `.transparent` rule below the comment:
 
 --- code ---
 ---
-language: html
+language: css
 filename: style.css
 line_numbers: true
 line_number_start: 98
@@ -102,7 +102,7 @@ Now add your new `transparent` class to `<main>` in your HTML file:
 --- code ---
 ---
 language: html
-filename: style.css
+filename: index.html
 line_numbers: true
 line_number_start: 40
 line_highlights: 42
@@ -118,6 +118,8 @@ line_highlights: 42
 
 --- task ---
 
-**Test:** 
+**Test:** Now the main part of your page should be slightly transparent. 
+
+What happens if you change the `opacity` to `50`, `75` or `90`. Try different values in your CSS rule and see which you prefer. 
 
 --- /task ---
