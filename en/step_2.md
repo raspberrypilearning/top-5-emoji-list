@@ -87,10 +87,10 @@ line_highlights: 35-37
 
 --- /task ---
 
-Lists are a great way to display information on a webpage. A list contains multiple list items <li>. There are two types of list:
+Lists are a great way to display information on a webpage. A list contains multiple list items `<li>`. There are two types of list:
 
-+ An unordered list <ul> is where each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
-+ An ordered list <ol> is where each new item is numbered and the order written is important. A use for an ordered list could be a top ten songs list or a sports league table.
++ An unordered list `<ul>` is where each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
++ An ordered list `<ol>` is where each new item is numbered and the order written is important. A use for an ordered list could be a top ten songs list or a sports league table.
 
 Can you think of a use for an unordered list and an ordered list?
 
@@ -121,7 +121,7 @@ line_highlights: 36-38
 
 --- task ---
 
-Within your `<ol>` tags, add in an `<li>` tag for your first item in the list. This includes the `rolling on the floor emoji`. To get the emoji icon you can **copy and paste** it from below or use the emoji keyboard.
+Within your `<ol>` tags, add in an `<li>` tag for your first item in the list. This includes the `rolling on the floor emoji` 🤣. To get the emoji icon you can **copy and paste** it from below or use the emoji keyboard.
 
 --- collapse ---
 ---
@@ -171,7 +171,7 @@ Note that your emoji will look different on different operating systems.
 
 Add the code for the remaining list items `<li>`. 
 
-Some emoji, for example thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list. 
+👍👍🏻👍🏼👍🏽👍🏾👍🏿 Some emoji, for example thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list. 
 
 --- code ---
 ---
