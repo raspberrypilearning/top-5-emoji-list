@@ -3,13 +3,54 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step you will try out different colour palette and font choices.
+In this step you will add animated emoji to your website header.
 
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/cff6fa893b?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
+
+You have made your website header engaging by using bold colours and a stylish font. Header animations will make the website really eye-catching.
+
+--- task ---
+
+Add some emoji to your header with the class `
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 29
+line_highlights: 31-35
+---
+
+  <header class="secondary border-bottom">
+    <h1>Top 5 Emoji!</h1>
+    <span class="bigfont">🤣</span>
+    <span class="bigfont">😇</span>
+    <span class="bigfont">😭</span>
+    <span class="bigfont">🤩</span>
+    <span class="bigfont">😘</span>
+  </header>
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
+
 
 
 
