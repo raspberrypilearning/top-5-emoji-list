@@ -48,7 +48,7 @@ line_highlights: 42
 
 --- task ---
 
-Add the `wrap` class to your `<section>`. This will make your website responsive by adjusting the layout to fit the screen. 
+Add the `wrap` class to your `<section>`. This will make your website responsive by adjusting the layout to fit the available space. 
 
 --- code ---
 ---
@@ -134,7 +134,7 @@ language: html
 filename: animation.css
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-5
+line_highlights: 1-4
 ---
 .spinme {
   animation: rotate-center linear 8s 2; /* Time taken for animation and number of repetitions */
