@@ -13,7 +13,7 @@ In this step you will add a large, animated emoji to make your webpage more enga
 
 Extra visualisations bring your content to life. Use a large trophy emoji to highlight that these are the most popular emoji. 
 
-Add a new paragraph <p> to your <section> to display the trophy emoji 🏆. 
+Add a new paragraph `<p>` to your `<section>` to display the trophy emoji 🏆. 
 
 The `hugefont` class makes the emoji text really big. 
 
@@ -23,7 +23,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 34
-line_highlights: 43
+line_highlights: 42
 ---
       <section>
         <ol>
@@ -48,9 +48,17 @@ line_highlights: 43
 
 --- task ---
 
-Add the `wrap` class to your <section>. This will make your website responsive by adjusting the layout to fit the screen. 
+Add the `wrap` class to your `<section>`. This will make your website responsive by adjusting the layout to fit the screen. 
 
-<section class="wrap">   
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 35
+line_highlights: 35
+---
+      <section class="wrap">   
          <ol>
            <li>🤣 – Rolling on the floor laughing.</li>
            <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
@@ -58,8 +66,10 @@ Add the `wrap` class to your <section>. This will make your website responsive b
            <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
            <li>😘 – Face blowing a kiss.</li>
          </ol>
-       <p class="hugefont">🏆</p>        
- </section>
+         <p class="hugefont">🏆</p>        
+      </section>
+
+--- /code ---
 
 --- /task ---
 
@@ -71,9 +81,9 @@ Add the `wrap` class to your <section>. This will make your website responsive b
 
 The style sheet also includes `wide` and `narrow` classes that you can use to change the width of elements. 
 
-Add the `wide` class to the `<ol>` tag. 
++ Add the `wide` class to the `<ol>` tag. 
 
-Add the `narrow` class to your trophy emoji paragraph.
++ Add the `narrow` class to your trophy emoji paragraph.
 
 --- task ---
 
@@ -83,7 +93,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 35
-line_highlights: 36, 4
+line_highlights: 36, 43
 ---
     <section class="wrap">   
          <ol class="wide">
@@ -108,45 +118,9 @@ line_highlights: 36, 4
 
 You can also use HTML and CSS to create **animations** that change elements on a web page. 
 
-CSS styles written inside a @keyframes rule can be set to change over time. You can change colour, position, size, rotation and many more properties. When used in an `animation` and applied to a HTML element, the style changes apply and the HTML element animates.
+A CSS `@keyframes` rule can be set to change over time. You can change colour, position, size, rotation and many more properties. 
 
-@keyframes can run `from` a start point `to` an end point changing gradually through the animation: 
-
-![Animated gif showing a line of xs changing colour from red through to blue.](images/redtoblue.gif)
-
---- code ---
----
-language: html
----
-
-/* gradually change the colour scheme from red to blue
-@keyframes change-color {
-  from { color: red;}
-  to { color: blue;}
-}
-
---- /code ---
-
-or @keyframes can run when a percentage of the animation is complete:
-
-![Animated gif showing a line of xs changing through all the colours in the rainbow.](images/rainbow.gif)
-
---- code ---
----
-language: html
----
-
-/* gradually change colours through a full rainbow 
-@keyframes change-color {
-  0% { color: red;}
-  20% { color: orange;}
-  40% { color: yellow;}
-  60% { color: green;}
-  80% { color: blue;}
-  100% { color: purple;}
-}
-
---- /code ---
+`@keyframes` control how the element should look when a percentage of the running animation is complete.
 
 --- task ---
 
@@ -154,6 +128,14 @@ language: html
 
 The line `animation: rotate-center linear 8s 2;` tells the class to use the `rotate-center` animation with `linear` timing so that it runs at the same speed all the way through. The animation runs for 8 seconds and repeats twice.
 
+--- code ---
+---
+language: html
+filename: animation.css
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-5
+---
 .spinme {
   animation: rotate-center linear 8s 2; /* Time taken for animation and number of repetitions */
   display: inline-block;
@@ -168,20 +150,22 @@ The line `animation: rotate-center linear 8s 2;` tells the class to use the `rot
     transform: rotate(360deg);
   }
 }
+ 
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Add the **spinme** class to the paragraph containing the trophy. 
+Go back to the `index.html` file. Add the **spinme** class to the paragraph containing the trophy. 
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 34
-line_highlights: 44
+line_number_start: 35
+line_highlights: 43
 ---
 
 <section class="wrap">   
@@ -201,13 +185,15 @@ line_highlights: 44
 
 --- task ---
 
-**Test:* Your trophy should spin twice each time your load the page. 
+**Test:** Your trophy should spin twice each time your load the page. 
 
-**Tip:* You can click the arrow next to 'Autorun' you can reload your web page to see the animation again. 
+**Tip:** You can click the arrow next to 'Autorun' to reload your web page and see the animation again. 
 
 --- /task ---
 
 --- task ---
+
+Go back to the `animation.css` file.
 
 **Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if your run the animation longer than 8 seconds? Do you want your animation to run more than twice? 
 

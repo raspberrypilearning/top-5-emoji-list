@@ -150,7 +150,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 34
-line_highlights: 36-38
+line_highlights: 37
 ---
     <main>
       <section>
@@ -179,7 +179,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 34
-line_highlights: 39-42
+line_highlights: 38-41
 ---
     <main>
       <section>
