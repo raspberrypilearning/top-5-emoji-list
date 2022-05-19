@@ -12,46 +12,32 @@ You will be guided towards the correct answer. You can do this activity as many 
 legend: Question 1 of 3
 ---
 
-In this project you created a numbered top 5 list of emoji. Which HTML tags are used to create an ordered list. 
-
-Difference between ol and ul
-
-:
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: false
----   
-<img src="star.png" alt="A five-pointed yellow star."> 
-
---- /code ---
+In this project you created a numbered top 5 list of emoji. Which HTML tags are used to create an ordered list?
 
 
 --- choices ---
 
-- (x) `<img>`
+- ( ) `<ul>` and `<li>`
 
   --- feedback ---
   
-  Correct! In HTML tags appear inside angle brackets. The `<img>` tag is used to add an image with alternative text. 
+  Very close. The `<ul>` tag is used to create unordered lists where each item starts with a bullet. `<ul>` is used to create lists of items where the order is not important. 
  
   --- /feedback ---
 
-- ( ) `src="star.png"`
+- (x) `<ol>` and `<li>`
 
   --- feedback ---
 
-Not quite, this is an **attribute**. The attribute being used here is the source attribute. It lets the browser know where the image is stored. 
+Correct! `<ol>` means ordered list. `<li>` is used to create list items inside an ordered list. When you use `<ol>` the items will be numbered automatically.
 
   --- /feedback ---
 
-- ( ) `alt`
+- ( ) `<ul>` and `<ol>`
 
   --- feedback ---
 
-Try again. This is the identifier for the attribute that tells the browser what the **alternative text** (alt) should be. 
+Not quite. `<ul>` and `<ol>` are used to create different kinds of list in HTML. 
 
   --- /feedback ---
 
