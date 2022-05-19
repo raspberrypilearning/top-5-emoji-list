@@ -1,6 +1,6 @@
 ## Reflection
 
-Well done. You have created a web page using HTML and CSS.
+Well done. You have created a web page using several different HTML tags and CSS animations.
 
 Answer the three questions below to reflect on what you've learnt.
 

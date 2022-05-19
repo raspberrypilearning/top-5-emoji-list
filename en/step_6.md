@@ -15,7 +15,7 @@ You have made your website header engaging by using bold colours and a stylish f
 
 --- task ---
 
-Add 5 emoji to your header with the class `bigfont` to make them large.font` s
+Add 5 emoji to your header with the class `bigfont` to make them large. 
 
 --- code ---
 ---
@@ -36,6 +36,8 @@ line_highlights: 31-35
   </header>
 
 --- /code ---
+
+--- /task ---
 
 
 --- task ---
@@ -78,7 +80,7 @@ line_highlights: 31-35
 
 --- /code ---
 
---- /task ------ /task ---
+--- /task ---
 
 --- task ---
 
