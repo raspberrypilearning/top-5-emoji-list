@@ -93,6 +93,8 @@ line_highlights: 100-102
 
 --- /task ---
 
+You have added a new CSS class, now you need to use it.
+
 --- task ---
 
 Now add your new `transparent` class to `<main>` in your HTML file:
@@ -112,6 +114,10 @@ line_highlights: 42
 
 --- /code ---
 
-
 --- /task ---
 
+--- task ---
+
+**Test:** 
+
+--- /task ---

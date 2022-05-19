@@ -15,8 +15,8 @@ You have made your website header engaging by using bold colours and a stylish f
 
 --- task ---
 
-Add some emoji to your header with the class `
-font` s
+Add some emoji to your header with the class `font` s
+
 --- code ---
 ---
 language: html
@@ -39,17 +39,7 @@ line_highlights: 31-35
 
 --- /task ---
 
---- task ---
 
-
-
---- /task ---
-
---- task ---
-
-
-
---- /task ---
 
 
 
