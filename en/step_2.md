@@ -121,7 +121,7 @@ line_highlights: 36-38
 
 --- task ---
 
-Within your `<ol>` tags, add in an `<li>` tag for your first item in the list. This includes the `rolling on the floor emoji`. To get the emoji icon you can **copy and paste** it from below or use the emoji keyboard.
+Within your `<ol>` tags, add in an `<li>` tag for your first item in the list. This includes the `rolling on the floor emoji` 🤣. To get the emoji icon you can **copy and paste** it from below or use the emoji keyboard.
 
 --- collapse ---
 ---
@@ -171,7 +171,7 @@ Note that your emoji will look different on different operating systems.
 
 Add the code for the remaining list items `<li>`. 
 
-Some emoji, for example thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list. 
+👍👍🏻👍🏼👍🏽👍🏾👍🏿 Some emoji, for example thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list. 
 
 --- code ---
 ---
