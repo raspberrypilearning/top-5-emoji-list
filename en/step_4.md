@@ -102,15 +102,13 @@ Now add your new `transparent` class to `<main>` in your HTML file:
 language: html
 filename: style.css
 line_numbers: true
-line_number_start: 58
-line_highlights: 61
+line_number_start: 40
+line_highlights: 42
 ---
 
-/* Add a transparent effect */
- 
-.transparent {
- opacity: 0.95;
-}
+<main class="transparent">
+      <section class="wrap">    
+        <div class="wide">
 
 --- /code ---
 

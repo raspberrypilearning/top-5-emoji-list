@@ -53,23 +53,3 @@ line_highlights: 31-35
 
 
 
-
-
-![Animated gif showing a line of xs changing through all the colours in the rainbow.](images/rainbow.gif)
-
---- code ---
----
-language: html
----
-
-/* gradually change colours through a full rainbow 
-@keyframes change-color {
-  0% { color: red;}
-  20% { color: orange;}
-  40% { color: yellow;}
-  60% { color: green;}
-  80% { color: blue;}
-  100% { color: purple;}
-}
-
---- /code ---
