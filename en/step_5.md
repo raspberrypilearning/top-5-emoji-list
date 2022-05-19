@@ -56,12 +56,10 @@ The appearance of the link is set by a rule for `<a>` elements in your style fil
 
 The `<blockquote>` tag is used when you want to quote someone. To give them credit you can use the `<cite>` tag.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
- <blockquote>
+<blockquote style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
            <p>"Oceans of emotion can be transmitted through a text message, an emoji sequence, and a winking semicolon, but humans are hardwired to respond to visuals."</p>
            <cite>- Jenna Wortham.</cite>
-       </blockquote>
-</p>
+</blockquote>
 
 --- task ---
 
@@ -96,6 +94,10 @@ line_highlights: 51-56
 **Test:** Look at your web page and see that the quote is styled in a large font and the citation is in a small font below. 
 
 This is because your style file contains rules for styling `<blockquote>` and `<cite>` elements. 
+
+<div>
+<iframe src="https://trinket.io/embed/html/4603f442a9?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
 
 --- /task ---
 

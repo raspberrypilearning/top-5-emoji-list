@@ -12,7 +12,11 @@ You will be guided towards the correct answer. You can do this activity as many 
 legend: Question 1 of 3
 ---
 
-**Hypertext Markup Language (HTML)** is used to structure a web page. In this HTML code, which item is the **tag**?:
+In this project you created a numbered top 5 list of emoji. Which HTML tags are used to create an ordered list. 
+
+Difference between ol and ul
+
+:
 
 --- code ---
 ---

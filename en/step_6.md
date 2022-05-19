@@ -7,7 +7,7 @@ In this step you will add animated emoji to your website header.
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/cff6fa893b?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/bab7a842c9?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -44,17 +44,16 @@ line_highlights: 31-35
 
 Click on the `animation.css` file and find the `bounceme` class. 
 
-This code runs the `bounceme` animation with `ease` timing meaning the animation starts and ends slowly but speeds up in the middle. The animation runs for 2 seconds and repeats 3 times.
+This code runs the `bounce` animation with `ease` timing meaning the animation starts and ends slowly but speeds up in the middle. The animation runs for 2 seconds and repeats 3 times.
 
 To create a bounce effect the `scale` property is used to adjust the size and the `translateY` property moves the element vertically up and down the Y-axis. 
 
 --- code ---
 ---
-language: html
+language: css
 filename: animation.css
-line_numbers: true
-line_number_start: 29
-line_highlights: 31-35
+line_number_start: 16
+line_highlights: 16-19
 ---
 
 .bounceme {
@@ -116,19 +115,19 @@ line_highlights: 34
 
 --- /task ---
 
-When you look at a webpage, the part that is visible to you is called the **viewport**. A mobile phone will have a much smaller viewport than a computer screens.
+When you look at a webpage, the part that is visible to you is called the **viewport**. A mobile phone will have a much smaller viewport than a desktop computer screen.
 
 Your project already has code to control the viewport's size and scale to adapt your site to the device width. You can use viewport in animations to make the animation change to fit the viewport.  
 
 --- task ---
 
-Click on the `animation.css` file and find the `rotatemeleft` class. To create a rolling animation, a combination of `translate` and `rotate` is used. 
+Click on the `animation.css` file and find the `rotatemeleft` class. A combination of `translate` and `rotate` is used to create a roll effect. 
 
 This `translate` code uses a unit called `vw` (viewport-width). The start point of `-60vw` is 60% percent to the left of the element's coded position on the viewport. The animation ends with the element in its coded position `0vw`. 
 
 --- code ---
 ---
-language: html
+language: css
 filename: animation.css
 line_numbers: true
 line_number_start: 61
@@ -191,15 +190,17 @@ line_highlights: 34
 
 --- /task ---
 
---- task ---
+**Choose:** Add animation classes to the remaining emoji 😇😭😘 to finish your fun, eye-catching header. 
 
-**Choose:** There are still 3 emoji without animations. You can use any animations from the `animation.css` file:
+You can use any animations from the `animation.css` file:
 + spinme
 + bounceme
 + scaleme
 + rollmeleft
 + rollmeright
 
-Add animation classes to the remaining emoji until you are happy that you have a fun, eye-catching header. 
+<div>
+<iframe src="https://trinket.io/embed/html/bab7a842c9?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
 
 --- /task ---
