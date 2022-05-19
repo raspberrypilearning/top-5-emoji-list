@@ -8,9 +8,11 @@ If you have time, you can add more emoji, animations, links, quotes or styling t
 
 --- task ---
 
-Try adding more emoji to animate or changing the animations you use.**animations**
+Try adding more emoji to animate or changing the animations you use:
 
-+ Change ... to 
++ Change the length of the animation or the number of repeats
++ Change the animation timing using `linear` or `ease` 
++ Change the properties, make them bounce higher or grow larger  
 
 --- /task ---
 
@@ -40,8 +42,30 @@ You could add another quote about emoji. If you quote a friend then don't use th
 
 --- task ---
 
-You could add content to the `<footer>` of your web page. 
+Animate other parts of the webpage, like the emoji in the list. 
 
 --- /task ---
 
 
+--- task ---
+
+You could add content to the `<footer>` of your web page. 
+
+--- /task ---
+
+<div>
+<iframe src="https://trinket.io/embed/html/dc7335d34b?outputOnly=true" width="390" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+
+
+https://trinket.io/library/trinkets/092b44465f 
+
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can view the [completed project here](https://trinket.io/library/trinkets/092b44465f){:target="_blank"}.
+
+--- /collapse ---

@@ -7,7 +7,7 @@ In this step you will add animated emoji to your website header.
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/bab7a842c9?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/bab7a842c9?outputOnly=true" width="390" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -15,7 +15,9 @@ You have made your website header engaging by using bold colours and a stylish f
 
 --- task ---
 
-Add 5 emoji to your header with the class `bigfont` to make them large. 
+Add 5 emoji to your header, use the `bigfont` class to make them large. 
+
+The `<span>` tag will allow you to add different animations to each emoji later.
 
 --- code ---
 ---
@@ -111,11 +113,24 @@ line_highlights: 34
 
 **Test:** Your star-struck emoji 🤩 should bounce 3 times each time your load the page. 
 
+**Debug:**
+
+--- collapse ---
+
+---
+title: An emoji in the list is bouncing instead of one in the header!
+---
+
+You need to add `bounceme` to an emoji in the `<header>` not the emoji in the `<ol>`. 
+
+
+--- /collapse ---
+
 --- /task ---
 
 When you look at a webpage, the part that is visible to you is called the **viewport**. A mobile phone will have a much smaller viewport than a desktop computer screen.
 
-Your project already has code to control the viewport's size and scale to adapt to the device width. You can use viewport in animations to make the animation change to fit the user's viewport.  
+Your project already has code to control the **viewport** size and scale to adapt to the device width. You can use viewport in animations to make the animation change to fit the viewport.  
 
 --- task ---
 
@@ -182,7 +197,7 @@ line_highlights: 34
 
 --- task ---
 
-**Test:** Your rolling on the floor laughing emoji 🤣 should move from the left of the viewport rotating as it moves. 
+**Test:** Your rolling on the floor laughing emoji 🤣 should move in from the left rotating as it moves. 
 
 --- /task ---
 
@@ -198,7 +213,7 @@ You can use any animations from the `animation.css` file:
 + rollmeright
 
 <div>
-<iframe src="https://trinket.io/embed/html/bab7a842c9?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/f47b6c786e?outputOnly=true" width="390" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /task ---

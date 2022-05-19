@@ -7,7 +7,7 @@ In this step you will use three more HTML tags: `<blockquote>` and `<cite>` for 
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/4603f442a9?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/4603f442a9?outputOnly=true" width="390" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -96,7 +96,7 @@ line_highlights: 51-56
 This is because your style file contains rules for styling `<blockquote>` and `<cite>` elements. 
 
 <div>
-<iframe src="https://trinket.io/embed/html/4603f442a9?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/4603f442a9?outputOnly=true" width="390" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /task ---

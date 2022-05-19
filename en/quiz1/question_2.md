@@ -5,58 +5,43 @@
 legend: Question 2 of 3
 ---
 
-CSS styles can be applied to HTML code to decide on how the content should appear in the web browser. 
+You used different animation styles with `@keyframes` rules to create transitions. 
 
-Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right hand side.
+How long, in **total** will the animation using the code below run for?
 
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 1
-line_highlights: 
----  
-
-h2 {
-  font: var(--title-font); 
-  text-align: left; 
-  padding: 1.5rem; 
-}
-
---- /code ---
+`animation: rotate-center linear 4s 2;`
 
 --- choices ---
 
-- ( ) 1
+- ( ) 2 seconds
 
   --- feedback ---
 
-Take another look. The first line says that the **selector** which the rule applies to is the `h2` tag.
+Take another look. This animation will run twice but it won't run for two seconds in **total**.
  
   --- /feedback ---
 
-- ( ) 2
+- ( ) 4 seconds
 
   --- feedback ---
 
-Not quite. The second line says that the font for elements with the `h2` tag is provided by the `--title-font` **variable**.
+Not quite. If this animation was set to run **once** then it would last four seconds (`4s`). However, this animation runs **twice**.
 
   --- /feedback ---
 
-- (x) 3
+- ( ) 6 seconds
 
   --- feedback ---
 
-  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right hand side. 
+  Not quite. The two numbers give the number of seconds that the animation takes and the number of times it should repeat. 
 
   --- /feedback ---
 
-- ( ) 4
+- (x) 8 seconds
 
   --- feedback ---
 
-  Try again. The fourth line allows you to adjust the space around the subheading. 
+  Correct! The animation takes `4s` to run and it repeats **twice**. Two times four gives eight seconds total.
 
   --- /feedback ---
 

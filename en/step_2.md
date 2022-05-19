@@ -5,7 +5,7 @@
 In this step, you will create a top 5 ordered list to show the most used emoji.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="350" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="390" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 

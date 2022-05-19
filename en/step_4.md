@@ -7,7 +7,7 @@ This step will add a colourful emoji background and make the main part of the pa
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/dace865226?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/dace865226?outputOnly=true" width="390" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -123,7 +123,7 @@ line_highlights: 42
 What happens if you change the `opacity` to `50`, `75` or `90`. Try different values in your CSS rule and see which you prefer. 
 
 <div>
-<iframe src="https://trinket.io/embed/html/dace865226?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/dace865226?outputOnly=true" width="390" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /task ---
