@@ -44,9 +44,9 @@ line_highlights: 31-35
 
 Click on the `animation.css` file and find the `bounceme` class. 
 
-This code runs the `bounce` animation with `ease` timing meaning the animation starts and ends slowly but speeds up in the middle. The animation runs for 2 seconds and repeats 3 times.
+The `bounce` animation runs with `ease` timing so the animation starts and ends slowly but speeds up in the middle. 
 
-To create a bounce effect the `scale` property is used to adjust the size and the `translateY` property moves the element vertically up and down the Y-axis. 
+To create a bounce effect the `scale` property adjusts the size and the `translateY` property moves the element up and down the Y-axis. 
 
 --- code ---
 ---
@@ -111,19 +111,17 @@ line_highlights: 34
 
 **Test:** Your star-struck emoji 🤩 should bounce 3 times each time your load the page. 
 
-**Tip:** You can click the arrow next to 'Autorun' to reload your web page and see the animation again. 
-
 --- /task ---
 
 When you look at a webpage, the part that is visible to you is called the **viewport**. A mobile phone will have a much smaller viewport than a desktop computer screen.
 
-Your project already has code to control the viewport's size and scale to adapt your site to the device width. You can use viewport in animations to make the animation change to fit the viewport.  
+Your project already has code to control the viewport's size and scale to adapt to the device width. You can use viewport in animations to make the animation change to fit the user's viewport.  
 
 --- task ---
 
-Click on the `animation.css` file and find the `rotatemeleft` class. A combination of `translate` and `rotate` is used to create a roll effect. 
+Click on the `animation.css` file and find the `rotatemeleft` class. A combination of `translate` and `rotate` is used to create the roll. 
 
-This `translate` code uses a unit called `vw` (viewport-width). The start point of `-60vw` is 60% percent to the left of the element's coded position on the viewport. The animation ends with the element in its coded position `0vw`. 
+This `translate` code uses `vw` (viewport-width). The start point of `-60vw` is 60% left of the coded position on the viewport. The animation ends in the coded position `0vw`. 
 
 --- code ---
 ---
@@ -186,9 +184,9 @@ line_highlights: 34
 
 **Test:** Your rolling on the floor laughing emoji 🤣 should move from the left of the viewport rotating as it moves. 
 
-**Tip:** You can click the arrow next to 'Autorun' to reload your web page and see the animation again. 
-
 --- /task ---
+
+--- task ---
 
 **Choose:** Add animation classes to the remaining emoji 😇😭😘 to finish your fun, eye-catching header. 
 
