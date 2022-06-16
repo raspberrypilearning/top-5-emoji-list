@@ -22,8 +22,8 @@ The CSS `background-image` property allows you to set an image to be the backgro
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 44
-line_highlights: 47
+line_number_start: 46
+line_highlights: 49
 ---
 /* add a background image to body */
 
@@ -56,8 +56,8 @@ body {
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 98
-line_highlights: 98
+line_number_start: 93
+line_highlights: 93
 ---
 
 /* Add a transparent effect */
@@ -80,8 +80,8 @@ Add the `.transparent` rule below the comment:
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 98
-line_highlights: 100-102
+line_number_start: 93
+line_highlights: 95-97
 ---
 
 /* Add a transparent effect */
@@ -105,13 +105,13 @@ Now add your new `transparent` class to `<main>` in your HTML file:
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 40
-line_highlights: 42
+line_number_start: 34
+line_highlights: 34
 ---
 
 <main class="transparent">
-      <section class="wrap">    
-        <div class="wide">
+  <section class="wrap">    
+    <div class="wide">
 
 --- /code ---
 
@@ -124,7 +124,7 @@ line_highlights: 42
 What happens if you change the `opacity` to `50`, `75` or `90`. Try different values in your CSS rule and see which you prefer. 
 
 <div>
-<iframe src="https://trinket.io/embed/html/dace865226?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/dace865226?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /task ---

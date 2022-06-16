@@ -24,8 +24,8 @@ The `<span>` tag will allow you to add different animations to each emoji later.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
-line_highlights: 31-35
+line_number_start: 30
+line_highlights: 32-36
 ---
 
   <header class="secondary border-bottom">
@@ -41,14 +41,13 @@ line_highlights: 31-35
 
 --- /task ---
 
-
 --- task ---
 
 Click on the `animation.css` file and find the `bounceme` class. 
 
 The `bounce` animation runs with `ease` timing so the animation starts and ends slowly but speeds up in the middle. 
 
-To create a bounce effect the `scale` property adjusts the size and the `translateY` property moves the element up and down the Y-axis. 
+**Look:** To create a bounce effect the `scale` property adjusts the size and the `translateY` property moves the element up and down the Y-axis. 
 
 --- code ---
 ---
@@ -92,8 +91,8 @@ Click on the `index.html` file and add the `bounceme` class to the star-struck e
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
-line_highlights: 34
+line_number_start: 30
+line_highlights: 35
 ---
 
   <header class="secondary border-bottom">
@@ -136,15 +135,15 @@ Your project already has code to control the **viewport** size and scale to adap
 
 Click on the `animation.css` file and find the `rotatemeleft` class. A combination of `translate` and `rotate` is used to create the roll. 
 
-This `translate` code uses `vw` (viewport-width). The start point of `-60vw` is 60% left of the coded position on the viewport. The animation ends in the coded position `0vw`. 
+**Look:** This `translate` code uses `vw` (viewport-width). The start point of `-60vw` is 60% left of the coded position on the viewport. The animation ends in the coded position `0vw`. 
 
 --- code ---
 ---
 language: css
 filename: animation.css
 line_numbers: true
-line_number_start: 61
-line_highlights: 61-64
+line_number_start: 62
+line_highlights: 62-65
 ---
 
 .rollmeleft {
@@ -178,8 +177,8 @@ Click on the `index.html` file and add the `rollmeleft` class to the rolling on 
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
-line_highlights: 34
+line_number_start: 30
+line_highlights: 32
 ---
 
   <header class="secondary border-bottom">
@@ -198,6 +197,8 @@ line_highlights: 34
 --- task ---
 
 **Test:** Your rolling on the floor laughing emoji 🤣 should move in from the left rotating as it moves. 
+
+**Tip:** Click Autorun to run the animations again. 
 
 --- /task ---
 

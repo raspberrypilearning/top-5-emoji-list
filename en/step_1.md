@@ -20,10 +20,13 @@ A <span style="color: #0faeb0">**content writer**</span> or content author resea
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Watch the animations on this web page. How often do they repeat? Can you spot a list, a quote and a link?
+Watch the animations on this webpage. How often do they repeat? Can you spot a list, a quote and a link?
+
+**Tip:** Press the Run button to play the animations again.
+
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/092b44465f?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/092b44465f?outputOnly=true" width="500" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 --- /task ---
