@@ -11,7 +11,7 @@ In this step, you will create a top 5 ordered list to show the most used emoji.
 
 --- task ---
 
-Open the [starter project](https://trinket.io/html/769dc6ee61){:target="_blank"}.
+Open the [starter project](https://trinket.io/embed/html/769dc6ee61){:target="_blank"}.
 
 --- /task ---
 
@@ -27,15 +27,15 @@ Collapse the `<head>` section to make your code easier to read.
 
 **Look:** at the `<header>` code.
 
-Note that the classes for the header have already been added for you. These set the secondary colours and the bottom border, just like in the Anime project. 
+Note that the classes for the header have already been added for you. These set the secondary colours and the bottom border, just like in the [Anime expressions](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"} project.
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
-line_highlights: 29
+line_number_start: 30
+line_highlights: 30
 ---
   <header class="secondary border-bottom">
 
@@ -47,15 +47,15 @@ line_highlights: 29
 
 --- task ---
 
-On line 30, add a line of code to set the `<h1>` heading content to `Top 5 Emoji!`.
+Add an `<h1>` heading with the content `Top 5 Emoji!`.
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
-line_highlights: 30
+line_number_start: 30
+line_highlights: 31
 ---
   <header class="secondary border-bottom">
     <h1>Top 5 Emoji!</h1>
@@ -78,7 +78,7 @@ line_highlights: 35-37
 ---
     <main>
       <section>
-
+       
       </section>
 
     </main>
@@ -89,14 +89,14 @@ line_highlights: 35-37
 
 Lists are a great way to display information on a webpage. A list contains multiple list items `<li>`. There are two types of list:
 
-+ An unordered list `<ul>` is where each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
-+ An ordered list `<ol>` is where each new item is numbered and the order written is important. A use for an ordered list could be a top ten songs list or a sports league table.
++ An **unordered list** `<ul>` is where each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
++ An **ordered list** `<ol>` is where each new item is numbered and the order written is important. A use for an ordered list could be a top ten songs list or a sports league table.
 
-Can you think of a use for an unordered list and an ordered list?
+Can you think of another use for an unordered list and an ordered list?
 
 --- task ---
 
-Within your `<section>` tags, add in `<ol>` tags to create an ordered lists. 
+Within your `<section>` tags, add in `<ol>` tags to create an ordered list. 
 
 --- code ---
 ---
@@ -203,5 +203,7 @@ line_highlights: 38-41
 **Test:** Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items. 
 
 **Tip:** If your computer doesn't support emoji then you can make them from characters such as ';)'.
+
+<iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 --- /task ---

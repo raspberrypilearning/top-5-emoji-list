@@ -32,8 +32,8 @@ Add a new `<section>` for your link. Within the section, add a new paragraph tha
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 47
-line_highlights: 50-52
+line_number_start: 43
+line_highlights: 46-48
 ---
      <p class="narrow hugefont spinme">🏆</p>         
   </section>
@@ -69,8 +69,8 @@ Add another section for your quote.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 47
-line_highlights: 51-56
+line_number_start: 46
+line_highlights: 49-
 ---
   <section>
      <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emoji!</a></p>

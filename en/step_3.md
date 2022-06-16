@@ -22,8 +22,8 @@ The `hugefont` class makes the emoji text really big.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 34
-line_highlights: 42
+line_number_start: 35
+line_highlights: 43
 ---
       <section>
         <ol>
@@ -176,7 +176,7 @@ line_highlights: 43
            <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
            <li>😘 – Face blowing a kiss.</li>
          </ol>
-       <p class="narrow hugefont spinme">🏆</p>         
+       <p class="hugefont narrow spinme">🏆</p>         
  </section>
 
 --- /code ---
@@ -197,7 +197,7 @@ Go back to the `animation.css` file.
 
 **Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if your run the animation longer than 8 seconds? Do you want your animation to run more than twice? 
 
-<iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 --- /task ---
 
