@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Flip Treats](https://projects.raspberrypi.org/en/projects/flip-treat-webcards) project. In this project, you will make a (add description here).
+If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Flip Treats](https://projects.raspberrypi.org/en/projects/flip-treat-webcards) project. In this project, you will make a webpage of flip cards with a picture of a treat on the front and information about the treat on the back.
 
 --- print-only ---
 
