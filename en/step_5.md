@@ -76,7 +76,7 @@ line_highlights: 51-56
      <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emoji!</a></p>
   </section>
 
-  <section>
+  <section class="wrap">
        <blockquote>
            <p>"Oceans of emotion can be transmitted through an emoji sequence"</p>
            <cite>- Jenna Wortham.</cite>
