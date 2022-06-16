@@ -15,21 +15,22 @@ The CSS `background-image` property allows you to set an image to be the backgro
 
 --- task ---
 
-**Find:** In `style.css` find the CSS `body` rule and **uncomment** it so that the background image shows. 
+**Find:** In `style.css` find the CSS `body` rule and **uncomment** the `background-image` line to set the background image for your webpage. 
 
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 58
-line_highlights: 61
+line_number_start: 44
+line_highlights: 47
 ---
-
 /* add a background image to body */
- 
+
 body {
- background-image: url('emojis.png');
+  background-image: url('emojis.png'); /* Uncomment and change filename to add a background image
+  /*background-repeat: repeat;*/ /* Make the image repeat */
+  /*background-size: cover;*/ /* Make the image cover the whole container */
 }
 
 --- /code ---
@@ -123,7 +124,7 @@ line_highlights: 42
 What happens if you change the `opacity` to `50`, `75` or `90`. Try different values in your CSS rule and see which you prefer. 
 
 <div>
-<iframe src="https://trinket.io/embed/html/dace865226?outputOnly=true" width="390" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/dace865226?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /task ---
