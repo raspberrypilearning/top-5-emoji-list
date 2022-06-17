@@ -155,12 +155,10 @@ line_highlights: 62-65
   /* The roll animation code */
   from {
     transform: translate(-60vw) rotate(0deg);
-    transform-origin: center;
   }
 
   to {
     transform: translate(0vw) rotate(360deg);
-    transform-origin: center;
   }
 }
 
@@ -210,6 +208,8 @@ You can use any animations from the `animation.css` file:
 + spinme
 + bounceme
 + scaleme
++ movemeleft
++ movemeright
 + rollmeleft
 + rollmeright
 
