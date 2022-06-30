@@ -23,7 +23,7 @@ In HTML the `<a>` tag is used to create links.
 
 --- task ---
 
-We have created a short web address 'https://rpf.io/emoji' that links to a useful web page. 
+We have created a short web address **https://rpf.io/emoji** that links to a useful web page. 
 
 Add a new `<section>` for your link. Within the section, add a new paragraph that contains your link:
 
@@ -70,7 +70,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 46
-line_highlights: 49-
+line_highlights: 50-55
 ---
   <section>
      <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emoji!</a></p>

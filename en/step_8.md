@@ -54,7 +54,7 @@ You could add content to the `<footer>` of your web page.
 --- /task ---
 
 <div>
-<iframe src="https://trinket.io/embed/html/dc7335d34b?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/dc7335d34b?runMode=autorun" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- collapse ---

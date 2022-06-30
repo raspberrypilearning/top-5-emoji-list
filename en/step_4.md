@@ -111,7 +111,7 @@ line_highlights: 34
 
 <main class="transparent">
   <section class="wrap">    
-    <div class="wide">
+    <ol class="wide">
 
 --- /code ---
 
