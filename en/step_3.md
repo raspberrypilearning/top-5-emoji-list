@@ -5,7 +5,7 @@
 In this step you will add a large, animated emoji to make your webpage more engaging.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="500" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -195,7 +195,7 @@ line_highlights: 43
 
 Go back to the `animation.css` file.
 
-**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if your run the animation longer than 8 seconds? Do you want your animation to run more than twice? 
+**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if your run the animation longer than 8 seconds? Do you want your animation to run more than twice?
 
 <iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 

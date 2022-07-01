@@ -133,7 +133,9 @@ Your project already has code to control the **viewport** size and scale to adap
 
 --- task ---
 
-Click on the `animation.css` file and find the `rotatemeleft` class. A combination of `translate` and `rotate` is used to create the roll. 
+Click on the `animation.css` file and find the `rollmeleft` class. This creates a rolling animation from the left. 
+
+A combination of `translate` and `rotate` is used to create the roll. 
 
 **Look:** This `translate` code uses `vw` (viewport-width). The start point of `-60vw` is 60% left of the coded position on the viewport. The animation ends in the coded position `0vw`. 
 

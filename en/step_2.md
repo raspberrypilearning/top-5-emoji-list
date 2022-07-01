@@ -27,7 +27,7 @@ Collapse the `<head>` section to make your code easier to read.
 
 **Look:** at the `<header>` code.
 
-Note that the classes for the header have already been added for you. These set the secondary colours and the bottom border, just like in the [Anime expressions](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"} project.
+Note that the CSS classes to style the header have already been added for you. These set the secondary colours and the bottom border, just like in the [Anime expressions](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"} project.
 
 --- code ---
 ---
@@ -92,7 +92,7 @@ Lists are a great way to display information on a webpage. A list contains multi
 + An **unordered list** `<ul>` is where each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
 + An **ordered list** `<ol>` is where each new item is numbered and the order written is important. A use for an ordered list could be a top ten songs list or a sports league table.
 
-Can you think of another use for an unordered list and an ordered list?
+Where else might you see unordered list and an ordered list?
 
 --- task ---
 
@@ -121,7 +121,7 @@ line_highlights: 36-38
 
 --- task ---
 
-Within your `<ol>` tags, add in an `<li>` tag for your first item in the list. This includes the `rolling on the floor emoji` 🤣. To get the emoji icon you can **copy and paste** it from below or use the emoji keyboard.
+Within your `<ol>` tags, add in an `<li>` tag for your first list item. This includes the `rolling on the floor emoji` 🤣. To get the emoji icon you can **copy and paste** it from below or use the emoji keyboard.
 
 --- collapse ---
 ---

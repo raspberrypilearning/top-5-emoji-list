@@ -20,7 +20,11 @@ A <span style="color: #0faeb0">**content writer**</span> or content author resea
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Watch the animations on this webpage. How often do they repeat? Can you spot a list, a quote and a link?
+Watch the animations on this webpage. How often do they repeat? Can you spot a:
+
++ list
++ quote
++ link
 
 **Tip:** Press the Run button to play the animations again.
 
