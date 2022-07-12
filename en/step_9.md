@@ -21,5 +21,3 @@ Hover over the card on this page to see what happens!
 </div>
 
 --- /no-print ---
-
-If you want to have more fun exploring HTML, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=html-css-javascript).
