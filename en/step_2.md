@@ -1,8 +1,8 @@
-## Create a Top 5 list
+## Create a top 5 list
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a top 5 ordered list to show the most used emoji.
+In this step, create a top 5 ordered list to show the most used emojis.
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -19,7 +19,7 @@ Open the [starter project](https://trinket.io/embed/html/769dc6ee61){:target="_b
 
 Collapse the `<head>` section to make your code easier to read.
 
-![A short animation demonstrating the mouse clicking on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
+![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
 
 --- /task ---
 
@@ -47,7 +47,7 @@ line_highlights: 30
 
 --- task ---
 
-Add an `<h1>` heading with the content `Top 5 Emoji!`.
+Add an `<h1>` heading with the content `Top 5 Emojis!`.
 
 --- code ---
 ---
@@ -58,7 +58,7 @@ line_number_start: 30
 line_highlights: 31
 ---
   <header class="secondary border-bottom">
-    <h1>Top 5 Emoji!</h1>
+    <h1>Top 5 Emojis!</h1>
 
 --- /code ---
 
@@ -66,7 +66,7 @@ line_highlights: 31
 
 --- task ---
 
-Within your `<main>` tags, add in `<section>` tags for your Top 5 emoji list. Remember to leave a blank line between the `<section>` tags to give you room to add more content. 
+Within your `<main>` tags, add in `<section>` tags for your top 5 emojis list. Remember to leave a blank line between the `<section>` tags to give you room to add more content. 
 
 --- code ---
 ---
@@ -89,10 +89,10 @@ line_highlights: 35-37
 
 Lists are a great way to display information on a webpage. A list contains multiple list items `<li>`. There are two types of list:
 
-+ An **unordered list** `<ul>` is where each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
-+ An **ordered list** `<ol>` is where each new item is numbered and the order written is important. A use for an ordered list could be a top ten songs list or a sports league table.
++ An **unordered list** `<ul>`: each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
++ An **ordered list** `<ol>`: each new item is numbered and the order written is important. A use for an ordered list could be a top ten songs list or a sports league table.
 
-Where else might you see unordered list and an ordered list?
+Where else might you see an unordered list and an ordered list?
 
 --- task ---
 
@@ -121,7 +121,7 @@ line_highlights: 36-38
 
 --- task ---
 
-Within your `<ol>` tags, add in an `<li>` tag for your first list item. This includes the `rolling on the floor emoji` 🤣. To get the emoji icon you can **copy and paste** it from below or use the emoji keyboard.
+Within your `<ol>` tags, add in an `<li>` tag for your first list item. This includes the `rolling on the floor emoji` 🤣. To get the emoji icon, you can **copy and paste** it from below or use the emoji keyboard.
 
 --- collapse ---
 ---
@@ -163,7 +163,7 @@ line_highlights: 37
 
 --- /code ---
 
-Note that your emoji will look different on different operating systems. 
+Your emoji will look different on different operating systems. 
 
 --- /task ---
 
@@ -171,7 +171,7 @@ Note that your emoji will look different on different operating systems.
 
 Add the code for the remaining list items `<li>`. 
 
-👍👍🏻👍🏼👍🏽👍🏾👍🏿 Some emoji, for example thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list. 
+👍👍🏻👍🏼👍🏽👍🏾👍🏿 Some emojis, for example, thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list. 
 
 --- code ---
 ---
@@ -202,7 +202,7 @@ line_highlights: 38-41
 
 **Test:** Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items. 
 
-**Tip:** If your computer doesn't support emoji then you can make them from characters such as ';)'.
+**Tip:** If your computer doesn't support emojis, then you can make them from characters such as ';)'.
 
 <iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
