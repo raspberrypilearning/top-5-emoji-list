@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step you will add a large, animated emoji to make your webpage more engaging.
+In this step, you will add a large animated emoji to make your webpage more engaging.
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="500" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -11,7 +11,7 @@ In this step you will add a large, animated emoji to make your webpage more enga
 
 --- task ---
 
-Extra visualisations bring your content to life. Use a large trophy emoji to highlight that these are the most popular emoji. 
+Extra visualisations bring your content to life. Use a large trophy emoji to highlight that these are the most popular emojis. 
 
 Add a new paragraph `<p>` to your `<section>` to display the trophy emoji 🏆. 
 
@@ -42,13 +42,13 @@ line_highlights: 43
 
 --- task ---
 
-**Test:** The big trophy emoji will appear underneath the list. 
+**Test:** Check the big trophy emoji appears underneath the list. 
 
 --- /task ---
 
 --- task ---
 
-Add the `wrap` class to your `<section>`. This will make your website responsive by adjusting the layout to fit the available space. 
+Add the `wrap` class to your `<section>` to make your website responsive by adjusting the layout to fit the available space. 
 
 --- code ---
 ---
@@ -75,7 +75,7 @@ line_highlights: 35
 
 --- task ---
 
-**Test:** Now the trophy will appear next the list if the web page is wide enough. But the list and the trophy have the same width. 
+**Test:** Now the trophy appears next in the list, if the webpage is wide enough. But the list and the trophy have the same width. 
 
 --- /task ---
 
@@ -112,11 +112,11 @@ line_highlights: 36, 43
 
 --- task ---
 
-**Test:** The list should be wider. If your web page is wide enough then the trophy will appear to the right. 
+**Test:** The list should be wider. If your webpage is wide enough, then the trophy appears to the right. 
 
 --- /task ---
 
-You can also use HTML and CSS to create **animations** that change elements on a web page. 
+You can also use HTML and CSS to create **animations** that change elements on a webpage. 
 
 A CSS `@keyframes` rule can be set to change over time. You can change colour, position, size, rotation and many more properties. 
 
@@ -187,7 +187,7 @@ line_highlights: 43
 
 **Test:** Your trophy should spin twice each time your load the page. 
 
-**Tip:** You can click the arrow next to 'Autorun' to reload your web page and see the animation again. 
+**Tip:** You can click the arrow next to 'Autorun' to reload your webpage and see the animation again. 
 
 --- /task ---
 
