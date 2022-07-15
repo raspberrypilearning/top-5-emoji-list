@@ -81,9 +81,9 @@ line_highlights: 35
 
 The style sheet also includes `wide` and `narrow` classes that you can use to change the width of elements. 
 
-+ Add the `wide` class to the `<ol>` tag. 
++ Add the `wide` class to the `<ol>` tag 
 
-+ Add the `narrow` class to your trophy emoji paragraph.
++ Add the `narrow` class to your trophy emoji paragraph
 
 --- task ---
 
@@ -112,21 +112,21 @@ line_highlights: 36, 43
 
 --- task ---
 
-**Test:** The list should be wider. If your webpage is wide enough, then the trophy appears to the right. 
+**Test:** Check that the list is wider. If your webpage is wide enough, then the trophy appears to the right. 
 
 --- /task ---
 
 You can also use HTML and CSS to create **animations** that change elements on a webpage. 
 
-A CSS `@keyframes` rule can be set to change over time. You can change colour, position, size, rotation and many more properties. 
+A CSS `@keyframes` rule can be set to change over time. You can change colour, position, size, rotation, and many more properties. 
 
 `@keyframes` control how the element should look when a percentage of the running animation is complete.
 
 --- task ---
 
-**Find:** the `.spinme` class at the top of the `animation.css` file. The `.spinme` class has been created for you, it runs a CSS animation called `rotate-center` that rotates from a start position of 0 degrees and ends at 360 degrees. 
+**Find:** Search for the `.spinme` class at the top of the `animation.css` file. The `.spinme` class has been created for you and it runs a CSS animation called `rotate-center` that rotates from a start position of 0 degrees and ends at 360 degrees. 
 
-The line `animation: rotate-center linear 8s 2;` tells the class to use the `rotate-center` animation with `linear` timing so that it runs at the same speed all the way through. The animation runs for 8 seconds and repeats twice.
+The line `animation: rotate-center linear 8s 2;` tells the class to use the `rotate-center` animation with `linear` timing so that it runs at the same speed all the way through. The animation runs for eight seconds and repeats twice.
 
 --- code ---
 ---
@@ -157,7 +157,7 @@ line_highlights: 1-4
 
 --- task ---
 
-Go back to the `index.html` file. Add the **spinme** class to the paragraph containing the trophy. 
+Go back to the `index.html` file. Add the `spinme` class to the paragraph containing the trophy. 
 
 --- code ---
 ---
@@ -195,7 +195,7 @@ line_highlights: 43
 
 Go back to the `animation.css` file.
 
-**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if your run the animation longer than 8 seconds? Do you want your animation to run more than twice?
+**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if your run the animation longer than eight seconds? Do you want your animation to run more than twice?
 
 <iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
