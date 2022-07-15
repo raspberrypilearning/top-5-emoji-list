@@ -75,7 +75,7 @@ line_highlights: 35
 
 --- task ---
 
-**Test:** Now the trophy appears next in the list, if the webpage is wide enough. But the list and the trophy have the same width. 
+**Test:** Check that the trophy appears next in the list, if the webpage is wide enough. The list and the trophy should have the same width. 
 
 --- /task ---
 
