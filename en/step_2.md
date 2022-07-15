@@ -87,10 +87,10 @@ line_highlights: 35-37
 
 --- /task ---
 
-Lists are a great way to display information on a webpage. A list contains multiple list items `<li>`. There are two types of list:
+Lists are a great way to display information on a webpage. A list contains multiple list items `<li>`. There are two types of lists:
 
 + An **unordered list** `<ul>`: each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
-+ An **ordered list** `<ol>`: each new item is numbered and the order written is important. A use for an ordered list could be a top ten songs list or a sports league table.
++ An **ordered list** `<ol>`: each new item is numbered and the order written is important. You could use an ordered list for a top ten songs list or a sports league table.
 
 Where else might you see an unordered list and an ordered list?
 
@@ -163,7 +163,7 @@ line_highlights: 37
 
 --- /code ---
 
-Your emoji will look different on different operating systems. 
+Your emojis will look different on different operating systems. 
 
 --- /task ---
 
