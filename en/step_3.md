@@ -1,4 +1,4 @@
-## Animate an emoji!
+## Animate an emoji
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -185,7 +185,7 @@ line_highlights: 43
 
 --- task ---
 
-**Test:** Your trophy should spin twice each time your load the page. 
+**Test:** Your trophy should spin twice each time you load the page. 
 
 **Tip:** You can click the arrow next to 'Autorun' to reload your webpage and see the animation again. 
 
@@ -195,7 +195,7 @@ line_highlights: 43
 
 Go back to the `animation.css` file.
 
-**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if your run the animation longer than eight seconds? Do you want your animation to run more than twice?
+**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if you run the animation longer than eight seconds? Do you want your animation to run more than twice?
 
 <iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
