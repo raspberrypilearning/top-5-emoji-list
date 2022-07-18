@@ -118,7 +118,7 @@ line_highlights: 36, 43
 
 You can also use HTML and CSS to create **animations** that change elements on a webpage. 
 
-A CSS `@keyframes` rule can be set to change over time. You can change colour, position, size, rotation, and many more properties. 
+A CSS `@keyframes` rule can be set to change over time. You can change an element's colour, position, size, and rotation, as well as changing many more properties. 
 
 `@keyframes` control how the element should look when a percentage of the running animation is complete.
 
