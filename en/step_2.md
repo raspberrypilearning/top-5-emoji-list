@@ -25,9 +25,9 @@ Collapse the `<head>` section to make your code easier to read.
 
 --- task ---
 
-**Look:** at the `<header>` code.
+**Look:** Check out the `<header>` code.
 
-Note that the CSS classes to style the header have already been added for you. These set the secondary colours and the bottom border, just like in the [Anime expressions](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"} project.
+Notice that the CSS classes to style the header have already been added for you. These set the secondary colours and the bottom border, just like in the [Anime expressions](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"} project.
 
 --- code ---
 ---
@@ -89,7 +89,7 @@ line_highlights: 35-37
 
 Lists are a great way to display information on a webpage. A list contains multiple list items `<li>`. There are two types of lists:
 
-+ An **unordered list** `<ul>`: each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or your favourite colours.
++ An **unordered list** `<ul>`: each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or a collection of your favourite colours.
 + An **ordered list** `<ol>`: each new item is numbered and the order written is important. You could use an ordered list for a top ten songs list or a sports league table.
 
 Where else might you see an unordered list and an ordered list?
@@ -202,7 +202,7 @@ line_highlights: 38-41
 
 **Test:** Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items. 
 
-**Tip:** If your computer doesn't support emojis, then you can make them from characters such as ';)'.
+**Tip:** If your computer doesn't support emojis, then you can make them from characters, such as ;).
 
 <iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
