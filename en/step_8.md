@@ -8,7 +8,7 @@ If you have time, you can add more emojis, animations, links, quotes, or styling
 
 --- task ---
 
-Try to add more emojis to animate or change the animations you use:
+Try to add more emojis to animate or change the animations you have used:
 
 + Change the length of the animation or the number of repeats
 + Change the animation timing using `linear` or `ease` 
