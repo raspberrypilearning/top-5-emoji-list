@@ -47,7 +47,7 @@ Click on the `animation.css` file and find the `bounceme` class.
 
 The `bounce` animation runs with `ease` timing so the animation starts and ends slowly but speeds up in the middle. 
 
-**Look:** To create a bounce effect, the `scale` property adjusts the size and the `translateY` property moves the element up and down the Y-axis. 
+**Look:** To create a bounce effect, the `scale` property adjusts the size and the `translateY` property moves the element up and down the y-axis. 
 
 --- code ---
 ---
@@ -110,14 +110,14 @@ line_highlights: 35
 
 --- task ---
 
-**Test:** Your star-struck emoji 🤩 should bounce three times each time your load the page. 
+**Test:** Each time you load your page, your star-struck emoji 🤩 should bounce three times. 
 
 **Debug:**
 
 --- collapse ---
 
 ---
-title: An emoji in the list is bouncing instead of one in the header!
+title: An emoji in the list is bouncing instead of an emoji in the header!
 ---
 
 You need to add `bounceme` to an emoji in the `<header>`, not the emoji in the `<ol>`. 
@@ -196,9 +196,9 @@ line_highlights: 32
 
 --- task ---
 
-**Test:** Your rolling on the floor laughing emoji 🤣 should move in from the left rotating as it moves. 
+**Test:** Your rolling on the floor laughing emoji 🤣 should move in from the left and rotate as it moves. 
 
-**Tip:** Click 'Autorun' to run the animations again. 
+**Tip:** Click Run to watch the animations again. 
 
 --- /task ---
 
