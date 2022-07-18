@@ -48,7 +48,7 @@ line_highlights: 46-48
 
 --- task ---
 
-**Test:** Look at your webpage and see the link centred on the page, underlined and in a bold font. Click the link to open the emoji webpage in a new tab. 
+**Test:** Look at your webpage and check that the link is centred on the page, underlined, and in a bold font. Click the link to open the emoji webpage in a new tab. 
 
 The appearance of the link is set by a rule for `<a>` elements in your style file. 
 
