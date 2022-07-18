@@ -187,7 +187,7 @@ line_highlights: 43
 
 **Test:** Your trophy should spin twice each time you load the page. 
 
-**Tip:** You can click the arrow next to 'Autorun' to reload your webpage and see the animation again. 
+**Tip:** You can click the arrow next to Run button to reload your webpage and see the animation again. 
 
 --- /task ---
 
