@@ -39,7 +39,7 @@ line_numbers: true
 
   --- feedback ---
 
-  Try again. This line is correct. You need a dot '.' before the name of the class when writing a rule. 
+  Try again. This line is correct. You need a dot `.` before the name of the class when writing a rule. 
  
   --- /feedback ---
 
@@ -47,7 +47,7 @@ line_numbers: true
 
   --- feedback ---
 
-  Correct. An opacity of `1.0` means not at all transparent! You could change this to a number below one, such as '0.75', to fix the problem. 
+  Correct. An opacity of `1.0` means not at all transparent! You could change this to a number below one, such as 0.75, to fix the problem. 
 
   --- /feedback ---
 
@@ -63,7 +63,7 @@ line_numbers: true
 
   --- feedback ---
 
- Not quite. The section is inside the `<main>` element so if opacity is correctly set for main, the section is also transparent. 
+ Not quite. The section is inside the `<main>` element so if opacity is correctly set for `<main>`, the section is also transparent. 
 
   --- /feedback ---
 
