@@ -198,7 +198,7 @@ line_highlights: 32
 
 **Test:** Your rolling on the floor laughing emoji 🤣 should move in from the left rotating as it moves. 
 
-**Tip:** Click Autorun to run the animations again. 
+**Tip:** Click 'Autorun' to run the animations again. 
 
 --- /task ---
 
@@ -207,13 +207,13 @@ line_highlights: 32
 **Choose:** Add animation classes to the remaining emoji 😇😭😘 to finish your fun eye-catching header. 
 
 You can use any animations from the `animation.css` file:
-+ spinme
-+ bounceme
-+ scaleme
-+ movemeleft
-+ movemeright
-+ rollmeleft
-+ rollmeright
++ `spinme`
++ `bounceme`
++ `scaleme`
++ `movemeleft`
++ `movemeright`
++ `rollmeleft`
++ `rollmeright`
 
 <div>
 <iframe src="https://trinket.io/embed/html/f47b6c786e?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
