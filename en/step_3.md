@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a large animated emoji to make your webpage more engaging.
+In this step, you will add a large animated emoji to make your webpage more engaging for viewers.
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/c7f4645ca2?outputOnly=true" width="500" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
