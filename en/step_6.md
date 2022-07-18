@@ -204,7 +204,7 @@ line_highlights: 32
 
 --- task ---
 
-**Choose:** Add animation classes to the remaining emoji 😇😭😘 to finish your fun eye-catching header. 
+**Choose:** Add animation classes to the remaining emojis 😇😭😘 to finish your fun eye-catching header. 
 
 You can use any animations from the `animation.css` file:
 + `spinme`
