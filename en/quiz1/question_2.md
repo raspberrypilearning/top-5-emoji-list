@@ -41,7 +41,7 @@ Not quite. If this animation was set to run **once**, then it would last four se
 
   --- feedback ---
 
-  Correct! The animation takes `4s` to run and it repeats **twice**. Two times four gives eight seconds in total.
+  Correct! The animation takes `4s` to run and it repeats **twice**. Two times four means the animation lasts eight seconds in total.
 
   --- /feedback ---
 
