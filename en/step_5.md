@@ -19,7 +19,7 @@ In HTML, the `<a>` tag is used to create links:
 
 + You put the link text that appears on the webpage inside `<a>` and `</a>` 
 + The `href` attribute provides the web address (usually beginning with 'https:') of the page you want to link to 
-+ You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser instead of replacing the current webpage  
++ You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser, instead of the new page replacing the current webpage  
 
 --- task ---
 
