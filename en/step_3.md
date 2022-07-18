@@ -79,7 +79,7 @@ line_highlights: 35
 
 --- /task ---
 
-The style sheet also includes `wide` and `narrow` classes that you can use to change the width of elements. 
+The style sheet also includes `wide` and `narrow` classes that you can use to change the width of elements: 
 
 + Add the `wide` class to the `<ol>` tag 
 
