@@ -11,7 +11,7 @@ In this step, you will add a large animated emoji to make your webpage more enga
 
 --- task ---
 
-Extra visualisations bring your content to life. Use a large trophy emoji to highlight that these are the most popular emojis. 
+You will use a large trophy emoji to highlight that these are the most popular emojis. 
 
 Add a new paragraph `<p>` to your `<section>` to display the trophy emoji 🏆. 
 
