@@ -29,7 +29,7 @@ line_highlights: 32-36
 ---
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emoji!</h1>
+    <h1>Top 5 Emojis!</h1>
     <span class="bigfont">🤣</span>
     <span class="bigfont">😇</span>
     <span class="bigfont">😭</span>
@@ -96,7 +96,7 @@ line_highlights: 35
 ---
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emoji!</h1>
+    <h1>Top 5 Emojis!</h1>
     <span class="bigfont">🤣</span>
     <span class="bigfont">😇</span>
     <span class="bigfont">😭</span>
