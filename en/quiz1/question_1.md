@@ -1,6 +1,6 @@
 ## Reflection
 
-Well done. You have created a web page using several different HTML tags and CSS animations.
+Well done. You have created a webpage using several different HTML tags and CSS animations.
 
 Answer the three questions below to reflect on what you've learnt.
 
@@ -12,7 +12,7 @@ You will be guided towards the correct answer. You can do this activity as many 
 legend: Question 1 of 3
 ---
 
-In this project you created a numbered top 5 list of emoji. Which HTML tags are used to create an ordered list?
+In this project you created a numbered top 5 list of emojis. Which HTML tags are used to create an ordered list?
 
 
 --- choices ---
@@ -29,7 +29,7 @@ In this project you created a numbered top 5 list of emoji. Which HTML tags are 
 
   --- feedback ---
 
-Correct! `<ol>` means ordered list. `<li>` is used to create list items inside an ordered list. When you use `<ol>` the items will be numbered automatically.
+Correct! `<ol>` means ordered list. `<li>` is used to create list items inside an ordered list. When you use `<ol>`, the items are numbered automatically.
 
   --- /feedback ---
 
@@ -37,7 +37,7 @@ Correct! `<ol>` means ordered list. `<li>` is used to create list items inside a
 
   --- feedback ---
 
-Not quite. `<ul>` and `<ol>` are used to create different kinds of list in HTML. 
+Not quite. `<ul>` and `<ol>` are used to create different kinds of lists in HTML. 
 
   --- /feedback ---
 
