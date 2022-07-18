@@ -7,7 +7,7 @@ legend: Question 2 of 3
 
 You used different animation styles with `@keyframes` rules to create transitions. 
 
-How long, in **total** will the animation using the code below run for?
+How long, in **total**, will the animation using the code below run for?
 
 `animation: rotate-center linear 4s 2;`
 
@@ -17,7 +17,7 @@ How long, in **total** will the animation using the code below run for?
 
   --- feedback ---
 
-Take another look. This animation will run twice but it won't run for two seconds in **total**.
+Take another look. This animation is run twice, but it won't run for two seconds in **total**.
  
   --- /feedback ---
 
@@ -25,7 +25,7 @@ Take another look. This animation will run twice but it won't run for two second
 
   --- feedback ---
 
-Not quite. If this animation was set to run **once** then it would last four seconds (`4s`). However, this animation runs **twice**.
+Not quite. If this animation was set to run **once**, then it would last four seconds (`4s`). However, this animation runs **twice**.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ Not quite. If this animation was set to run **once** then it would last four sec
 
   --- feedback ---
 
-  Correct! The animation takes `4s` to run and it repeats **twice**. Two times four gives eight seconds total.
+  Correct! The animation takes `4s` to run and it repeats **twice**. Two times four gives eight seconds in total.
 
   --- /feedback ---
 
