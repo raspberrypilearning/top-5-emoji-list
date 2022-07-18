@@ -202,7 +202,7 @@ line_highlights: 38-41
 
 **Test:** Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items. 
 
-**Tip:** If your computer doesn't support emojis, then you can make them from characters, such as ;).
+**Tip:** If your computer doesn't support emojis, then you can make them from characters, such as **;)**.
 
 <iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
