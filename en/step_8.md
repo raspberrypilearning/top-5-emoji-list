@@ -2,23 +2,23 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can add more emoji, animations, links, quotes or styling to your web page. 
+If you have time, you can add more emojis, animations, links, quotes, or styling to your webpage. 
 </div>
 </div>
 
 --- task ---
 
-Try adding more emoji to animate or changing the animations you use:
+Try to add more emojis to animate or change the animations you have used:
 
 + Change the length of the animation or the number of repeats
 + Change the animation timing using `linear` or `ease` 
-+ Change the properties, make them bounce higher or grow larger  
++ Change the properties to make the emojis bounce higher or grow larger  
 
 --- /task ---
 
 --- task ---
 
-You could change the list of emoji to your personal top 5 or top 10 emoji.
+You could change the list of emojis to your personal top 5 or top 10 emojis.
 
 --- /task ---
 
@@ -30,26 +30,26 @@ You could change the `opacity` value in the `transparency` class that you create
 
 --- task ---
 
-You could add a link to a different emoji web page or another another link.
+You could add a link to a different emoji webpage or another link.
 
 --- /task ---
 
 --- task ---
 
-You could add another quote about emoji. If you quote a friend then don't use their real name. 
+You could add another quote about emojis. If you quote a friend, then don't use their real name. 
 
 --- /task ---
 
 --- task ---
 
-Animate other parts of the webpage, like the emoji in the list. 
+Animate other parts of the webpage, like the emojis in the list. 
 
 --- /task ---
 
 
 --- task ---
 
-You could add content to the `<footer>` of your web page. 
+You could add content to the `<footer>` of your webpage. 
 
 --- /task ---
 

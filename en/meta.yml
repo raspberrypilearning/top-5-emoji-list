@@ -1,6 +1,6 @@
-title: Top 5 Emoji
+title: Top 5 emojis
 hero_image: images/banner.png
-description: Create a top 5 emoji webpage
+description: Create a top 5 emojis webpage.
 version: 4
 listed: false
 copyedit: false
@@ -12,7 +12,7 @@ steps:
     completion: engaged
   - title: Add a background image
   - title: Add a quote and a link
-  - title: Animate more emoji
+  - title: Animate more emojis
     completion: internal
   - title: Reflection
     completion: external

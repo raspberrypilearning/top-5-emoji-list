@@ -1,9 +1,9 @@
-## Animate more emoji
+## Animate more emojis
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step you will add animated emoji to your website header.
+In this step, you will add animated emojis to your website header.
 
 </div>
 <div>
@@ -11,13 +11,13 @@ In this step you will add animated emoji to your website header.
 </div>
 </div>
 
-You have made your website header engaging by using bold colours and a stylish font. Header animations will make the website really eye-catching.
+You have made your website header engaging by using bold colours and a stylish font. Header animations make the website really eye-catching for your viewers.
 
 --- task ---
 
-Add 5 emoji to your header, use the `bigfont` class to make them large. 
+Add five emojis to your header. Use the `bigfont` class to make them large. 
 
-The `<span>` tag will allow you to add different animations to each emoji later.
+The `<span>` tag allows you to add different animations to each emoji later.
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ line_highlights: 32-36
 ---
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emoji!</h1>
+    <h1>Top 5 Emojis!</h1>
     <span class="bigfont">🤣</span>
     <span class="bigfont">😇</span>
     <span class="bigfont">😭</span>
@@ -47,7 +47,7 @@ Click on the `animation.css` file and find the `bounceme` class.
 
 The `bounce` animation runs with `ease` timing so the animation starts and ends slowly but speeds up in the middle. 
 
-**Look:** To create a bounce effect the `scale` property adjusts the size and the `translateY` property moves the element up and down the Y-axis. 
+**Look:** To create a bounce effect, the `scale` property adjusts the size and the `translateY` property moves the element up and down the y-axis. 
 
 --- code ---
 ---
@@ -68,7 +68,7 @@ line_highlights: 16-19
         transform: scale(1, 1) translateY(0); /* Starting position and actual size */
     }
     10% {
-        transform: scale(1.1, 0.9) translateY(0); /* Grow width and shrink height for pre bounce squash effect */
+        transform: scale(1.1, 0.9) translateY(0); /* Grow width and shrink height for pre-bounce squash effect */
     }
     30% {
         transform: scale(1, 1) translateY(-6rem); /* Return to actual size and move emoji up 100px from current position */
@@ -96,7 +96,7 @@ line_highlights: 35
 ---
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emoji!</h1>
+    <h1>Top 5 Emojis!</h1>
     <span class="bigfont">🤣</span>
     <span class="bigfont">😇</span>
     <span class="bigfont">😭</span>
@@ -110,24 +110,24 @@ line_highlights: 35
 
 --- task ---
 
-**Test:** Your star-struck emoji 🤩 should bounce 3 times each time your load the page. 
+**Test:** Each time you load your page, your star-struck emoji 🤩 should bounce three times. 
 
 **Debug:**
 
 --- collapse ---
 
 ---
-title: An emoji in the list is bouncing instead of one in the header!
+title: An emoji in the list is bouncing instead of an emoji in the header!
 ---
 
-You need to add `bounceme` to an emoji in the `<header>` not the emoji in the `<ol>`. 
+You need to add `bounceme` to an emoji in the `<header>`, not the emoji in the `<ol>`. 
 
 
 --- /collapse ---
 
 --- /task ---
 
-When you look at a webpage, the part that is visible to you is called the **viewport**. A mobile phone will have a much smaller viewport than a desktop computer screen.
+When you look at a webpage, the part that is visible to you is called the **viewport**. A mobile phone has a much smaller viewport than a desktop computer screen.
 
 Your project already has code to control the **viewport** size and scale to adapt to the device width. You can use viewport in animations to make the animation change to fit the viewport.  
 
@@ -182,7 +182,7 @@ line_highlights: 32
 ---
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emoji!</h1>
+    <h1>Top 5 Emojis!</h1>
     <span class="bigfont rollmeleft">🤣</span>
     <span class="bigfont">😇</span>
     <span class="bigfont">😭</span>
@@ -196,24 +196,24 @@ line_highlights: 32
 
 --- task ---
 
-**Test:** Your rolling on the floor laughing emoji 🤣 should move in from the left rotating as it moves. 
+**Test:** Your rolling on the floor laughing emoji 🤣 should move in from the left and rotate as it moves. 
 
-**Tip:** Click Autorun to run the animations again. 
+**Tip:** Click Run to watch the animations again. 
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Add animation classes to the remaining emoji 😇😭😘 to finish your fun, eye-catching header. 
+**Choose:** Add animation classes to the remaining emojis 😇😭😘 to finish your fun eye-catching header. 
 
 You can use any animations from the `animation.css` file:
-+ spinme
-+ bounceme
-+ scaleme
-+ movemeleft
-+ movemeright
-+ rollmeleft
-+ rollmeright
++ `spinme`
++ `bounceme`
++ `scaleme`
++ `movemeleft`
++ `movemeright`
++ `rollmeleft`
++ `rollmeright`
 
 <div>
 <iframe src="https://trinket.io/embed/html/f47b6c786e?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
