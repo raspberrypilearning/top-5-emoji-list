@@ -53,6 +53,7 @@ The `bounce` animation runs with `ease` timing so the animation starts and ends 
 ---
 language: css
 filename: animation.css
+line_numbers: true
 line_number_start: 16
 line_highlights: 16-19
 ---
