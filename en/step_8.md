@@ -54,7 +54,7 @@ You could add content to the `<footer>` of your webpage.
 --- /task ---
 
 <div>
-<iframe src="https://trinket.io/embed/html/dc7335d34b?runMode=autorun" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-8" width="600" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
 --- collapse ---
@@ -63,6 +63,6 @@ You could add content to the `<footer>` of your webpage.
 title: Completed project
 ---
 
-You can view the [completed project here](https://trinket.io/library/trinkets/092b44465f){:target="_blank"}.
+You can view the [completed project here](https://staging-editor.raspberrypi.org/en/projects/top-5-emoji-list-complete){:target="_blank"}.
 
 --- /collapse ---
