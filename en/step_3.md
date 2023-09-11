@@ -197,7 +197,7 @@ Go back to the `animation.css` file.
 
 **Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if you run the animation longer than eight seconds? Do you want your animation to run more than twice?
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="600" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
 
