@@ -218,7 +218,6 @@ You can use any animations from the `animation.css` file:
 
 <div>
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-6" width="500" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-
 </div>
 
 --- /task ---
