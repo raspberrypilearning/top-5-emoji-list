@@ -15,9 +15,7 @@ If you are following the [Intro to web](https://projects.raspberrypi.org/en/path
 <div style="flex-basis: 175px; flex-grow: 1">  
 Hover over the card on this page to see what happens!
 </div>
-<div>
-<iframe src="https://trinket.io/embed/html/40c676102d?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
 --- /no-print ---
