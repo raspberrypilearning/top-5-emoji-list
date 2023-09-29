@@ -44,7 +44,7 @@ body {
 /* add a background image to body */
 
 body {
-  background-image: url('emojis.png'); /* Uncomment and change filename to add a background image
+  /*background-image: url('emojis.png');*/ /* Uncomment and change filename to add a background image
   /*background-repeat: repeat;*/ /* Make the image repeat */
   /*background-size: cover;*/ /* Make the image cover the whole container */
 }
@@ -92,9 +92,7 @@ section {
 
 /* Add a transparent effect */
 
-.transparent {
-  opacity: 0.95;
-}
+
 
 /* Styles just for h1 elements */
 
