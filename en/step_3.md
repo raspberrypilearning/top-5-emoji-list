@@ -42,7 +42,9 @@ line_highlights: 43
 
 --- task ---
 
-**Test:** Check the big trophy emoji appears underneath the list. 
+**Test:** Click the **Run** button.
+
+Check the big trophy emoji appears underneath the list. 
 
 --- /task ---
 
@@ -75,7 +77,9 @@ line_highlights: 35
 
 --- task ---
 
-**Test:** Check that the trophy appears next in the list, if the webpage is wide enough. The list and the trophy should have the same width. 
+**Test:** Click the **Run** button.
+
+Check that the trophy appears next in the list, if the webpage is wide enough. The list and the trophy should have the same width. 
 
 --- /task ---
 
@@ -112,7 +116,9 @@ line_highlights: 36, 43
 
 --- task ---
 
-**Test:** Check that the list is wider. If your webpage is wide enough, then the trophy appears to the right. 
+**Test:** Click the **Run** button.
+
+Check that the list is wider. If your webpage is wide enough, then the trophy appears to the right. 
 
 --- /task ---
 
@@ -142,8 +148,9 @@ line_highlights: 1-4
 }
 
 @keyframes rotate-center {
-/* The spin me animation code */
-  0% { /* Rotate from 0 to 360 degrees */
+  /* The rotate animation code */
+  0% { 
+    /* Rotate from 0 to 360 degrees */
     transform: rotate(0);
   }
   100% {
@@ -157,7 +164,9 @@ line_highlights: 1-4
 
 --- task ---
 
-Go back to the `index.html` file. Add the `spinme` class to the paragraph containing the trophy. 
+Go back to the `index.html` file. 
+
+Add the `spinme` class to the paragraph containing the trophy. 
 
 --- code ---
 ---
@@ -168,16 +177,16 @@ line_number_start: 35
 line_highlights: 43
 ---
 
-<section class="wrap">   
-         <ol class="wide">
-           <li>🤣 – Rolling on the floor laughing.</li>
-           <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
-           <li>😭 – Loudly crying face.</li>
-           <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
-           <li>😘 – Face blowing a kiss.</li>
-         </ol>
-       <p class="hugefont narrow spinme">🏆</p>         
- </section>
+        <section class="wrap">   
+            <ol class="wide">
+                <li>🤣 – Rolling on the floor laughing.</li>
+                <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
+                <li>😭 – Loudly crying face.</li>
+                <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
+                <li>😘 – Face blowing a kiss.</li>
+            </ol>
+            <p class="hugefont narrow spinme">🏆</p>         
+        </section>
 
 --- /code ---
 
@@ -185,9 +194,9 @@ line_highlights: 43
 
 --- task ---
 
-**Test:** Your trophy should spin twice each time you load the page. 
+**Test:** Click the **Run** button.
 
-**Tip:** You can click the arrow next to the Run button to reload your webpage and see the animation again. 
+Your trophy should spin twice each time you load the page (by clicking the **Run** button). 
 
 --- /task ---
 
@@ -195,7 +204,10 @@ line_highlights: 43
 
 Go back to the `animation.css` file.
 
-**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. What happens if you run the animation longer than eight seconds? Do you want your animation to run more than twice?
+**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation. 
+
++ What happens if you run the animation longer than eight seconds?
++ Do you want your animation to run more than twice?
 
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="600" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

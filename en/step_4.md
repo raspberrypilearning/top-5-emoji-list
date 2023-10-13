@@ -22,8 +22,8 @@ The CSS `background-image` property allows you to set an image to be the backgro
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 46
-line_highlights: 49
+line_number_start: 44
+line_highlights: 47
 ---
 /* add a background image to body */
 
@@ -39,9 +39,13 @@ body {
 
 --- task ---
 
-**Test:** You should see the colourful emoji image at the edges of your webpage. 
+**Test:** Click the **Run** button.
 
-**Tip:** If you view your webpage on a mobile phone, try to rotate the screen into landscape mode. 
+You should see the colourful emoji image at the edges of your webpage. 
+
+**Tip** You may need to see your output area to view the background image.
+
+**Tip:** If you view your webpage on a mobile phone, rotate the screen into landscape mode. 
 
 --- /task ---
 
@@ -119,9 +123,11 @@ line_highlights: 34
 
 --- task ---
 
-**Test:** Check that the main part of your page is slightly transparent. 
+**Test:** Click the **Run** button.
 
-What happens if you change the `opacity` to `0.50`, `0.75`, or `0.90`? Try different values in your CSS rule and see which you prefer. 
+Check that the main part of your page is slightly transparent. 
+
+What happens if you change the `opacity` to `0.50`, `0.75`, or `0.90`? Try different values in your CSS rule and see which you prefer.
 
 <div>
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-4" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>

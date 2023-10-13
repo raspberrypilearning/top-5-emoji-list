@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will create a top 5 list of emojis with animated emojis and an emoji background. 
+In this project, you will create a webpage that includes a top 5 list of emojis, some animated emojis, and an emoji background. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">CSS animations</span> are used to grab people's attention and make a website engaging without slowing down the loading of pages. The animations work by changing one or more properties of an element over a period of time. Examples of animations are hover effects, loading images, text animation, particle effects, and animated images.
