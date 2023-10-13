@@ -29,12 +29,12 @@ line_highlights: 32-36
 ---
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emojis!</h1>
-    <span class="bigfont">🤣</span>
-    <span class="bigfont">😇</span>
-    <span class="bigfont">😭</span>
-    <span class="bigfont">🤩</span>
-    <span class="bigfont">😘</span>
+      <h1>Top 5 Emojis!</h1>
+      <span class="bigfont">🤣</span>
+      <span class="bigfont">😇</span>
+      <span class="bigfont">😭</span>
+      <span class="bigfont">🤩</span>
+      <span class="bigfont">😘</span>
   </header>
 
 --- /code ---
@@ -47,15 +47,13 @@ Click on the `animation.css` file and find the `bounceme` class.
 
 The `bounce` animation runs with `ease` timing so the animation starts and ends slowly but speeds up in the middle. 
 
-**Look:** To create a bounce effect, the `scale` property adjusts the size and the `translateY` property moves the element up and down the y-axis. 
-
 --- code ---
 ---
 language: css
 filename: animation.css
 line_numbers: true
-line_number_start: 16
-line_highlights: 16-19
+line_number_start: 17
+line_highlights: 17-20
 ---
 
 .bounceme {
@@ -80,6 +78,8 @@ line_highlights: 16-19
 }
 
 --- /code ---
+
+**Look:** To create a bounce effect, the `scale` property adjusts the size and the `translateY` property moves the element up and down the y-axis. 
 
 --- /task ---
 
@@ -111,7 +111,9 @@ line_highlights: 35
 
 --- task ---
 
-**Test:** Each time you load your page, your star-struck emoji 🤩 should bounce three times. 
+**Test:** Click the **Run** button.
+
+Each time you load your page, your star-struck emoji 🤩 should bounce three times. 
 
 **Debug:**
 
@@ -137,8 +139,6 @@ Your project already has code to control the **viewport** size and scale to adap
 Click on the `animation.css` file and find the `rollmeleft` class. This creates a rolling animation from the left. 
 
 A combination of `translate` and `rotate` is used to create the roll. 
-
-**Look:** This `translate` code uses `vw` (viewport-width). The start point of `-60vw` is 60% left of the coded position on the viewport. The animation ends in the coded position `0vw`. 
 
 --- code ---
 ---
@@ -166,6 +166,8 @@ line_highlights: 62-65
 }
 
 --- /code ---
+
+**Look:** This `translate` code uses `vw` (viewport-width). The start point of `-60vw` is 60% left of the coded position on the viewport. The animation ends in the coded position `0vw`. 
 
 --- /task ---
 
@@ -197,7 +199,9 @@ line_highlights: 32
 
 --- task ---
 
-**Test:** Your rolling on the floor laughing emoji 🤣 should move in from the left and rotate as it moves. 
+**Test:** Click the **Run** button.
+
+Your rolling on the floor laughing emoji 🤣 should move in from the left and rotate as it moves. 
 
 **Tip:** Click Run to watch the animations again. 
 
