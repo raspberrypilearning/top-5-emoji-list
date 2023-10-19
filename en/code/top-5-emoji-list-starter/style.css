@@ -153,7 +153,7 @@ a:visited {
 /* Styles just for the .wrap class */
 
 .wrap {
-  /* Make content wrap over mutiple rows */
+  /* Make content wrap over multiple rows */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
