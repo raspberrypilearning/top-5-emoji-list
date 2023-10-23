@@ -38,8 +38,8 @@ line_highlights: 46-48
             <p class="narrow hugefont spinme">🏆</p>         
         </section>
 
-        <section>
-            <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emoji!</a></p>
+        <section class="xcenter">
+            <a href="https://rpf.io/emoji" target="_blank">More emoji!</a>
         </section>
 
 --- /code ---
@@ -78,8 +78,8 @@ line_numbers: true
 line_number_start: 46
 line_highlights: 50-55
 ---
-        <section>
-            <p class="xcenter"><a href="https://rpf.io/emoji" target="_blank">More emoji!</a></p>
+        <section class="xcenter">
+            <a href="https://rpf.io/emoji" target="_blank">More emoji!</a>
         </section>
 
         <section class="wrap">
