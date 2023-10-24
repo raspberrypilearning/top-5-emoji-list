@@ -25,7 +25,7 @@ In HTML, the `<a>` tag is used to create links:
 
 We have created a short web address **https://rpf.io/emoji** that links to a useful webpage. 
 
-Add a new `<section>` for your link. Within the section, add a new paragraph that contains your link.
+Add a new `<section>` that uses the `xcentre` class and includes your link.
 
 --- code ---
 ---
