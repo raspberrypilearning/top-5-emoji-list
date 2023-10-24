@@ -39,7 +39,7 @@ line_highlights: 46-48
         </section>
 
         <section class="xcenter">
-            <a href="https://rpf.io/emoji" target="_blank">More emoji!</a>
+            <a href="https://rpf.io/emoji" target="_blank">More emojis!</a>
         </section>
 
 --- /code ---
@@ -79,7 +79,7 @@ line_number_start: 46
 line_highlights: 50-55
 ---
         <section class="xcenter">
-            <a href="https://rpf.io/emoji" target="_blank">More emoji!</a>
+            <a href="https://rpf.io/emoji" target="_blank">More emojis!</a>
         </section>
 
         <section class="wrap">
