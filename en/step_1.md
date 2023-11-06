@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will create a top 5 list of emojis with animated emojis and an emoji background. 
+In this project, you will create a webpage that includes a top 5 list of emojis, some animated emojis, and an emoji background. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">CSS animations</span> are used to grab people's attention and make a website engaging without slowing down the loading of pages. The animations work by changing one or more properties of an element over a period of time. Examples of animations are hover effects, loading images, text animation, particle effects, and animated images.
@@ -16,7 +16,9 @@ A <span style="color: #0faeb0">**content writer**</span> or content author resea
 </p>
 
 --- no-print ---
+
 --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -28,11 +30,10 @@ Watch the animations on this webpage. How often do they repeat? Can you spot a:
 
 **Tip:** Press the Run button to play the animations again.
 
-</div>
-<div>
-<iframe src="https://trinket.io/embed/html/092b44465f?outputOnly=true" width="500" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-complete" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
+
 --- /task ---
 --- /no-print ---
 

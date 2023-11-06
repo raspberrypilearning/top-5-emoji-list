@@ -5,13 +5,13 @@
 In this step, create a top 5 ordered list to show the most used emojis.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/embed/html/769dc6ee61){:target="_blank"}.
+Open the [starter project](https://staging-editor.raspberrypi.org/en/projects/top-5-emoji-list-starter){:target="_blank"}.
 
 --- /task ---
 
@@ -87,12 +87,14 @@ line_highlights: 35-37
 
 --- /task ---
 
-Lists are a great way to display information on a webpage. A list contains multiple list items `<li>`. There are two types of lists:
+Lists are a great way to display information on a webpage. 
+
+There are two types of lists:
 
 + An **unordered list** `<ul>`: each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or a collection of your favourite colours.
 + An **ordered list** `<ol>`: each new item is numbered and the order written is important. You could use an ordered list for a top ten songs list or a sports league table.
 
-Where else might you see an unordered list and an ordered list?
+A list contains multiple list items `<li>`.
 
 --- task ---
 
@@ -200,10 +202,12 @@ line_highlights: 38-41
 
 --- task ---
 
-**Test:** Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items. 
+**Test:** Click the **Run** button.
+
+Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items. 
 
 **Tip:** If your computer doesn't support emojis, then you can make them from characters, such as **;)**.
 
-<iframe src="https://trinket.io/embed/html/3fc9fca766?outputOnly=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---

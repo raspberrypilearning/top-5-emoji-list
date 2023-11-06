@@ -46,7 +46,7 @@ body {
 body {
   background-image: url('emojis.png'); /* Uncomment and change filename to add a background image
   /*background-repeat: repeat;*/ /* Make the image repeat */
-  /*background-size: cover;*/ /* Make the image cover the whole container */
+  /*background-size: cover; */ /* Make the image cover the whole container */
 }
 
 /* The main content of the page between the header and footer */
