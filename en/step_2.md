@@ -5,13 +5,13 @@
 In this step, create a top 5 ordered list to show the most used emojis.
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://staging-editor.raspberrypi.org/en/projects/top-5-emoji-list-starter){:target="_blank"}.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-starter){:target="_blank"}.
 
 --- /task ---
 
@@ -208,6 +208,6 @@ Check that your output shows a numbered list. The web browser inserts the number
 
 **Tip:** If your computer doesn't support emojis, then you can make them from characters, such as **;)**.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
