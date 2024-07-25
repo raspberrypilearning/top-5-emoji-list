@@ -1,8 +1,8 @@
-## Animate an emoji
+## Voeg animatie toe aan een emoji
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a large animated emoji to make your webpage more engaging for viewers.
+In deze stap voeg je een grote geanimeerde emoji toe om je webpagina interessanter te maken voor kijkers.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -11,11 +11,11 @@ In this step, you will add a large animated emoji to make your webpage more enga
 
 \--- task ---
 
-You will use a large trophy emoji to highlight that these are the most popular emojis.
+Je gebruikt een grote trofee-emoji om te benadrukken dat dit de populairste emoji's zijn.
 
-Add a new paragraph `<p>` to your `<section>` to display the trophy emoji 🏆.
+Voeg een nieuw alinea '<p>' toe aan je '<section>' om de trofee emoji 🏆 te tonen.
 
-The `hugefont` class makes the emoji text really big.
+De `hugefont` class maakt de emoji tekst heel groot.
 
 ## --- code ---
 
@@ -45,15 +45,15 @@ line_highlights: 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Check the big trophy emoji appears underneath the list.
+Controleer of de grote trofee emoji onder de lijst verschijnt.
 
 \--- /task ---
 
 \--- task ---
 
-Add the `wrap` class to your `<section>` to make your website responsive by adjusting the layout to fit the available space.
+Voeg de `wrap` class toe aan jouw `<section>` om jouw website te laten reageren door de lay-out aan te passen aan de beschikbare ruimte.
 
 ## --- code ---
 
@@ -83,17 +83,17 @@ line_highlights: 35
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Check that the trophy appears next in the list, if the webpage is wide enough. The list and the trophy should have the same width.
+Controleer of de trofee als volgende in de lijst verschijnt, als de webpagina breed genoeg is. De lijst en de trofee zouden dezelfde breedte moeten hebben.
 
 \--- /task ---
 
-The style sheet also includes `wide` and `narrow` classes that you can use to change the width of different elements:
+Het style sheet bevat ook `wide` en `narrow` classes die je kunt gebruiken om de breedte van de verschillende elementen te wijzigen:
 
-- Add the `wide` class to the `<ol>` tag
+- Voeg de `wide` class toe aan de `<ol>` tag
 
-- Add the `narrow` class to your trophy emoji paragraph
+- Voeg de `narrow` class toe aan je trofee emoji alinea
 
 \--- task ---
 
@@ -125,23 +125,23 @@ line_highlights: 36, 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Check that the list is wider. If your webpage is wide enough, then the trophy appears to the right.
+Controleer of de lijst breder is. Als je webpagina breed genoeg is, verschijnt de trofee aan de rechterkant.
 
 \--- /task ---
 
-You can also use HTML and CSS to create **animations** that change elements on a webpage.
+Je kunt ook HTML en CSS gebruiken om **animaties** te maken die elementen op een webpagina wijzigen.
 
-A CSS `@keyframes` rule can be set to change over time. You can change an element's colour, position, size, and rotation, as well as changing many more properties.
+Een CSS `@keyframes` regel kan worden ingesteld om na verloop van tijd te veranderen. Je kunt de kleur, positie, grootte en rotatie van een element wijzigen, en nog veel meer eigenschappen.
 
-`@keyframes` control how the element should look when a percentage of the running animation is complete.
+`@keyframes` bepalen hoe het element eruit moet zien wanneer een percentage van de lopende animatie is voltooid.
 
 \--- task ---
 
-**Find:** Search for the `.spinme` class at the top of the `animation.css` file. The `.spinme` class has been created for you and it runs a CSS animation called `rotate-center` that rotates from a start position of 0 degrees and ends at 360 degrees.
+**Zoeken:** Zoek naar de `.spinme` class bovenaan het `animation.css` bestand. De `.spinme` class is voor jou gemaakt en het heeft een CSS animatie genaamd 'rotate-center' die draait vanaf een startpositie van 0 graden en bij 360 graden eindigt.
 
-The line `animation: rotate-center linear 8s 2;` tells the class to use the `rotate-center` animation with `linear` timing so that it runs at the same speed all the way through. The animation runs for eight seconds and repeats twice.
+De regel `animation: rotate-center lineair 8s 2;` geeft de opdracht aan de class om de `rotate-center` animatie te gebruiken met `lineair` timing, zodat deze met steeds dezelfde snelheid doorloopt. De animatie duurt acht seconden en wordt twee keer herhaald.
 
 ## --- code ---
 
@@ -174,9 +174,9 @@ transform: rotate(360deg);
 
 \--- task ---
 
-Go back to the `index.html` file.
+Ga terug naar het `index.html` bestand.
 
-Add the `spinme` class to the paragraph containing the trophy.
+Voeg de `spinme` class toe aan de alinea die de trofee bevat.
 
 ## --- code ---
 
@@ -206,20 +206,20 @@ line_highlights: 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Your trophy should spin twice each time you load the page (by clicking the **Run** button).
+Je trofee zou tweemaal draaien als je de pagina laadt (door op de **Run** knop te klikken).
 
 \--- /task ---
 
 \--- task ---
 
-Go back to the `animation.css` file.
+Ga terug naar het `animation.css` bestand.
 
-**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation.
+**Kies:** Verander de laatste twee waarden in de regel `animation: rotate-center lineair 8s 2;` om je animatie aan te passen.
 
-- What happens if you run the animation longer than eight seconds?
-- Do you want your animation to run more than twice?
+- Wat gebeurt er als je de animatie langer dan acht seconden uitvoert?
+- Wil je dat je animatie meer dan twee keer wordt uitgevoerd?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="600" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
