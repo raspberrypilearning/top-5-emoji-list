@@ -1,8 +1,8 @@
-## Create a top 5 list
+## Maak een top 5-lijst
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, create a top 5 ordered list to show the most used emojis.
+Maak in deze stap een top 5 geordende lijst om de meest gebruikte emoji's weer te geven.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -11,23 +11,23 @@ In this step, create a top 5 ordered list to show the most used emojis.
 
 \--- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-starter){:target="_blank"}.
+Open het [startproject](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-starter){:target="_blank"}.
 
 \--- /task ---
 
 \--- task ---
 
-Collapse the `<head>` section to make your code easier to read.
+Klap de `<head>` sectie in om jouw code leesbaarder te maken.
 
-![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
+![De muis klikt op het kleine driehoekje naast het nummer van regel 3 om de hoofdcode samen te vouwen.](images/step_2_collapse.gif)
 
 \--- /task ---
 
 \--- task ---
 
-**Look:** Check out the `<header>` code.
+**Kijk:** Bekijk de `<header>` code.
 
-Notice that the CSS classes to style the header have already been added for you. These set the secondary colours and the bottom border, just like in the [Anime expressions](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"} project.
+Merk op dat de CSS classes om de header op te maken al voor je zijn toegevoegd. Deze stellen de secundaire kleuren en de onderste rand in, net als in het [Anime expressies](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"} project.
 
 ## --- code ---
 
@@ -40,7 +40,7 @@ line_highlights: 30
 
   <header class="secondary border-bottom">
 
-  
+  </header>
 
 \--- /code ---
 
@@ -48,7 +48,7 @@ line_highlights: 30
 
 \--- task ---
 
-Add an `<h1>` heading with the content `Top 5 Emojis!`.
+Voeg een `<h1>` kop toe met de inhoud `Top 5 emoji's!`.
 
 ## --- code ---
 
@@ -60,7 +60,7 @@ line_highlights: 31
 --------------------------------------------------------
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emojis!</h1>
+    <h1>Top 5 emoji's!</h1>
 
 \--- /code ---
 
@@ -68,7 +68,7 @@ line_highlights: 31
 
 \--- task ---
 
-Within your `<main>` tags, add in `<section>` tags for your top 5 emojis list. Remember to leave a blank line between the `<section>` tags to give you room to add more content.
+Voeg binnen je `<main>`-tags `<section>`-tags toe voor je top 5 emoji-lijst. Vergeet niet om een lege regel te laten tussen de `<section>`-tags om je ruimte te geven om meer inhoud toe te voegen.
 
 ## --- code ---
 
@@ -92,18 +92,18 @@ line_highlights: 35-37
 
 \--- /task ---
 
-Lists are a great way to display information on a webpage.
+Lijsten zijn een geweldige manier om informatie op een webpagina weer te geven.
 
-There are two types of lists:
+Er zijn twee soorten lijsten:
 
-- An **unordered list** `<ul>`: each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or a collection of your favourite colours.
-- An **ordered list** `<ol>`: each new item is numbered and the order written is important. You could use an ordered list for a top ten songs list or a sports league table.
+- Een **ongeordende lijst** `<ul>`: elk nieuw item begint met een opsommingsteken. Een ongeordende lijst kan bestaan uit ingrediënten op een boodschappenlijstje of een verzameling van je favoriete kleuren.
+- Een **geordende lijst** `<ol>`: elk nieuw item is genummerd en de opgegeven volgorde is belangrijk. Je zou een geordende lijst kunnen gebruiken voor een top tien van liedjes of een sportcompetitie tabel.
 
-A list contains multiple list items `<li>`.
+Een lijst bevat meerdere lijstitems `<li>`.
 
 \--- task ---
 
-Within your `<section>` tags, add in `<ol>` tags to create an ordered list.
+Binnen je `<section>` tags, voeg `<ol>` tags toe om een geordende lijst te maken.
 
 ## --- code ---
 
@@ -131,25 +131,25 @@ line_highlights: 36-38
 
 \--- task ---
 
-Within your `<ol>` tags, add in an `<li>` tag for your first list item. This includes the `rolling on the floor emoji` 🤣. To get the emoji icon, you can **copy and paste** it from below or use the emoji keyboard.
+Binnen je `<ol>` tags, voeg een `<li>` tag toe voor je eerste lijst item. Dit bevat de `rollen op de vloer emoji` 🤣. Om het emoji-pictogram te krijgen, kun je het van hieronder **kopiëren en plakken** of het emoji-toetsenbord gebruiken.
 
 ## --- collapse ---
 
-## title: Use the emoji keyboard
+## title: Gebruik het emoji-toetsenbord
 
-Keyboard shortcuts can be used to access the emoji keyboard on your computer. Below are common keyboard shortcuts:
+Toetsenbordsnelkoppelingen kunnen worden gebruikt om toegang te krijgen tot het emoji-toetsenbord op je computer. Hieronder staan veel voorkomende sneltoetsen:
 
 **Windows**
 
-Select Windows and press the dot '.' (full stop or period) at the same time.
+Selecteer Windows en druk tegelijkertijd op de punt '.'.
 
 **Linux**
 
-Select Ctrl + Alt + E together.
+Selecteer Ctrl + Alt + E samen.
 
 **Mac**
 
-Select CTRL + CMD + Space together.
+Selecteer CTRL + CMD + spatie samen.
 
 \--- /collapse ---
 
@@ -175,15 +175,15 @@ line_highlights: 37
 
 \--- /code ---
 
-Your emojis will look different on different operating systems.
+Je emoji's zullen er op verschillende besturingssystemen anders uitzien.
 
 \--- /task ---
 
 \--- task ---
 
-Add the code for the remaining list items `<li>`.
+Voeg de code toe voor de resterende lijst items `<li>`.
 
-👍👍🏻👍🏼👍🏽👍🏾👍🏿 Some emojis, for example, thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list.
+👍👍🏻👍🏼👍🏽👍🏾👍🏿 Sommige emoji's, bijvoorbeeld duimen omhoog en gevouwen handen, hebben meerdere huidtinten om uit te kiezen. Je kunt één toevoegen of alle opties in jouw lijst weergeven.
 
 ## --- code ---
 
@@ -215,11 +215,11 @@ line_highlights: 38-41
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items.
+Controleer of je uitvoer een genummerde lijst toont. De webbrowser voegt de nummers voor jou in zodat het makkelijk is om lijsten met items toe te voegen en te verwijderen.
 
-**Tip:** If your computer doesn't support emojis, then you can make them from characters, such as **;)**.
+**Tip:** Als je computer geen emojis ondersteunt, kun je ze maken uit figuren, zoals **;)**.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
