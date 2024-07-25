@@ -1,8 +1,8 @@
-## Animate an emoji
+## Animer un emoji
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a large animated emoji to make your webpage more engaging for viewers.
+Au cours de cette étape, tu ajouteras un grand emoji animé pour rendre ta page web plus attrayante pour les gens qui la consulte.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -11,11 +11,11 @@ In this step, you will add a large animated emoji to make your webpage more enga
 
 \--- task ---
 
-You will use a large trophy emoji to highlight that these are the most popular emojis.
+Tu utiliseras un grand emoji trophée pour souligner qu’il s’agit des emojis les plus populaires.
 
-Add a new paragraph `<p>` to your `<section>` to display the trophy emoji 🏆.
+Ajoute un nouveau paragraphe `<p>` à ton `<section>` pour afficher l'emoji trophée 🏆.
 
-The `hugefont` class makes the emoji text really big.
+La classe `hugefont` rend le texte de l'emoji très grand.
 
 ## --- code ---
 
@@ -45,15 +45,15 @@ line_highlights: 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Check the big trophy emoji appears underneath the list.
+Vérifie que l'emoji du grand trophée apparaît sous la liste.
 
 \--- /task ---
 
 \--- task ---
 
-Add the `wrap` class to your `<section>` to make your website responsive by adjusting the layout to fit the available space.
+Ajoute la classe `wrap` à ton `<section>` pour rendre ton site web responsive en ajustant la mise en page en fonction de l'espace disponible.
 
 ## --- code ---
 
@@ -83,17 +83,17 @@ line_highlights: 35
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Check that the trophy appears next in the list, if the webpage is wide enough. The list and the trophy should have the same width.
+Vérifie que le trophée apparaît ensuite dans la liste, si la page web est suffisamment large. La liste et le trophée doivent avoir la même largeur.
 
 \--- /task ---
 
-The style sheet also includes `wide` and `narrow` classes that you can use to change the width of different elements:
+La feuille de style comprend également des classes 'wide' et 'narrow' que tu peux utiliser pour modifier la largeur de différents éléments :
 
-- Add the `wide` class to the `<ol>` tag
+- Ajoute la classe `wide` à la balise `<ol>`
 
-- Add the `narrow` class to your trophy emoji paragraph
+- Ajoute la classe `narrow` à ton paragraphe d'emoji trophée
 
 \--- task ---
 
@@ -125,23 +125,23 @@ line_highlights: 36, 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Check that the list is wider. If your webpage is wide enough, then the trophy appears to the right.
+Vérifie que la liste est plus large. Si ta page web est suffisamment large, le trophée apparaît à droite.
 
 \--- /task ---
 
-You can also use HTML and CSS to create **animations** that change elements on a webpage.
+Tu peux également utiliser HTML et CSS pour créer des **animations** qui changent des éléments sur une page web.
 
-A CSS `@keyframes` rule can be set to change over time. You can change an element's colour, position, size, and rotation, as well as changing many more properties.
+Une règle CSS `@keyframes` peut être modifiée au fil du temps. Tu peux modifier la couleur, la position, la taille et la rotation d'un élément, ainsi que de nombreuses autres propriétés.
 
-`@keyframes` control how the element should look when a percentage of the running animation is complete.
+`@keyframes` contrôle l'apparence de l'élément lorsqu'un pourcentage de l'animation en cours est terminé.
 
 \--- task ---
 
-**Find:** Search for the `.spinme` class at the top of the `animation.css` file. The `.spinme` class has been created for you and it runs a CSS animation called `rotate-center` that rotates from a start position of 0 degrees and ends at 360 degrees.
+**Rechercher :** recherche la classe `.spinme` en haut du fichier `animation.css`. La classe `.spinme` a été créée pour toi et exécute une animation CSS appelée `rotate-center` qui tourne à partir d'une position de départ de 0 degrés et se termine à 360 degrés.
 
-The line `animation: rotate-center linear 8s 2;` tells the class to use the `rotate-center` animation with `linear` timing so that it runs at the same speed all the way through. The animation runs for eight seconds and repeats twice.
+La ligne `animation: rotate-center linear 8s 2;` indique à la classe d'utiliser l'animation `rotate-center` avec un timing 'linéaire' afin qu'elle s'exécute à la même vitesse tout au long. L'animation dure huit secondes et se répète deux fois.
 
 ## --- code ---
 
@@ -174,9 +174,9 @@ transform: rotate(360deg);
 
 \--- task ---
 
-Go back to the `index.html` file.
+Retourne au fichier `index.html`.
 
-Add the `spinme` class to the paragraph containing the trophy.
+Ajoute la classe `spinme` au paragraphe contenant le trophée.
 
 ## --- code ---
 
@@ -206,20 +206,20 @@ line_highlights: 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Your trophy should spin twice each time you load the page (by clicking the **Run** button).
+Ton trophée devrait tourner deux fois chaque fois que tu charges la page (en cliquant sur le bouton **Run**).
 
 \--- /task ---
 
 \--- task ---
 
-Go back to the `animation.css` file.
+Retourne au fichier `animation.css`.
 
-**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation.
+**Choisir :** modifie les deux dernières valeurs de la ligne `animation: rotate-center linear 8s 2;` pour personnaliser ton animation.
 
-- What happens if you run the animation longer than eight seconds?
-- Do you want your animation to run more than twice?
+- Que se passe-t-il si tu exécutes l'animation pendant plus de huit secondes ?
+- Veux-tu que ton animation soit exécutée plus de deux fois ?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="600" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
