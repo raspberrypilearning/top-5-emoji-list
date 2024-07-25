@@ -1,21 +1,21 @@
-## Add a background image
+## Voeg een achtergrondafbeelding toe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-Add a colourful emoji background and make the main part of the page transparent so you can see the image through the main content.
+Voeg een kleurrijke emoji achtergrond toe en maak het hoofddeel van de pagina transparant, zodat je de afbeelding door de hoofdinhoud kunt zien.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-4" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
+</div>
 
-
-The CSS `background-image` property allows you to set an image to be the background for your webpage.
+De CSS `background-image` eigenschap laat je toe om een afbeelding als achtergrond voor je webpagina in te stellen.
 
 \--- task ---
 
-**Find:** In `style.css`, find the CSS `body` rule and **uncomment** the `background-image` line to set the background image for your webpage.
+**Zoek:** In `style.css`, vind je de CSS `body` regel en **uncomment** (verwijder de opmerking-tekens) de `background-image` regel om de achtergrondafbeelding voor je webpagina in te stellen.
 
 ## --- code ---
 
@@ -40,21 +40,21 @@ background-image: url('emojis.png'); /\* Uncomment and change filename to add a 
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-You should see the colourful emoji image at the edges of your webpage.
+Je zou de kleurrijke emoji-afbeelding aan de randen van je webpagina moeten zien.
 
-**Tip** You may need to see your output area to view the background image.
+**Tip** Je moet mogelijk je uitvoergebied bekijken om de achtergrondafbeelding te zien.
 
-**Tip:** If you view your webpage on a mobile phone, rotate the screen into landscape mode.
+**Tip:** Als je jouw webpagina op een mobiele telefoon weergeeft, draai dan het scherm in liggende modus.
 
 \--- /task ---
 
-**Opacity** means how difficult it is to see through an object. An opacity of 1 means an HTML element is fully solid and you cannot see through it. An opacity of 0 means that an element is completely transparent.
+**Ondoorzichtigheid** betekent hoe moeilijk het is om door een object heen te kijken. Een ondoorzichtigheid van 1 betekent dat een HTML-element volledig effen is en je er niet doorheen kunt kijken. Een ondoorzichtigheid van 0 betekent dat een element volledig transparant is.
 
 \--- task ---
 
-**Find:** In the `style.css` file, find the `/* Add a transparent effect */` comment.
+**Zoek:** Zoek in het bestand `style.css` de opmerking `/* Een transparant effect toevoegen */`.
 
 ## --- code ---
 
@@ -71,11 +71,11 @@ line_highlights: 93
 
 \--- /task ---
 
-So far, you have used CSS classes that were created for you. Now you are going to create a new CSS class called `transparent`, which you can use to make the `<main>` HTML element transparent.
+Tot nu toe heb je CSS-classes gebruikt die voor jou vooraf zijn gemaakt. Nu ga je een nieuwe CSS-class maken met de naam `transparent`, die je kunt gebruiken om het `<main>` HTML-element transparant te maken.
 
-An opacity of `0.95` is slightly transparent.
+Een dekking van `0.95` is enigszins transparant.
 
-Add the `.transparent` rule below the comment.
+Voeg de `.transparent`-regel toe onder de opmerking.
 
 \--- task ---
 
@@ -98,11 +98,11 @@ opacity: 0.95;
 
 \--- /task ---
 
-You have added a new CSS class, but now you need to use it.
+Je hebt een nieuwe CSS-class toegevoegd, maar nu moet je deze ook gaan gebruiken.
 
 \--- task ---
 
-Add your new `transparent` class to `<main>` in your HTML file.
+Voeg je nieuwe `transparent` class toe aan `<main>` in je HTML-bestand.
 
 ## --- code ---
 
@@ -123,11 +123,11 @@ line_highlights: 34
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Check that the main part of your page is slightly transparent.
+Controleer of het hoofddeel van jouw pagina enigszins transparant is.
 
-What happens if you change the `opacity` to `0.50`, `0.75`, or `0.90`? Try different values in your CSS rule and see which you prefer.
+Wat gebeurt er als je de ‘dekking’ wijzigt in ‘0.50’, ‘0.75’ of ‘0.90’? Probeer verschillende waarden in je CSS-regel en kijk welke je verkiest.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-4" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
