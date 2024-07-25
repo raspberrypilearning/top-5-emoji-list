@@ -1,40 +1,40 @@
 ## Introduction
 
-In this project, you will create a webpage that includes a top 5 list of emojis, some animated emojis, and an emoji background.
+Dans ce projet, tu créeras une page web qui comprendra une liste du top 5 des emojis, quelques emojis animés et un arrière-plan d'emoji.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">CSS animations</span> are used to grab people's attention and make a website engaging without slowing down the loading of pages. The animations work by changing one or more properties of an element over a period of time. Examples of animations are hover effects, loading images, text animation, particle effects, and animated images.
+<span style="color: #0faeb0">Les animations CSS</span> sont utilisées pour attirer l'attention des gens et rendre un site web attrayant sans ralentir le chargement des pages. Les animations fonctionnent en modifiant une ou plusieurs propriétés d'un élément au cours d'une période donnée. Les exemples d'animations sont les effets de survol, le chargement d'images, l'animation de texte, les effets de particules et les images animées.
 </p>
 
-You will:
+Tu vas :
 
-- Use **lists**, **block quotes**, and **links** in HTML
-- Use CSS **animations** to make your page attract people's attention
-- Create your own **CSS class** that makes elements transparent so you can see a background image
+- Utiliser des **listes**, des **block quotes** et des **liens** en HTML
+- Utiliser les **animations** CSS pour attirer l'attention des gens sur ta page
+- Créer ta propre **classe CSS** qui rend les éléments transparents pour que tu puisses voir une image d'arrière-plan
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**content writer**</span> or content author researches and writes interesting articles for a website. Top 5 or 10 lists are popular with lots of people. What would you make a list about?
+Un <span style="color: #0faeb0">**rédacteur de contenu**</span> ou un auteur de contenu recherche et écrit des articles intéressants pour un site web. Les listes des 5 ou 10 premiers sont populaires auprès de nombreuses personnes. Sur quoi ferais-tu une liste ?
 </p>
 
 \--- no-print ---
 
 \--- task ---
 
-### Try it
+### Essaie-le
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Watch the animations on this webpage. How often do they repeat? Can you spot a:
+Regarde les animations sur cette page web. À quelle fréquence se répètent-elles ? Peux-tu repérer un(e) :
 
-- List
-- Quote
-- Link
+- Liste
+- Citation
+- Lien
 
-**Tip:** Press the Run button to play the animations again.
+**Astuce :** appuie sur le bouton Run pour rejouer les animations.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-complete" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-
-
+</div>
+</div>
 
 \--- /task ---
 \--- /no-print ---
