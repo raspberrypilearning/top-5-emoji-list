@@ -2,45 +2,45 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Vraag 2 van 3
 
-You used different animation styles with `@keyframes` rules to create transitions.
+Je hebt verschillende animatiestijlen met `@keyframes`-regels gebruikt om overgangen te maken.
 
-How long, in **total**, will the animation using the code below run for?
+Hoe lang duurt de animatie met de onderstaande code in **totaal**?
 
-`animation: rotate-center linear 4s 2;`
+`animation: rotate-center lineair 4s 2;`
 
 \--- choices ---
 
-- ( ) 2 seconds
+- ( ) 2 seconden
 
   \--- feedback ---
 
-Take another look. This animation is run twice, but it won't run for two seconds in **total**.
+Kijk nog een keer. Deze animatie wordt tweemaal uitgevoerd, maar in **totaal** niet gedurende twee seconden.
 
 \--- /feedback ---
 
-- ( ) 4 seconds
+- ( ) 4 seconden
 
   \--- feedback ---
 
-Not quite. If this animation was set to run **once**, then it would last four seconds (`4s`). However, this animation runs **twice**.
+Niet helemaal. Als deze animatie **eenmaal** zou worden uitgevoerd, zou deze vier seconden duren (`4s`). Deze animatie wordt echter **tweemaal** uitgevoerd.
 
 \--- /feedback ---
 
-- ( ) 6 seconds
+- ( ) 6 seconden
 
   \--- feedback ---
 
-  Not quite. The two numbers give the number of seconds that the animation takes and the number of times it should repeat.
+  Niet helemaal. De twee cijfers geven het aantal seconden aan dat de animatie duurt en het aantal keren dat deze moet worden herhaald.
 
   \--- /feedback ---
 
-- (x) 8 seconds
+- (x) 8 seconden
 
   \--- feedback ---
 
-  Correct! The animation takes `4s` to run and it repeats **twice**. Two times four means the animation lasts eight seconds in total.
+  Juist! Het duurt `4s` om de animatie uit te voeren en deze wordt **twee keer** herhaald. Twee keer vier betekent dat de animatie in totaal acht seconden duurt.
 
   \--- /feedback ---
 
