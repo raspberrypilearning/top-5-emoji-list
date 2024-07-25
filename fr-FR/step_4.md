@@ -1,21 +1,21 @@
-## Add a background image
+## Ajouter une image d'arrière-plan
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-Add a colourful emoji background and make the main part of the page transparent so you can see the image through the main content.
+Ajoute un arrière-plan emoji coloré et rends la partie principale de la page transparente afin que tu puisses voir l'image à travers le contenu principal.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-4" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
+</div>
 
-
-The CSS `background-image` property allows you to set an image to be the background for your webpage.
+La propriété CSS `background-image` te permet de définir une image comme arrière-plan de ta page web.
 
 \--- task ---
 
-**Find:** In `style.css`, find the CSS `body` rule and **uncomment** the `background-image` line to set the background image for your webpage.
+**Rechercher :** dans `style.css`, recherche la règle CSS `body` et **décommente** la ligne `background-image` pour définir l'image d'arrière-plan de ta page web.
 
 ## --- code ---
 
@@ -40,21 +40,21 @@ background-image: url('emojis.png'); /\* Uncomment and change filename to add a 
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-You should see the colourful emoji image at the edges of your webpage.
+Tu devrais voir l’image emoji colorée sur les bords de ta page web.
 
-**Tip** You may need to see your output area to view the background image.
+**Astuce** tu peux avoir besoin de voir ta zone de sortie pour voir l'image d'arrière-plan.
 
-**Tip:** If you view your webpage on a mobile phone, rotate the screen into landscape mode.
+**Astuce :** si tu visualises ta page web sur un téléphone mobile, fais pivoter l'écran en mode paysage.
 
 \--- /task ---
 
-**Opacity** means how difficult it is to see through an object. An opacity of 1 means an HTML element is fully solid and you cannot see through it. An opacity of 0 means that an element is completely transparent.
+**Opacité** signifie à quel point il est difficile de voir à travers un objet. Une opacité de 1 signifie qu'un élément HTML est entièrement solide et que tu ne peux pas voir à travers. Une opacité de 0 signifie qu'un élément est complètement transparent.
 
 \--- task ---
 
-**Find:** In the `style.css` file, find the `/* Add a transparent effect */` comment.
+**Rechercher :** dans le fichier `style.css`, recherche le commentaire `/* Ajouter un effet de transparence */`.
 
 ## --- code ---
 
@@ -71,11 +71,11 @@ line_highlights: 93
 
 \--- /task ---
 
-So far, you have used CSS classes that were created for you. Now you are going to create a new CSS class called `transparent`, which you can use to make the `<main>` HTML element transparent.
+Jusqu'à présent, tu as utilisé des classes CSS qui ont été créées pour toi. Maintenant, tu vas créer une nouvelle classe CSS appelée `transparent`, que tu peux utiliser pour rendre l'élément HTML `<main>` transparent.
 
-An opacity of `0.95` is slightly transparent.
+Une opacité de '0.95' est légèrement transparente.
 
-Add the `.transparent` rule below the comment.
+Ajoute la règle `.transparent` sous le commentaire.
 
 \--- task ---
 
@@ -98,11 +98,11 @@ opacity: 0.95;
 
 \--- /task ---
 
-You have added a new CSS class, but now you need to use it.
+Tu as ajouté une nouvelle classe CSS, mais maintenant tu dois l'utiliser.
 
 \--- task ---
 
-Add your new `transparent` class to `<main>` in your HTML file.
+Ajoute ta nouvelle classe `transparent` à `<main>` dans ton fichier HTML.
 
 ## --- code ---
 
@@ -123,11 +123,11 @@ line_highlights: 34
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Check that the main part of your page is slightly transparent.
+Vérifie que la partie principale de ta page est légèrement transparente.
 
-What happens if you change the `opacity` to `0.50`, `0.75`, or `0.90`? Try different values in your CSS rule and see which you prefer.
+Que se passe-t-il si tu modifies 'l'opacité' en '0.50', '0.75' ou '0.90' ? Essaie différentes valeurs dans ta règle CSS et vois lequel tu préfères.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-4" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
