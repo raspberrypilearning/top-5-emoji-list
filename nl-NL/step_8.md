@@ -1,54 +1,54 @@
-## Upgrade your project
+## Verbeter je project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can add more emojis, animations, links, quotes, or styling to your webpage. 
+Als je tijd hebt, kun je meer emoji's, animaties, links, citaten of styling aan je webpagina toevoegen. 
 </div>
 </div>
 
 \--- task ---
 
-Try to add more emojis to animate or change the animations you have used:
+Probeer meer emoji's toe te voegen of de animaties die je hebt gebruikt te animeren of te wijzigen:
 
-- Change the length of the animation or the number of repeats
-- Change the animation timing using `linear` or `ease`
-- Change the properties to make the emojis bounce higher or grow larger
-
-\--- /task ---
-
-\--- task ---
-
-You could change the list of emojis to your personal top 5 or top 10 emojis.
+- Wijzig de lengte van de animatie of het aantal herhalingen
+- Wijzig de animatie timing met 'lineair' of 'ease'
+- Verander de eigenschappen om de emoji's hoger te laten stuiteren of groter te laten worden
 
 \--- /task ---
 
 \--- task ---
 
-You could change the `opacity` value in the `transparency` class that you created.
+Je kunt de lijst met emojis naar je persoonlijke top 5 of top 10 emoji's wijzigen.
 
 \--- /task ---
 
 \--- task ---
 
-You could add a link to a different emoji webpage or another link.
+Je zou de `ondoorzichtigheid` waarde kunnen veranderen in de `transparency` class die je hebt gemaakt.
 
 \--- /task ---
 
 \--- task ---
 
-You could add another quote about emojis. If you quote a friend, then don't use their real name.
+Je kunt een link naar een andere emoji-webpagina of een andere link toevoegen.
 
 \--- /task ---
 
 \--- task ---
 
-Animate other parts of the webpage, like the emojis in the list.
+Je zou nog een citaat over emoji's kunnen toevoegen. Als je een vriend citeert, gebruik dan niet zijn echte naam.
 
 \--- /task ---
 
 \--- task ---
 
-You could add content to the `<footer>` of your webpage.
+Animeer andere delen van de webpagina, zoals de emoji's in de lijst.
+
+\--- /task ---
+
+\--- task ---
+
+Je kunt inhoud toevoegen aan de `<footer>` van je webpagina.
 
 \--- /task ---
 
@@ -60,8 +60,8 @@ You could add content to the `<footer>` of your webpage.
 
 ---
 
-## title: Completed project
+## title: Voltooid project
 
-You can view the [completed project here](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-complete){:target="_blank"}.
+Je kunt [het voltooide project hier](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-complete){:target="_blank"} bekijken.
 
 \--- /collapse ---
