@@ -1,4 +1,4 @@
-/* Colour pairings */
+/* Associations de couleurs */
 
 .primary {
   background: var(--primary);
@@ -20,12 +20,12 @@
   color: var(--onpage);
 }
 
-/* Apply everywhere */
+/* Appliquer partout */
 
 * {
   margin: 0rem;
   padding: 0rem;
-  box-sizing: border-box; /* Padding and border don't make a box bigger */
+  box-sizing: border-box; /* Remplissage et bordure ne rendent pas une boite plus grande */
 }
 
 html,
@@ -35,91 +35,91 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+  min-height: 100vh; /* Faire remplir le contenu de la page pour que le pied de page soit en bas */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* add a background image to body */
+/* ajoute une image d'arrière-plan au corps */
 
 body {
-  background-image: url('emojis.png'); /* Uncomment and change filename to add a background image
-  /*background-repeat: repeat;*/ /* Make the image repeat */
-  /*background-size: cover;*/ /* Make the image cover the whole container */
+  background-image: url('emojis.png'); /* Décommenter et changer le nom du fichier pour ajouter une image d'arrière-plan
+  /*background-repeat: repeat;*/ /* Fait répéter l'image */
+  /*background-size: cover;*/ /* Faire en sorte que l'image recouvre tout le conteneur */
 }
 
-/* The main content of the page between the header and footer */
+/* Le contenu principal de la page entre l'en-tête et le pied de page */
 main {
-  background: var(--primary); /* Colour the background */
-  color: var(--onprimary); /* Colour the text */
-  margin: 0 auto; /* Center if the browser is really wide */
-  min-width: 25rem; /* Don't let the content get too narrow */
-  max-width: 70rem; /*  Don't let the content get too wide */
+  background: var(--primary); /* Colore l'arrière-plan */
+  color: var(--onprimary); /* Colore le texte */
+  margin: 0 auto; /* Centre si le navigateur est vraiment large */
+  min-width: 25rem; /* Ne laisse pas le contenu devenir trop étroit */
+  max-width: 70rem; /* Ne laisse pas le contenu devenir trop large */
   padding: 0;
-  padding-top: 0.5rem; /* Padding at the top */
-  margin-bottom: 1em; /* Gap before the footer */
+  padding-top: 0.5rem; /* Remplissage en haut */
+  margin-bottom: 1em; /* Espace avant le pied de page */
 }
 
-/* Header and footer element styles */
+/* Styles des éléments d'en-tête et de pied de page */
 
 header,
 footer {
   text-align: center;
-  width: 100%; /* Fill the full width of the window */
-  margin: 0; /* Remove the default margin */
+  width: 100%; /* Remplit toute la largeur de la fenêtre */
+  margin: 0; /* Supprime la marge par défaut */
   min-height: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-/* Section styles */
+/* Styles de sections */
 
 section {
   padding: 1rem 2rem;
   margin: 1rem auto;
 }
 
-/* Border styles */
+/* Styles de bordure */
 
 .border-bottom {
-  border-bottom: 20px solid var(--detail); /* Add a solid */
+  border-bottom: 20px solid var(--detail); /* Ajoute un solide */
 }
 
 .border-top {
-  border-top: 10px solid var(--detail2); /* Add a solid line above the footer */
+  border-top: 10px solid var(--detail2); /* Ajoute une ligne continue au-dessus du pied de page */
 }
 
-/* Add a transparent effect */
+/* Ajouter un effet de transparence */
 
 .transparent {
   opacity: 0.95;
 }
 
-/* Styles just for h1 elements */
+/* Styles uniquement pour les éléments h1 */
 
 h1 {
-  font: var(--header-font); /* Font style stored in the header-font variable */
+  font: var(--header-font); /* Style de police stocké dans la variable header-font */
   padding: 2rem;
-  margin: 0; /* Center if the browser is really wide */
+  margin: 0; /* Centre si le navigateur est vraiment large */
 }
 
-/* Styles just for h2 elements */
+/* Styles uniquement pour les éléments h2 */
 
 h2 {
-  font: var(--title-font); /* Font style stored in the title-font variable */
-  text-align: center; /* Align the text */
-  padding: 1.5rem; /* Add some space all around the heading */
+  font: var(--title-font); /* Style de police stocké dans la variable title-font */
+  text-align: center; /* Aligne le texte */
+  padding: 1.5rem; /* Ajoute de l'espace tout autour de l'en-tête */
 }
 
-/* Highlight key words in bold and apply an alternative text colour */
+/* Surligner les mots clés en gras et appliquer une couleur de texte alternative */
 
 strong {
-  color: var(--detail2); /* Text colour stored in the caption variable */
-  font-weight: bold; /* Makes text weight stronger than the default*/
+  color: var(--detail2); /* Couleur du texte stockée dans la variable de légende */
+  font-weight: bold; /* Renforce le poids du texte par rapport à la valeur par défaut*/
 }
 
-/* Style for ordered and unordered lists */
+/* Style pour les listes ordonnées et non ordonnées */
 
 ol,
 ul {
@@ -128,18 +128,18 @@ ul {
   padding-left: 2rem;
 }
 
-/* Padding around paragraphs */
+/* Remplissage autour des paragraphes */
 
 p {
   padding: 1rem 1rem;
 }
 
-/* Style for links */
+/* Style pour les liens */
 
 a:link,
 a:visited {
   font-weight: bold;
-  color: inherit; /* Use the colour of the parent element */
+  color: inherit; /* Utilise la couleur de l'élément parent */
 }
 
 .xcenter {
@@ -152,19 +152,19 @@ a:visited {
   flex-flow: column;
 }
 
-/* Styles just for the .wrap class */
+/* Styles uniquement pour la classe .wrap */
 
 .wrap {
-  /* Make content wrap over multiple rows */
+  /* Faire en sorte que le contenu s'étende sur plusieurs lignes */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  gap: 0rem 0rem; /* horizontal and vertical gap */ 
+  gap: 0rem 0rem; /* espacement horizontal et vertical */ 
 }
 
-/* For creating fancy boxes */
+/* Pour créer des boites fantaisie */
 
 .dashed-border {
   border: 0.25rem dashed var(--detail2);
@@ -174,21 +174,21 @@ a:visited {
   border: 0.25rem solid var(--detail2);
 }
 
-/* Styles for the div tags that are inside a .wrap class */
+/* Styles pour les balises div qui se trouvent à l'intérieur d'une classe .wrap */
 
 .wrap > div {
   width: 14rem;
   padding: 0rem;
 }
 
-/* Styles for the img tags that are inside a .wrap class */
+/* Styles pour les balises img qui se trouvent à l'intérieur d'une classe .wrap */
 
 .wrap > img {
   width: 14rem;
   display: block;
 }
 
-/* Styles for the p tags that are inside a .wrap class */
+/* Styles pour les balises p qui se trouvent à l'intérieur d'une classe .wrap */
 
 .wrap > p,
 .wrap > span {
@@ -196,14 +196,14 @@ a:visited {
   display: block;
 }
 
-/* Specific styles for this project */
+/* Styles spécifiques pour ce projet */
 
 .bigfont {
   font-size: 3rem;
 }
 
 .hugefont {
-  /* Used to make a large emoji */
+  /* Utilisé pour faire un grand emoji */
   font-size: 6rem;
   text-align: center;
   padding: 1rem;
@@ -230,7 +230,7 @@ cite {
   font-size: small;
 }
 
-/* Specific styles for this project */
+/* Styles spécifiques pour ce projet */
 
 .tile {
   height: 9.4rem;
@@ -259,7 +259,7 @@ cite {
 }
 
 .shadow {
-   box-shadow: 5px 5px 3px 0px #888888; /* right and bottom shadow size, blur, spread and colour */
+   box-shadow: 5px 5px 3px 0px #888888; /* taille de l'ombre droite et inférieure, flou, répartition et couleur */
    /*box-shadow: 5px 5px 4px 2px var(--detail);*/
 }
 
@@ -294,10 +294,10 @@ cite {
   padding: 0.5rem;
 }
 
-/* Printed photo style */
+/* Style de photo imprimée */
 
 .photo {
-  border: 1px solid #D0D0D0; /* Add a solid border */
+  border: 1px solid #D0D0D0; /* Ajoute une bordure pleine */
   width: 14rem;
   height: 15rem;
   background: #ffffff;
@@ -305,6 +305,6 @@ cite {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
-  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread and colour */
+  box-shadow: 8px 8px 10px 4px #888888; /* ombre droite et inférieure, flou, répartition et couleur */
   transform: rotate(3deg);
 }
