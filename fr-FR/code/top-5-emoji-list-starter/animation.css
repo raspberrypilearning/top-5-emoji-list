@@ -1,12 +1,12 @@
 .spinme {
-  animation: rotate-center linear 8s 2; /* runs the 'rotate-centre' animation with linear timing (same pace all the way through) for eight seconds. Runs the animation twice. */
-  display: inline-block; /* Important so the animated element is not split to a new line */
+  animation: rotate-center linear 8s 2; /* exécute l'animation 'rotate-centre' avec un timing linéaire (même rythme tout au long) pendant huit secondes. Exécute l'animation deux fois. */
+  display: inline-block; /* Important pour que l'élément animé ne soit pas divisé sur une nouvelle ligne */
 }
 
 @keyframes rotate-center {
-  /* The rotate animation code */
+  /* Le code d'animation de rotation */
   0% {
-    /* Rotate from 0 to 360 degrees */
+    /* Rotation de 0 à 360 degrés */
     transform: rotate(0);
   }
   100% {
@@ -15,33 +15,33 @@
 }
 
 .bounceme {
-  animation: bounce ease 2s 3; /* runs the 'bounce' animation with ease timing (slow start and end) for two seconds. Runs the animation three times. */
+  animation: bounce ease 2s 3; /* exécute l'animation 'bounce' avec un timing facile (début et fin lents) pendant deux secondes. Exécute l'animation trois fois. */
   display: inline-block;
 }
 
 @keyframes bounce {
-  /* The bounce animation code */
+  /* Le code de l'animation de rebond */
   0% {
-    transform: scale(1, 1) translateY(0); /* Starting position and actual size */
+    transform: scale(1, 1) translateY(0); /* Position de départ et taille réelle */
   }
   10% {
-    transform: scale(1.1, 0.9) translateY(0); /* Grow width and shrink height for pre bounce squash effect */
+    transform: scale(1.1, 0.9) translateY(0); /* Augmenter la largeur et réduire la hauteur pour un effet d'écrasement avant le rebond */
   }
   30% {
-    transform: scale(1, 1) translateY(-6rem); /* Return to actual size and move emoji up 100px from current position */
+    transform: scale(1, 1) translateY(-6rem); /* Revenir à la taille réelle et déplacer l'emoji de 100 pixels par rapport à la position actuelle */
   }
   50% {
-    transform: scale(1, 1) translateY(0); /* Move emoji back to starting position */
+    transform: scale(1, 1) translateY(0); /* Remettre l'emoji à la position de départ */
   }
 }
 
 .scaleme {
-  animation: scale ease 2s infinite; /* runs the 'scale' animation with ease timing (slow start and end) for two seconds. Runs the animation forever. */
+  animation: scale ease 2s infinite; /* exécute l'animation 'scale' avec un timing facile (début et fin lents) pendant deux secondes. Exécute l'animation indéfiniment. */
   display: inline-block;
 }
 
 @keyframes scale {
-  /* The scale animation code */
+  /* Le code d'animation d'échelle */
   0% {
     transform: scale(1, 1);
   }
@@ -65,7 +65,7 @@
 }
 
 @keyframes rollleft {
-  /* The roll animation code */
+  /* Le code de l'animation du roulement */
   from {
     transform: translate(-60vw) rotate(0deg);
   }
@@ -81,7 +81,7 @@
 }
 
 @keyframes rollright {
-  /* The roll animation code */
+  /* Le code de l'animation du roulement */
   from {
     transform: translate(60vw) rotate(360deg);
   }
@@ -97,7 +97,7 @@
 }
 
 @keyframes moveleft {
-  /* The move animation code */
+  /* Le code d'animation de déplacement */
   from {
     transform: translate(-60vw);
   }
@@ -113,7 +113,7 @@
 }
 
 @keyframes moveright {
-  /* The move animation code */
+  /* Le code d'animation de déplacement */
   from {
     transform: translate(60vw);
   }
