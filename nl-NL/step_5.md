@@ -1,31 +1,31 @@
-## Add quote and link
+## Voeg een quote en een link toe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you will use three more HTML tags: `<blockquote>` and `<cite>` to include quotations and `<a>` to add links to other webpages.
+In deze stap gebruik je nog drie HTML-tags: `<blockquote> en `<cite>`om citaten en`<a>\` toe te voegen aan andere webpagina's.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
-
+</div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">hyperlink</span> is a clickable link to another webpage. Links are usually underlined or otherwise styled to separate them from the rest of the text. 
+Een <span style="color: #0faeb0">hyperlink</span> is een klikbare link naar een andere webpagina. Links zijn meestal onderstreept of op een andere manier opgemaakt om ze van de rest van de tekst te scheiden. 
 </p>
 
-In HTML, the `<a>` tag is used to create links:
+In HTML wordt de tag `<a>` gebruikt om links te maken:
 
-- You put the link text that appears on the webpage inside `<a>` and `</a>`
-- The `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to
-- You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser, instead of the new page replacing the current webpage.
+- Je plaatst de link tekst die verschijnt op de webpagina in `<a>` en `</a>`
+- Het `href` attribuut biedt het webadres (begint meestal met 'https://') van de pagina waarnaar je wilt linken
+- Je kunt ook `target="_blank"` toevoegen om de gekoppelde webpagina te openen in een nieuw tabblad in de webbrowser, in plaats van via de nieuwe pagina de huidige webpagina te vervangen.
 
 \--- task ---
 
-We have created a short web address **https://rpf.io/emoji** that links to a useful webpage.
+We hebben een kort webadres **https://rpf.io/emoji** gemaakt dat linkt naar een nuttige webpagina.
 
-Add a new `<section>` that uses the `xcentre` class and includes your link.
+Voeg een nieuwe '<section>' toe die de 'xcentre' class gebruikt en je link bevat.
 
 ## --- code ---
 
@@ -51,27 +51,27 @@ line_highlights: 46-48
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Look at your webpage and check that the link is centred on the page, underlined, and in a bold font.
+Bekijk je webpagina en controleer of de link gecentreerd is op de pagina, en in een vet lettertype.
 
-Click the link to open the emoji webpage in a new tab.
+Klik op de link om de emoji webpagina in een nieuw tabblad te openen.
 
-The appearance of the link is set by a rule for `<a>` elements in your style file.
+Het uiterlijk van de link is ingesteld door een regel voor `<a>` elementen in je stijlbestand.
 
 \--- /task ---
 
-The `<blockquote>` tag is used when you want to quote someone.
+De `<blockquote>` tag wordt gebruikt wanneer je iemand wilt citeren.
 
-To give them credit, you can use the `<cite>` tag.
+Om ze een vermelding te geven, kun je de `<cite>` tag gebruiken.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-"Oceans of emotion can be transmitted through a text message, an emoji sequence, and a winking semicolon, but humans are hardwired to respond to visuals." - Jenna Wortham.
+"Oceanen van emoties kunnen worden overgedragen via een sms-bericht, een emoji-reeks en een knipogende puntkomma, maar mensen zijn geprogrammeerd om op beelden te reageren." - Jenna Wortham.
 </p>
 
 \--- task ---
 
-Add another section for your quote.
+Nog een sectie toevoegen voor je quote.
 
 ## --- code ---
 
@@ -101,11 +101,11 @@ line_highlights: 50-55
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Look at your webpage. The quote should be styled in a large font and the citation is in a small font below.
+Kijk naar je webpagina. Het citaat moet in een groot lettertype worden opgemaakt en het citaat staat hieronder in een klein lettertype.
 
-This is because your style file contains rules for styling `<blockquote>` and `<cite>` elements.
+Dit is omdat je stijlbestand regels bevat voor styling `<blockquote>` en `<cite>` elementen.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-5" width="600" height="1000" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
