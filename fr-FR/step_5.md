@@ -1,31 +1,31 @@
-## Add quote and link
+## Ajouter une citation et un lien
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you will use three more HTML tags: `<blockquote>` and `<cite>` to include quotations and `<a>` to add links to other webpages.
+Dans cette étape, tu utiliseras trois balises HTML supplémentaires : `<blockquote>` et `<cite>` pour inclure des citations et `<a>` pour ajouter des liens vers d'autres pages web.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
-
+</div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">hyperlink</span> is a clickable link to another webpage. Links are usually underlined or otherwise styled to separate them from the rest of the text. 
+Un <span style="color: #0faeb0">lien hypertexte</span> est un lien cliquable vers une autre page web. Les liens sont généralement soulignés ou stylisés pour les séparer du reste du texte. 
 </p>
 
-In HTML, the `<a>` tag is used to create links:
+En HTML, la balise `<a>` est utilisée pour créer des liens :
 
-- You put the link text that appears on the webpage inside `<a>` and `</a>`
-- The `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to
-- You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser, instead of the new page replacing the current webpage.
+- Tu places le texte du lien qui apparaît sur la page web entre `<a>` et `</a>`
+- L'attribut `href` fournit l'adresse web (commençant généralement par 'https://') de la page vers laquelle tu souhaites créer un lien
+- Tu peux également ajouter `target="_blank"` pour ouvrir la page web liée dans un nouvel onglet du navigateur web, au lieu que la nouvelle page remplace la page web actuelle.
 
 \--- task ---
 
-We have created a short web address **https://rpf.io/emoji** that links to a useful webpage.
+Nous avons créé une courte adresse web **https://rpf.io/emoji** qui renvoie à une page web utile.
 
-Add a new `<section>` that uses the `xcentre` class and includes your link.
+Ajoute un nouveau `<section>` qui utilise la classe `xcentre` et inclut ton lien.
 
 ## --- code ---
 
@@ -51,27 +51,27 @@ line_highlights: 46-48
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Look at your webpage and check that the link is centred on the page, underlined, and in a bold font.
+Regarde ta page web et vérifie que le lien est centré sur la page, souligné et en gras.
 
-Click the link to open the emoji webpage in a new tab.
+Clique sur le lien pour ouvrir la page web des emojis dans un nouvel onglet.
 
-The appearance of the link is set by a rule for `<a>` elements in your style file.
+L'apparence du lien est définie par une règle pour les éléments `<a>` dans ton fichier de style.
 
 \--- /task ---
 
-The `<blockquote>` tag is used when you want to quote someone.
+La balise `<blockquote>` est utilisée lorsque tu veux citer quelqu'un.
 
-To give them credit, you can use the `<cite>` tag.
+Pour leur donner du crédit, tu peux utiliser la balise `<cite>`.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-"Oceans of emotion can be transmitted through a text message, an emoji sequence, and a winking semicolon, but humans are hardwired to respond to visuals." - Jenna Wortham.
+« Des océans d'émotions peuvent être transmis via un message texte, une séquence d'émoticônes et un point-virgule clignotant, mais les humains sont programmés pour réagir aux visuels. » - Jenna Wortham.
 </p>
 
 \--- task ---
 
-Add another section for your quote.
+Ajoute une autre section pour ta citation.
 
 ## --- code ---
 
@@ -101,11 +101,11 @@ line_highlights: 50-55
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Look at your webpage. The quote should be styled in a large font and the citation is in a small font below.
+Regarde ta page web. La citation doit être rédigée en grande police et le crédit en petite police en dessous.
 
-This is because your style file contains rules for styling `<blockquote>` and `<cite>` elements.
+En effet, ton fichier de style contient des règles pour styliser les éléments `<blockquote>` et `<cite>`.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-5" width="600" height="1000" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
