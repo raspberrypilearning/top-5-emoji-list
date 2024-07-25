@@ -1,23 +1,23 @@
-## Animate more emojis
+## Voeg animatie toe aan meer emoji's
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you will add animated emojis to your website header.
+In deze stap voeg je geanimeerde emoji's toe aan je website-kop.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
+</div>
 
-
-You have made your website header engaging by using bold colours and a stylish font. Header animations make the website really eye-catching for your viewers.
+Je hebt je website koptekst interessant gemaakt door vette kleuren en een stijlvol lettertype te gebruiken. Kopanimaties maken de website echt opvallend voor je kijkers.
 
 \--- task ---
 
-Add five emojis to your header. Use the `bigfont` class to make them large.
+Voeg vijf emoji's toe aan je header. Gebruik de `bigfont` class om ze groot te maken.
 
-The `<span>` tag allows you to add different animations to each emoji later.
+Met de `<span>` tag kun je later verschillende animaties aan elke emoji toevoegen.
 
 ## --- code ---
 
@@ -44,9 +44,9 @@ line_highlights: 32-36
 
 \--- task ---
 
-Click on the `animation.css` file and find the `bounceme` class.
+Klik op het `animation.css` bestand en zoek de `bounceme` klas.
 
-The `bounce` animation runs with `ease` timing so the animation starts and ends slowly but speeds up in the middle.
+De `bounce` animatie werkt met `ease` timing zodat de animatie langzaam begint en eindigt maar in het midden versnellt.
 
 ## --- code ---
 
@@ -80,13 +80,13 @@ transform: scale(1, 1) translateY(0); /_ Move emoji back to starting position \*
 
 \--- /code ---
 
-**Look:** To create a bounce effect, the `scale` property adjusts the size and the `translateY` property moves the element up and down the y-axis.
+**Kijk:** Om een bounce effect te maken, past de eigenschap 'scale' de grootte aan en beweegt de eigenschap 'translateY' het element omhoog en omlaag langs de y-as.
 
 \--- /task ---
 
 \--- task ---
 
-Click on the `index.html` file and add the `bounceme` class to the star-struck emoji 🤩.
+Klik op het `index.html` bestand en voeg de `bounceme` class toe aan de star-struck emoji 🤩.
 
 ## --- code ---
 
@@ -113,33 +113,33 @@ line_highlights: 35
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Each time you load your page, your star-struck emoji 🤩 should bounce three times.
+Elke keer dat je je pagina laadt, zou je star-struck emoji 🤩 drie keer moeten stuiteren.
 
-**Debug:**
+**Fouten oplossen:**
 
 \--- collapse ---
 
 ---
 
-## title: An emoji in the list is bouncing instead of an emoji in the header!
+## title: Een emoji in de lijst stuitert in plaats van een emoji in de kop!
 
-You need to add `bounceme` to an emoji in the `<header>`, not the emoji in the `<ol>`.
+Je moet `bounceme` toevoegen aan een emoji in de `<header>`, niet de emoji in de `<ol>`.
 
 \--- /collapse ---
 
 \--- /task ---
 
-When you look at a webpage, the part that is visible to you is called the **viewport**. A mobile phone has a much smaller viewport than a desktop computer screen.
+Als je op een webpagina kijkt, wordt het onderdeel dat voor jou zichtbaar is de **viewport** genoemd. Een mobiele telefoon heeft een veel kleinere viewport dan een desktop computerscherm.
 
-Your project already has code to control the **viewport** size and scale to adapt to the device width. You can use viewport in animations to make the animation change to fit the viewport.
+Je project heeft al code om de **viewport** grootte en schaal te beheren en aan te passen aan de apparaatbreedte. Je kunt viewport in animaties gebruiken om de animatie te veranderen om aan de viewport te voldoen.
 
 \--- task ---
 
-Click on the `animation.css` file and find the `rollmeleft` class. This creates a rolling animation from the left.
+Klik op het `animation.css` bestand en zoek de `rollmeleft` class. Hierdoor ontstaat een rollende animatie van links.
 
-A combination of `translate` and `rotate` is used to create the roll.
+Een combinatie van `translate` en `rotate` wordt gebruikt om de rol te maken.
 
 ## --- code ---
 
@@ -168,13 +168,13 @@ transform: translate(0vw) rotate(360deg);
 
 \--- /code ---
 
-**Look:** This `translate` code uses `vw` (viewport-width). The start point of `-60vw` is 60% left of the coded position on the viewport. The animation ends in the coded position `0vw`.
+**Kijk:** Deze `translate` code gebruikt `vw` (viewport-width, viewport-breedte). Het startpunt van `-60vw` is 60% links van de gecodeerde positie op de viewport. De animatie eindigt op de gecodeerde positie `0vw`.
 
 \--- /task ---
 
 \--- task ---
 
-Click on the `index.html` file and add the `rollmeleft` class to the rolling on the floor laughing emoji 🤣.
+Klik op het `index.html` bestand en voeg de `rollmeleft` class toe aan de rollen over de vloer van het lachen emoji 🤣.
 
 ## --- code ---
 
@@ -201,19 +201,19 @@ line_highlights: 32
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Your rolling on the floor laughing emoji 🤣 should move in from the left and rotate as it moves.
+Je rollende over de vloer van het lachen emoji 🤣 moet van links naar binnen komen en draaien terwijl hij beweegt.
 
-**Tip:** Click Run to watch the animations again.
+**Tip:** Klik op Run om de animaties opnieuw te bekijken.
 
 \--- /task ---
 
 \--- task ---
 
-**Choose:** Add animation classes to the remaining emojis 😇😭😘 to finish your fun eye-catching header.
+**Kies:** Voeg animation classes toe aan de resterende emoji's 😇😭😘 om je leuke opvallende kop af te maken.
 
-You can use any animations from the `animation.css` file:
+Je kunt elke animatie gebruiken uit het `animation.css` bestand:
 
 - `spinme`
 - `bounceme`
