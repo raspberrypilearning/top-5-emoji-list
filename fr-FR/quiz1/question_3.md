@@ -2,9 +2,9 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Question 3 sur 3
 
-This HTML and CSS code is supposed to apply transparency to the section but it’s not working. Which line do you need to change?
+Ce code HTML et CSS est censé appliquer la transparence à la section mais il ne fonctionne pas. Quelle ligne dois-tu changer ?
 
 ## --- code ---
 
@@ -28,7 +28,7 @@ line_numbers: true
 
 <main class="transparent">
       <section>    
-        <p>This is the introduction.</p>
+        <p>Ceci est l'introduction.</p>
       </section>
 </main>
 
@@ -36,35 +36,35 @@ line_numbers: true
 
 \--- choices ---
 
-- ( ) Line 1 in `style.css`
+- ( ) Ligne 1 dans `style.css`
 
   \--- feedback ---
 
-  Try again. This line is correct. You need a dot `.` before the name of the class when writing a rule.
+  Réessaie. Cette ligne est correcte. Tu as besoin d'un point `.` avant le nom de la classe lors de l'écriture d'une règle.
 
   \--- /feedback ---
 
-- (x) Line 2 in `style.css`
+- (x) Ligne 2 dans `style.css`
 
   \--- feedback ---
 
-  Correct. An opacity of `1.0` means not at all transparent! You could change this to a number below one, such as 0.75, to fix the problem.
+  Correct. Une opacité de '1.0' signifie pas du tout transparent ! Tu peux remplacer ce chiffre par un nombre inférieur à un, tel que 0.75, pour résoudre le problème.
 
   \--- /feedback ---
 
-- ( ) Line 1 in `index.html`
+- ( ) Ligne 1 dans `index.html`
 
   \--- feedback ---
 
-Not quite. This is the correct way to add a CSS class to an HTML element.
+Pas tout à fait. C'est la bonne façon d'ajouter une classe CSS à un élément HTML.
 
 \--- /feedback ---
 
-- ( ) Line 2 in `index.html`
+- ( ) Ligne 2 dans `index.html`
 
   \--- feedback ---
 
-Not quite. The section is inside the `<main>` element so if opacity is correctly set for `<main>`, the section is also transparent.
+Pas tout à fait. La section est à l'intérieur de l'élément `<main>`, donc si l'opacité est correctement définie pour `<main>`, la section est également transparente.
 
 \--- /feedback ---
 
