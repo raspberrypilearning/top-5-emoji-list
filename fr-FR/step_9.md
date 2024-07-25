@@ -1,20 +1,20 @@
-## What next?
+## Et ensuite ?
 
-If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Flip treat webcards](https://projects.raspberrypi.org/en/projects/flip-treat-webcards) project. In this project, you will make a webpage of flip cards with a picture of a treat on the front and information about the treat on the back.
+Si tu suis le parcours [Intro au web](https://projects.raspberrypi.org/fr/pathways/web-intro), tu peux passer au projet [Cartes web de friandises à retourner](https://projects.raspberrypi.org/en/projects/flip-treat-webcards). Dans ce projet, tu créeras une page web de cartes à retourner avec une image de friandise au recto et des informations sur la friandise au verso.
 
 \--- print-only ---
 
-![Flip treat project.](images/flip-treat.PNG)
+![Projet friandises à retourner.](images/flip-treat.PNG)
 
 \--- /print-only ---
 
 \--- no-print ---
 
-### Try it
+### Essaie-le
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Hover over the card on this page to see what happens!
+Passe la souris sur la carte sur cette page pour voir ce qui se passe !
 </div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/flip-treat-webcards-step-5" width="550" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
