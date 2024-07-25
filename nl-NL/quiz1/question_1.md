@@ -1,42 +1,42 @@
-## Reflection
+## Reflectie
 
-Well done. You have created a webpage using several different HTML tags and CSS animations.
+Goed gedaan. Je hebt een webpagina gemaakt met verschillende HTML-tags en CSS-animaties.
 
-Answer the three questions below to reflect on what you've learnt.
+Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Vraag 1 van 3
 
-In this project you created a numbered top 5 list of emojis. Which HTML tags are used to create an ordered list?
+In dit project heb je een genummerde top 5-lijst met emoji's gemaakt. Welke HTML-tags worden gebruikt om een geordende lijst te maken?
 
 \--- choices ---
 
-- ( ) `<ul>` and `<li>`
+- ( ) `<ul>` en `<li>`
 
   \--- feedback ---
 
-  Very close. The `<ul>` tag is used to create unordered lists where each item starts with a bullet. `<ul>` is used to create lists of items where the order is not important.
+  Heel erg dichtbij. De tag `<ul>` wordt gebruikt om ongeordende lijsten te maken waarbij elk item begint met een opsommingsteken. `<ul>` wordt gebruikt om lijsten met items te maken waarbij de volgorde niet belangrijk is.
 
   \--- /feedback ---
 
-- (x) `<ol>` and `<li>`
+- (x) `<ol>` en `<li>`
 
   \--- feedback ---
 
-Correct! `<ol>` means ordered list. `<li>` is used to create list items inside an ordered list. When you use `<ol>`, the items are numbered automatically.
+Juist! `<ol>` betekent geordende lijst. `<li>` wordt gebruikt om lijstitems binnen een geordende lijst te maken. Wanneer je `<ol>` gebruikt, worden de items automatisch genummerd.
 
 \--- /feedback ---
 
-- ( ) `<ul>` and `<ol>`
+- ( ) `<ul>` en `<ol>`
 
   \--- feedback ---
 
-Not quite. `<ul>` and `<ol>` are used to create different kinds of lists in HTML.
+Niet helemaal. `<ul>` en `<ol>` worden gebruikt om verschillende soorten lijsten in HTML te maken.
 
 \--- /feedback ---
 
