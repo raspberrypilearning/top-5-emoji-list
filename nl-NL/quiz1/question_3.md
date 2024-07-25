@@ -2,9 +2,9 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Vraag 3 van 3
 
-This HTML and CSS code is supposed to apply transparency to the section but it’s not working. Which line do you need to change?
+Deze HTML- en CSS-code zou transparantie op de sectie moeten toepassen, maar het werkt niet. Welke regel moet je wijzigen?
 
 ## --- code ---
 
@@ -28,7 +28,7 @@ line_numbers: true
 
 <main class="transparent">
       <section>    
-        <p>This is the introduction.</p>
+        <p>Dit is de inleiding.</p>
       </section>
 </main>
 
@@ -36,35 +36,35 @@ line_numbers: true
 
 \--- choices ---
 
-- ( ) Line 1 in `style.css`
+- ( ) Regel 1 in `style.css`
 
   \--- feedback ---
 
-  Try again. This line is correct. You need a dot `.` before the name of the class when writing a rule.
+  Probeer het nog eens. Deze regel is juist. Wanneer je een regel schrijft, heb je een punt `.` nodig vóór de naam van de class.
 
   \--- /feedback ---
 
-- (x) Line 2 in `style.css`
+- (x) Regel 2 in `style.css`
 
   \--- feedback ---
 
-  Correct. An opacity of `1.0` means not at all transparent! You could change this to a number below one, such as 0.75, to fix the problem.
+  Juist. Een dekking van `1.0` betekent helemaal niet transparant! Je zou dit kunnen veranderen naar een getal lager dan 0.75, om het probleem op te lossen.
 
   \--- /feedback ---
 
-- ( ) Line 1 in `index.html`
+- ( ) Regel 1 in `index.html`
 
   \--- feedback ---
 
-Not quite. This is the correct way to add a CSS class to an HTML element.
+Niet helemaal. Dit is de juiste manier om een CSS-class aan een HTML-element toe te voegen.
 
 \--- /feedback ---
 
-- ( ) Line 2 in `index.html`
+- ( ) Regel 2 in `index.html`
 
   \--- feedback ---
 
-Not quite. The section is inside the `<main>` element so if opacity is correctly set for `<main>`, the section is also transparent.
+Niet helemaal. De sectie bevindt zich binnen het `<main>` element, dus als de dekking correct is ingesteld voor `<main>`, is de sectie ook transparant.
 
 \--- /feedback ---
 
