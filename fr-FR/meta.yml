@@ -1,0 +1,28 @@
+---
+title: Top 5 des emojis
+hero_image: images/banner.png
+description: Crée une page web sur le top 5 des emojis.
+meta_title: Animations CSS | Apprendre le développement web | Top 5 des emojis
+meta_description: Apprends le développement web pour les débutants avec la Raspberry Pi Foundation. Utilise des animations CSS pour créer un top 5 des emojis et rendre ton site web attrayant.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2022-05-11"
+steps:
+  - title: Introduction
+  - title: Créer une liste sur le top 5
+  - title: Animer un emoji
+    completion: engaged
+  - title: Ajouter une image d'arrière-plan
+  - title: Ajouter une citation et un lien
+  - title: Animer plus d'emojis
+    completion: internal
+  - title: Réflexion
+    completion: external
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Améliorer ton projet
+  - title: Et ensuite ?

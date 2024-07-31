@@ -1,0 +1,308 @@
+/* Kleurcombinaties */
+
+.primary {
+  background: var(--primary);
+  color: var(--onprimary);
+}
+
+.secondary {
+  background: var(--secondary);
+  color: var(--onsecondary);
+}
+
+.tertiary {
+  background: var(--tertiary);
+  color: var(--ontertiary);
+}
+
+.page {
+  background: var(--page);
+  color: var(--onpage);
+}
+
+/* Overal toepassen */
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box; /* Opvulling en rand maken een vak niet groter */
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0rem auto;
+  background: var(--page);
+  color: var(--onpage);
+  font: var(--body-font);
+  min-height: 100vh; /* Laat de inhoud de pagina vullen zodat de voettekst onderaan staat */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* voeg een achtergrondafbeelding toe aan de hoofdtekst */
+
+body {
+  /*background-image: url('emojis.png');*/ /* Verwijder commentaar en wijzig de bestandsnaam om een achtergrondafbeelding toe te voegen
+  /*background-repeat: repeat;*/ /* Laat de afbeelding herhalen */
+  /*background-size: cover;*/ /* Zorg ervoor dat de afbeelding de hele container bedekt */
+}
+
+/* De hoofdinhoud van de pagina tussen de kop- en voettekst */
+main {
+  background: var(--primary); /* Kleur de achtergrond */
+  color: var(--onprimary); /* Kleur de tekst */
+  margin: 0 auto; /* Centeren als de browser erg breed is */
+  min-width: 25rem; /* Laat de inhoud niet te smal worden */
+  max-width: 70rem; /* Laat de inhoud niet te breed worden */
+  padding: 0;
+  padding-top: 0.5rem; /* Vulling bovenaan */
+  margin-bottom: 1em; /* Tussenruimte vóór de voettekst */
+}
+
+/* Kop- en voettekst element stijlen */
+
+header,
+footer {
+  text-align: center;
+  width: 100%; /* Vul de volledige breedte van het venster */
+  margin: 0; /* Verwijder de standaardmarge */
+  min-height: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Sectiestijlen */
+
+section {
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+}
+
+/* Randstijlen */
+
+.border-bottom {
+  border-bottom: 20px solid var(--detail); /* Voeg een ononderbroken lijn toe */
+}
+
+.border-top {
+  border-top: 10px solid var(--detail2); /* Voeg een ononderbroken lijn toe boven de voettekst */
+}
+
+/* Voeg een transparant effect toe */
+
+
+
+/* Stijlen alleen voor h1-elementen */
+
+h1 {
+  font: var(--header-font); /* Lettertype stijl opgeslagen in de kop-lettertype variabele */
+  padding: 2rem;
+  margin: 0; /* Centeren als de browser erg breed is */
+}
+
+/* Stijlen alleen voor h2-elementen */
+
+h2 {
+  font: var(--header-font); /* Lettertype stijl opgeslagen in de kop-lettertype variabele */
+  text-align: center; /* Lijn de tekst uit */
+  padding: 1.5rem; /* Voeg wat ruimte toe rondom de kop */
+}
+
+/* Markeer sleutelwoorden vet en pas een alternatieve tekstkleur toe */
+
+strong {
+  color: var(--detail2); /* Tekst kleur opgeslagen in de bijschrift variabele */
+  font-weight: bold; /* Maakt tekstgewicht sterker dan de standaard*/
+}
+
+/* Stijl voor geordende en ongeordende lijsten */
+
+ol,
+ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+/* Opvulling rond alinea's */
+
+p {
+  padding: 1rem 1rem;
+}
+
+/* Stijl voor links */
+
+a:link,
+a:visited {
+  font-weight: bold;
+  color: inherit; /* Gebruik de kleur van het bovenliggende element */
+}
+
+.xcenter {
+  text-align: center;
+}
+
+.ycenter {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+/* Stijlen alleen voor de .wrap-klasse */
+
+.wrap {
+  /* Laat inhoud over meerdere rijen lopen */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 0rem 0rem; /* horizontale en verticale ruimte */ 
+}
+
+/* Voor het maken van mooie vakjes */
+
+.dashed-border {
+  border: 0.25rem dashed var(--detail2);
+}
+
+.solid-border {
+  border: 0.25rem solid var(--detail2);
+}
+
+/* Stijlen voor de div tags die zich in een .wrap klasse */ bevinden
+
+.wrap > div {
+  width: 14rem;
+  padding: 0rem;
+}
+
+/* Stijlen voor de img tags die zich in een .wrap klasse */ bevinden
+
+.wrap > img {
+  width: 14rem;
+  display: block;
+}
+
+/* Stijlen voor de p tags die zich in een .wrap klasse */ bevinden
+
+.wrap > p,
+.wrap > span {
+  width: 14rem;
+  display: block;
+}
+
+/* Specifieke stijlen voor dit project */
+
+.bigfont {
+  font-size: 3rem;
+}
+
+.hugefont {
+  /* Gebruikt om een grote emoji te maken */
+  font-size: 6rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.wrap .narrow {
+  width: 10rem;
+}
+
+.wrap .wide {
+  width: 20rem;
+}
+
+blockquote {
+  font: var(--quote-font);
+  color: var(--detail);
+  text-align: center;
+  padding: 0rem;
+  max-width: 25rem;
+}
+
+cite {
+  color: var(--detail);
+  font-size: small;
+}
+
+/* Specifieke stijlen voor dit project */
+
+.tile {
+  height: 9.4rem;
+}
+
+.rounded {
+  border-radius: 1rem;
+}
+
+.gradient1 {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--secondary),
+    var(--detail)
+  );
+  color: var(--onsecondary);
+}
+
+.gradient2 {
+  background-image: linear-gradient(
+    to top right,
+    var(--tertiary),
+    var(--detail2)
+  );
+  color: var(--ontertiary);
+}
+
+.shadow {
+   box-shadow: 5px 5px 3px 0px #88888888; /* rechter- en onderste schaduwzijde, blur, spread en kleur */
+   /*box-shadow: 5px 5px 4px 2px var(--detail);*/
+}
+
+.wrap .card {
+  width: 12rem;
+  height: 12rem;
+  border: 0.1rem solid transparent;
+}
+
+.card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  perspective: 60rem;
+}
+
+.card:hover .card-content {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card p {
+  padding: 0.5rem;
+}
+
+/* Afgedrukte fotostijl */
+
+.photo {
+  border: 1px solid #D0D0D0; /* Voeg een ononderbroken rand toe */
+  width: 14rem;
+  height: 15rem;
+  background: #ffffff;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+  box-shadow: 8px 8px 10px 4px #888888; /* rechts en onderste schaduw, blur, spread en kleur */
+  transform: rotate(3deg);
+}
