@@ -40,7 +40,7 @@ Pas tout à fait. Si cette animation devait s'exécuter **une fois**, elle durer
 
   \--- feedback ---
 
-  Correct ! L'animation dure '4s' et se répète **deux fois**. Deux fois quatre signifie que l'animation dure huit secondes au total.
+  Correct ! L'animation dure `4s` et se répète **deux fois** Deux fois quatre signifie que l'animation dure huit secondes au total.
 
   \--- /feedback ---
 
