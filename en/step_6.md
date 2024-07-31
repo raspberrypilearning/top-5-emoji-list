@@ -57,7 +57,7 @@ line_highlights: 17-20
 ---
 
 .bounceme {
-    animation: bounce ease 2s 3; /* runs the 'bounce' animation with ease timing (slow start and end) for two seconds. Runs the animation twice. */
+    animation: bounce ease 2s 3; /* runs the 'bounce' animation with ease timing (slow start and end) for two seconds. Runs the animation three times. */
     display: inline-block;
 }
 
