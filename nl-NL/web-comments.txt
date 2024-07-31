@@ -1,19 +1,19 @@
-This part is for extra information the browser needs to load the page correctly
+Dit deel is bedoeld voor extra informatie die de browser nodig heeft om de pagina correct te laden
 
-Don't shrink the page on mobile
+De pagina op mobiel niet verkleinen
 
-Appears on the web browser tab and search results
+Verschijnt op het tabblad van de webbrowser en in de zoekresultaten
 
-Import fonts from Google
+Importeer lettertypen van Google
 
-Include CSS style file
+Voeg een CSS-stijlbestand toe
 
-The content that appears in the browser
+De inhoud die in de browser wordt weergegeven
 
-Heading text with five bouncing emoji
+Koptekst met vijf stuiterende emoji
 
-A wrapped list with a spinning trophy
+Een verpakte lijst met een draaiende trofee
 
-A block quote with a citation
+Een block quote met een citaat
 
-An empty footer with colour styles applied
+Een lege voettekst waarop kleurstijlen zijn toegepast
