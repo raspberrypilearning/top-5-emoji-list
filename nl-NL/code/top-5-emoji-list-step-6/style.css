@@ -58,7 +58,7 @@ main {
   max-width: 70rem; /* Laat de inhoud niet te breed worden */
   padding: 0;
   padding-top: 0.5rem; /* Vulling bovenaan */
-  margin-bottom: 1rem; /* Tussenruimte vóór de voettekst */
+  margin-bottom: 1em; /* Tussenruimte vóór de voettekst */
 }
 
 /* Kop- en voettekst element stijlen */
@@ -259,7 +259,7 @@ cite {
 }
 
 .shadow {
-   box-shadow: 5px 5px 3px 0px #88888888; /* rechter- en onderste schaduwzijde, blur, spread en kleur */
+   box-shadow: 5px 5px 3px 0px #888888; /* rechter- en onderste schaduwzijde, blur, spread en kleur */
    /*box-shadow: 5px 5px 4px 2px var(--detail);*/
 }
 
@@ -297,7 +297,7 @@ cite {
 /* Afgedrukte fotostijl */
 
 .photo {
-  border: 1px solid #D0D0D0D0; /* Voeg een ononderbroken rand toe */
+  border: 1px solid #D0D0D0; /* Voeg een ononderbroken rand toe */
   width: 14rem;
   height: 15rem;
   background: #ffffff;
@@ -305,6 +305,6 @@ cite {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
-  box-schaduw: 8px 8px 4px #88888888; /* rechts en onderste schaduw, blur, spread en kleur */
+  box-shadow: 8px 8px 10px 4px #888888; /* rechts en onderste schaduw, blur, spread en kleur */
   transform: rotate(3deg);
 }
