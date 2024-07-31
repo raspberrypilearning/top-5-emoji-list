@@ -1,5 +1,5 @@
 .spinme {
-  animation: rotate-center lineair 8s 2; /* Tijd nodig voor animatie en aantal herhalingen */
+  animation: rotate-center linear 8s 2; /* Tijd nodig voor animatie en aantal herhalingen */
   display: inline-block; /* Belangrijk om rotatie mogelijk te maken */
 }
 
@@ -35,7 +35,7 @@
 }
 
 .scaleme {
-  animation: scale ease 2s infinite; /* voert 'scale' animation met 'ease timing' (langzame start en einde) uit gedurende twee seconden. Voert de animatie twee keer uit. */
+  animation: scale ease 2s infinite; /* voert 'scale' animation met 'ease timing' (langzame start en einde) uit gedurende twee seconden. Runs the animation forever. */
   display: inline-block;
 }
 
