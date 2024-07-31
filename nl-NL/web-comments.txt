@@ -1,0 +1,19 @@
+This part is for extra information the browser needs to load the page correctly
+
+Don't shrink the page on mobile
+
+Appears on the web browser tab and search results
+
+Import fonts from Google
+
+Include CSS style file
+
+The content that appears in the browser
+
+Heading text with five bouncing emoji
+
+A wrapped list with a spinning trophy
+
+A block quote with a citation
+
+An empty footer with colour styles applied
