@@ -19,7 +19,7 @@ Open het [startproject](https://editor.raspberrypi.org/nl-NL/projects/top-5-emoj
 
 Klap de `<head>` sectie in om jouw code leesbaarder te maken.
 
-![De muis klikt op het kleine driehoekje naast het nummer van regel 3 om de hoofdcode samen te vouwen.](images/step_2_collapse.gif)
+![De muis klikt op het kleine driehoekje naast het nummer van regel 3 om de hoofdcode samen te vouwen.](images/collapse.gif)
 
 --- /task ---
 
