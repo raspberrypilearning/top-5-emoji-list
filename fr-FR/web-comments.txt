@@ -1,19 +1,19 @@
-This part is for extra information the browser needs to load the page correctly
+Cette partie contient des informations supplémentaires dont le navigateur a besoin pour charger correctement la page
 
-Don't shrink the page on mobile
+Ne rétrécis pas la page sur mobile
 
-Appears on the web browser tab and search results
+Apparaît dans l'onglet du navigateur web et dans les résultats de recherche
 
-Import fonts from Google
+Importer des polices depuis Google
 
-Include CSS style file
+Inclure le fichier de style CSS
 
-The content that appears in the browser
+Le contenu qui apparaît dans le navigateur
 
-Heading text with five bouncing emoji
+Texte d'en-tête avec cinq emoji qui rebondit
 
-A wrapped list with a spinning trophy
+Une liste enveloppée avec un trophée qui tourne
 
-A block quote with a citation
+Un block quote avec une citation
 
-An empty footer with colour styles applied
+Un pied de page vide avec des styles de couleurs appliqués
