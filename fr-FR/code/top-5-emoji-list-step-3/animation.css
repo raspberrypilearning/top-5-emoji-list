@@ -14,7 +14,7 @@
 }
 
 .bounceme {
-  animation: bounce ease 2s 3; /* exécute l'animation 'bounce' avec un timing facile (début et fin lents) pendant deux secondes. Exécute l'animation deux fois. */
+  animation: bounce ease 2s 3; /* exécute l'animation 'bounce' avec un timing facile (début et fin lents) pendant deux secondes. Runs the animation three times. */
   display: inline-block;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .scaleme {
-  animation: scale ease 2s infinite; /* exécute l'animation 'scale' avec un timing facile (début et fin lents) pendant deux secondes. Runs the animation twice. */
+  animation: scale ease 2s infinite; /* exécute l'animation 'scale' avec un timing facile (début et fin lents) pendant deux secondes. Runs the animation forever. */
   display: inline-block;
 }
 
