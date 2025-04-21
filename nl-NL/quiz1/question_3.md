@@ -38,23 +38,23 @@ line_numbers: true
 
 - ( ) Regel 1 in `style.css`
 
-  \--- feedback ---
+ \--- feedback ---
 
-  Probeer het nog eens. Deze regel is juist. Wanneer je een regel schrijft, heb je een punt `.` nodig vóór de naam van de class.
+ Probeer het nog eens. Deze regel is juist. Wanneer je een regel schrijft, heb je een punt `.` nodig vóór de naam van de class.
 
-  \--- /feedback ---
+ \--- /feedback ---
 
 - (x) Regel 2 in `style.css`
 
-  \--- feedback ---
+ \--- feedback ---
 
-  Juist. Een dekking van `1.0` betekent helemaal niet transparant! Je zou dit kunnen veranderen naar een getal lager dan 0.75, om het probleem op te lossen.
+ Juist. Een dekking van `1.0` betekent helemaal niet transparant! Je zou dit kunnen veranderen naar een getal lager dan 0.75, om het probleem op te lossen.
 
-  \--- /feedback ---
+ \--- /feedback ---
 
 - ( ) Regel 1 in `index.html`
 
-  \--- feedback ---
+ \--- feedback ---
 
 Niet helemaal. Dit is de juiste manier om een CSS-class aan een HTML-element toe te voegen.
 
@@ -62,7 +62,7 @@ Niet helemaal. Dit is de juiste manier om een CSS-class aan een HTML-element toe
 
 - ( ) Regel 2 in `index.html`
 
-  \--- feedback ---
+ \--- feedback ---
 
 Niet helemaal. De sectie bevindt zich binnen het `<main>` element, dus als de dekking correct is ingesteld voor `<main>`, is de sectie ook transparant.
 
