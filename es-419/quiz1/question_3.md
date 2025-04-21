@@ -38,23 +38,23 @@ line_numbers: true
 
 - ( ) Line 1 in `style.css`
 
-  \--- feedback ---
+ \--- feedback ---
 
-  Try again. This line is correct. You need a dot `.` before the name of the class when writing a rule.
+ Try again. This line is correct. You need a dot `.` before the name of the class when writing a rule.
 
-  \--- /feedback ---
+ \--- /feedback ---
 
 - (x) Line 2 in `style.css`
 
-  \--- feedback ---
+ \--- feedback ---
 
-  Correct. An opacity of `1.0` means not at all transparent! You could change this to a number below one, such as 0.75, to fix the problem.
+ Correct. An opacity of `1.0` means not at all transparent! You could change this to a number below one, such as 0.75, to fix the problem.
 
-  \--- /feedback ---
+ \--- /feedback ---
 
 - ( ) Line 1 in `index.html`
 
-  \--- feedback ---
+ \--- feedback ---
 
 Not quite. This is the correct way to add a CSS class to an HTML element.
 
@@ -62,7 +62,7 @@ Not quite. This is the correct way to add a CSS class to an HTML element.
 
 - ( ) Line 2 in `index.html`
 
-  \--- feedback ---
+ \--- feedback ---
 
 Not quite. The section is inside the `<main>` element so if opacity is correctly set for `<main>`, the section is also transparent.
 
