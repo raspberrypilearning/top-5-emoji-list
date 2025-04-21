@@ -26,7 +26,7 @@ line_number_start: 44
 line_highlights: 47
 --------------------------------------------------------
 
-/\* add a background image to body \*/
+/\* ajoute une image d'arrière-plan au corps \*/
 
 body {
 background-image: url('emojis.png'); /\* Uncomment and change filename to add a background image
@@ -65,7 +65,7 @@ line_number_start: 93
 line_highlights: 93
 --------------------------------------------------------
 
-/\* Add a transparent effect \*/
+/\* Ajouter un effet de transparence \*/
 
 \--- /code ---
 
@@ -88,7 +88,7 @@ line_number_start: 93
 line_highlights: 95-97
 -----------------------------------------------------------
 
-/\* Add a transparent effect \*/
+/\* Ajouter un effet de transparence \*/
 
 .transparent {
 opacity: 0.95;
