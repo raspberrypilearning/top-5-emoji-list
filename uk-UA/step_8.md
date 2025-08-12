@@ -1,54 +1,54 @@
-## Upgrade your project
+## Вдоскональ свій проєкт
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can add more emojis, animations, links, quotes, or styling to your webpage. 
+Якщо у тебе є час, ти можеш додати більше емоджі, анімацій, посилань, цитат або стилів на свою вебсторінку. 
 </div>
 </div>
 
 \--- task ---
 
-Try to add more emojis to animate or change the animations you have used:
+Спробуй додати більше анімованих емоджі або ж зміни наявну анімацію:
 
-- Change the length of the animation or the number of repeats
-- Change the animation timing using `linear` or `ease`
-- Change the properties to make the emojis bounce higher or grow larger
-
-\--- /task ---
-
-\--- task ---
-
-You could change the list of emojis to your personal top 5 or top 10 emojis.
+- Зміни тривалість анімації або кількість її повторень
+- Зміни перебіг анімації за допомогою функцій `linear` або `ease`
+- Зміни властивості емоджі, щоб вони підстрибували ще вище або збільшувалися
 
 \--- /task ---
 
 \--- task ---
 
-You could change the `opacity` value in the `transparency` class that you created.
+Ти можеш зробити список із 5 або 10 емоджі, які подобаються особисто тобі.
 
 \--- /task ---
 
 \--- task ---
 
-You could add a link to a different emoji webpage or another link.
+Ти можеш змінити значення `opacity` (прозорість) у створеному класі `transparency`.
 
 \--- /task ---
 
 \--- task ---
 
-You could add another quote about emojis. If you quote a friend, then don't use their real name.
+Ти можеш додати посилання на іншу вебсторінку з емоджі або на щось інше.
 
 \--- /task ---
 
 \--- task ---
 
-Animate other parts of the webpage, like the emojis in the list.
+Ти можеш додати ще одну цитату про емоджі. Якщо це цитата когось із твоїх друзів чи подруг, не використовуй їхнє справжнє імʼя.
 
 \--- /task ---
 
 \--- task ---
 
-You could add content to the `<footer>` of your webpage.
+Анімуй інші частини сторінки, як-от емоджі у списку.
+
+\--- /task ---
+
+\--- task ---
+
+Ти можеш додати щось до нижнього колонтитулу (`<footer>`) своєї сторінки.
 
 \--- /task ---
 
@@ -60,8 +60,8 @@ You could add content to the `<footer>` of your webpage.
 
 ---
 
-## title: Completed project
+## title: Завершений проєкт
 
-You can view the [completed project here](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-complete){:target="_blank"}.
+Переглянь [завершений проєкт тут](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-complete){:target="_blank"}.
 
 \--- /collapse ---
