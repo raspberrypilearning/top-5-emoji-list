@@ -1,9 +1,9 @@
-## Add quote and link
+## Додай цитату та посилання
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you will use three more HTML tags: `<blockquote>` and `<cite>` to include quotations and `<a>` to add links to other webpages.
+У цьому кроці ти використовуватимеш такі три теги HTML: `<blockquote>` та `<cite>` для додавання цитат і `<a>` для додавання посилань на інші вебсторінки.
 
 </div>
 <div>
@@ -12,20 +12,20 @@ In this step, you will use three more HTML tags: `<blockquote>` and `<cite>` to 
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">hyperlink</span> is a clickable link to another webpage. Links are usually underlined or otherwise styled to separate them from the rest of the text. 
+<span style="color: #0faeb0">Гіперпосилання</span> (або гіперлінк) — посилання на іншу вебсторінку, на яке можна клікнути. Посилання зазвичай підкреслені або якось додатково виділені, щоб відокремити їх від решти тексту. 
 </p>
 
-In HTML, the `<a>` tag is used to create links:
+У мові HTML для створення посилань використовують тег `<a>`:
 
-- You put the link text that appears on the webpage inside `<a>` and `</a>`
-- The `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to
-- You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser, instead of the new page replacing the current webpage.
+- Текст посилання, який видно на сторінці, розміщується між `<a>` і `</a>`
+- Атрибут `href` містить вебадресу (що зазвичай починається з «https://») сторінки, на яку має вести посилання
+- Ти також можеш додати `target="_blank"`, щоби сторінка посилання відкривалася в новій вкладці веббраузера, а не замінювала собою сторінку, на якій ти знаходишся.
 
 \--- task ---
 
-We have created a short web address **https://rpf.io/emoji** that links to a useful webpage.
+Ми створили коротку вебадресу **https://rpf.io/emoji**, яка веде на корисну вебсторінку.
 
-Add a new `<section>` that uses the `xcentre` class and includes your link.
+Додай нову секцію `<section>`, що використовує клас `xcentre` та містить твоє посилання.
 
 ## --- code ---
 
@@ -51,27 +51,27 @@ line_highlights: 46-48
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Look at your webpage and check that the link is centred on the page, underlined, and in a bold font.
+Переглянь свою вебсторінку та переконайся, що посилання розташоване по центру, підкреслене та виділене жирним шрифтом.
 
-Click the link to open the emoji webpage in a new tab.
+Натисни на посилання, щоб відкрити сторінку з емоджі у новій вкладці.
 
-The appearance of the link is set by a rule for `<a>` elements in your style file.
+Зовнішній вигляд посилання визначається правилом для елементів `<a>` у твоєму файлі зі стилями.
 
 \--- /task ---
 
-The `<blockquote>` tag is used when you want to quote someone.
+Тег `<blockquote>` використовується, щоб процитувати когось.
 
-To give them credit, you can use the `<cite>` tag.
+Щоб вказати імʼя людини, якій належить цитата, використовуй тег `<cite>`.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-"Oceans of emotion can be transmitted through a text message, an emoji sequence, and a winking semicolon, but humans are hardwired to respond to visuals." - Jenna Wortham.
+«Океани емоцій можна передати через текстове повідомлення, пару емоджі та жартівливу крапку з комою, адже люди запрограмовані реагувати на візуальну інформацію». - Дженна Вортем.
 </p>
 
 \--- task ---
 
-Add another section for your quote.
+Додай ще одну секцію для цитати.
 
 ## --- code ---
 
@@ -101,11 +101,11 @@ line_highlights: 50-55
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Look at your webpage. The quote should be styled in a large font and the citation is in a small font below.
+Подивися на свою сторінку. Цитата має бути оформлена великим шрифтом, а імʼя авторки — меншим шрифтом унизу.
 
-This is because your style file contains rules for styling `<blockquote>` and `<cite>` elements.
+Це тому, що твій файл зі стилями містить правила для стилізації елементів `<blockquote>` та `<cite>`.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-5" width="600" height="1000" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
