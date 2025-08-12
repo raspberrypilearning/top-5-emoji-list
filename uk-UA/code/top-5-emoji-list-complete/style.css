@@ -1,4 +1,4 @@
-/* Colour pairings */
+/* Поєднання кольорів */
 
 .primary {
   background: var(--primary);
@@ -20,12 +20,12 @@
   color: var(--onpage);
 }
 
-/* Apply everywhere */
+/* Застосувати скрізь */
 
 * {
   margin: 0rem;
   padding: 0rem;
-  box-sizing: border-box; /* Padding and border don't make a box bigger */
+  box-sizing: border-box; /* Відступи та рамки не збільшують поле */
 }
 
 html,
@@ -35,91 +35,91 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+  min-height: 100vh; /* Зробити так, щоби вміст заповнив сторінку, і тоді нижній колонтитул буде в самому низу */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* add a background image to body */
+/* додай фонове зображення до основної частини */
 
 body {
-  background-image: url('emojis.png'); /* Uncomment and change filename to add a background image
-  /*background-repeat: repeat;*/ /* Make the image repeat */
-  /*background-size: cover;*/ /* Make the image cover the whole container */
+  background-image: url('emojis.png'); /* Прибери позначки коментаря і зміни назву файлу, щоб додати фонове зображення
+  /*background-repeat: repeat;*/ /* Зроби зображення повторюваним */
+  /*background-size: cover;*/ /* Зроби так, щоб зображення заповнило весь контейнер */
 }
 
-/* The main content of the page between the header and footer */
+/* Основний вміст сторінки між верхнім та нижнім колонтитулами */
 main {
-  background: var(--primary); /* Colour the background */
-  color: var(--onprimary); /* Colour the text */
-  margin: 0 auto; /* Center if the browser is really wide */
-  min-width: 25rem; /* Don't let the content get too narrow */
-  max-width: 70rem; /*  Don't let the content get too wide */
+  background: var(--primary); /* Задай колір фону */
+  color: var(--onprimary); /* Задай колір тексту */
+  margin: 0 auto; /* Розміщувати по центру, якщо браузер заширокий */
+  min-width: 25rem; /* Щоб вміст не стискався по горизонталі */
+  max-width: 70rem; /*  Щоб вміст не розтягувався по горизонталі */
   padding: 0;
-  padding-top: 0.5rem; /* Padding at the top */
-  margin-bottom: 1em; /* Gap before the footer */
+  padding-top: 0.5rem; /* Відступ зверху */
+  margin-bottom: 1em; /* Розрив над нижнім колонтитулом */
 }
 
-/* Header and footer element styles */
+/* Стиль елементів верхнього й нижнього колонтитулів */
 
 header,
 footer {
   text-align: center;
-  width: 100%; /* Fill the full width of the window */
-  margin: 0; /* Remove the default margin */
+  width: 100%; /* Заповнити вікно на всю ширину */
+  margin: 0; /* Прибрати стандартний інтервал */
   min-height: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-/* Section styles */
+/* Стилі секцій */
 
 section {
   padding: 1rem 2rem;
   margin: 1rem auto;
 }
 
-/* Border styles */
+/* Стилі меж */
 
 .border-bottom {
-  border-bottom: 20px solid var(--detail); /* Add a solid */
+  border-bottom: 20px solid var(--detail); /* Додай суцільну межу */
 }
 
 .border-top {
-  border-top: 10px solid var(--detail2); /* Add a solid line above the footer */
+  border-top: 10px solid var(--detail2); /* Додай суцільну лінію над нижнім колонтитулом */
 }
 
-/* Add a transparent effect */
+/* Додай ефект прозорості */
 
 .transparent {
   opacity: 0.95;
 }
 
-/* Styles just for h1 elements */
+/* Стилі тільки для елементів h1 */
 
 h1 {
-  font: var(--header-font); /* Font style stored in the header-font variable */
+  font: var(--header-font); /* Стиль шрифту зберігається у змінній header-font */
   padding: 2rem;
-  margin: 0; /* Center if the browser is really wide */
+  margin: 0; /* Розміщувати по центру, якщо браузер заширокий */
 }
 
-/* Styles just for h2 elements */
+/* Стилі тільки для елементів h2 */
 
 h2 {
-  font: var(--title-font); /* Font style stored in the title-font variable */
-  text-align: center; /* Align the text */
-  padding: 1.5rem; /* Add some space all around the heading */
+  font: var(--title-font); /* Стиль шрифту зберігається у змінній title-font */
+  text-align: center; /* Вирівняй текст */
+  padding: 1.5rem; /* Додай трохи місця навколо заголовка */
 }
 
-/* Highlight key words in bold and apply an alternative text colour */
+/* Виділити ключові слова жирним шрифтом і альтернативним кольором тексту */
 
 strong {
-  color: var(--detail2); /* Text colour stored in the caption variable */
-  font-weight: bold; /* Makes text weight stronger than the default*/
+  color: var(--detail2); /* Колір тексту зберігається у змінній caption */
+  font-weight: bold; /* Робить текст жирнішим за стандартний */
 }
 
-/* Style for ordered and unordered lists */
+/* Стиль для впорядкованих і невпорядкованих списків */
 
 ol,
 ul {
@@ -128,18 +128,18 @@ ul {
   padding-left: 2rem;
 }
 
-/* Padding around paragraphs */
+/* Відступи навколо абзаців */
 
 p {
   padding: 1rem 1rem;
 }
 
-/* Style for links */
+/* Стиль для посилань */
 
 a:link,
 a:visited {
   font-weight: bold;
-  color: inherit; /* Use the colour of the parent element */
+  color: inherit; /* Використати колір батьківського елементу */
 }
 
 .xcenter {
@@ -152,19 +152,19 @@ a:visited {
   flex-flow: column;
 }
 
-/* Styles just for the .wrap class */
+/* Стилі тільки для класу .wrap */
 
 .wrap {
-  /* Make content wrap over multiple rows */
+  /* Зробити так, щоби вміст переносився на декілька рядків */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  gap: 0rem 0rem; /* horizontal and vertical gap */ 
+  gap: 0rem 0rem; /* горизонтальний і вертикальний розрив */ 
 }
 
-/* For creating fancy boxes */
+/* Для створення красивих полів */
 
 .dashed-border {
   border: 0.25rem dashed var(--detail2);
@@ -174,21 +174,21 @@ a:visited {
   border: 0.25rem solid var(--detail2);
 }
 
-/* Styles for the div tags that are inside a .wrap class */
+/* Стилі для тегів div, що знаходяться всередині класу .wrap */
 
 .wrap > div {
   width: 14rem;
   padding: 0rem;
 }
 
-/* Styles for the img tags that are inside a .wrap class */
+/* Стилі для тегів img, що знаходяться всередині класу .wrap */
 
 .wrap > img {
   width: 14rem;
   display: block;
 }
 
-/* Styles for the p tags that are inside a .wrap class */
+/* Стилі для тегів p, що знаходяться всередині класу .wrap */
 
 .wrap > p,
 .wrap > span {
@@ -196,14 +196,14 @@ a:visited {
   display: block;
 }
 
-/* Specific styles for this project */
+/* Особливі стилі для цього проєкту */
 
 .bigfont {
   font-size: 3rem;
 }
 
 .hugefont {
-  /* Used to make a large emoji */
+  /* Використовується для створення великих емоджі */
   font-size: 6rem;
   text-align: center;
   padding: 1rem;
@@ -230,7 +230,7 @@ cite {
   font-size: small;
 }
 
-/* Specific styles for this project */
+/* Особливі стилі для цього проєкту */
 
 .tile {
   height: 9.4rem;
@@ -259,7 +259,7 @@ cite {
 }
 
 .shadow {
-   box-shadow: 5px 5px 3px 0px #888888; /* right and bottom shadow size, blur, spread and colour */
+   box-shadow: 5px 5px 3px 0px #888888; /* Розмір, розмиття, поширення та колір тіні справа та знизу */
    /*box-shadow: 5px 5px 4px 2px var(--detail);*/
 }
 
@@ -294,10 +294,10 @@ cite {
   padding: 0.5rem;
 }
 
-/* Printed photo style */
+/* Стиль друкованої фотографії */
 
 .photo {
-  border: 1px solid #D0D0D0; /* Add a solid border */
+  border: 1px solid #D0D0D0; /* Додати суцільну межу */
   width: 14rem;
   height: 15rem;
   background: #ffffff;
@@ -305,6 +305,6 @@ cite {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
-  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread and colour */
+  box-shadow: 8px 8px 10px 4px #888888; /* Розмір, розмиття, поширення та колір тіні справа та знизу */
   transform: rotate(3deg);
 }
