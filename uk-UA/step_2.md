@@ -1,8 +1,8 @@
-## Create a top 5 list
+## Створи список «пʼять найкращих»
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, create a top 5 ordered list to show the most used emojis.
+На цьому кроці створи упорядкований список із пʼяти елементів, щоби показати найбільш використовувані емоджі.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -11,23 +11,23 @@ In this step, create a top 5 ordered list to show the most used emojis.
 
 \--- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-starter){:target="_blank"}.
+Відкрий [початковий проєкт](https://editor.raspberrypi.org/en/projects/top-5-emoji-list-starter){:target="_blank"}.
 
 \--- /task ---
 
 \--- task ---
 
-Collapse the `<head>` section to make your code easier to read.
+Згорни розділ `<head>`, щоб твій код було легше читати.
 
-![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
+![Мишка клацає маленький трикутник поруч із номером у рядку 3 і згортає код секції head.](images/collapse.gif)
 
 \--- /task ---
 
 \--- task ---
 
-**Look:** Check out the `<header>` code.
+**Поглянь** на код секції `<header>` (заголовок).
 
-Notice that the CSS classes to style the header have already been added for you. These set the secondary colours and the bottom border, just like in the [Anime expressions](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"} project.
+Зверни увагу, що класи CSS для стилізації заголовка вже додано. Вони встановлюють вторинні кольори та нижню межу, як у проєкті [Вирази обличчя аніме](https://projects.raspberrypi.org/en/projects/anime-expressions){:target="_blank"}.
 
 ## --- code ---
 
@@ -48,7 +48,7 @@ line_highlights: 30
 
 \--- task ---
 
-Add an `<h1>` heading with the content `Top 5 Emojis!`.
+Додай заголовок `<h1>` із текстом `Пʼять найкращих емоджі!`.
 
 ## --- code ---
 
@@ -60,7 +60,7 @@ line_highlights: 31
 --------------------------------------------------------
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emojis!</h1>
+    <h1>Пʼять найкращих емоджі!</h1>
 
 \--- /code ---
 
@@ -68,7 +68,7 @@ line_highlights: 31
 
 \--- task ---
 
-Within your `<main>` tags, add in `<section>` tags for your top 5 emojis list. Remember to leave a blank line between the `<section>` tags to give you room to add more content.
+Додай теги `<section>` між тегами `<main>` для списку з 5 найпопулярніших емоджі. Залиш порожній рядок між тегами `<section>`, щоб у тебе було місце для тексту.
 
 ## --- code ---
 
@@ -92,18 +92,18 @@ line_highlights: 35-37
 
 \--- /task ---
 
-Lists are a great way to display information on a webpage.
+Списки – це чудовий спосіб подання інформації на вебсторінці.
 
-There are two types of lists:
+Існує два типи списків:
 
-- An **unordered list** `<ul>`: each new item starts with a bullet point. An unordered list could be ingredients on a shopping list or a collection of your favourite colours.
-- An **ordered list** `<ol>`: each new item is numbered and the order written is important. You could use an ordered list for a top ten songs list or a sports league table.
+- Невпорядкований список `<ul>`: кожен новий елемент починається з маркера. Невпорядкований список може бути переліком продуктів у списку покупок або твоїх улюблених кольорів.
+- **Упорядкований список** `<ol>`: кожен новий елемент пронумерований, і порядок елементів у списку є важливим. Упорядкований список можна використовувати, щоб перелічити десять найкращих пісень або найуспішніші команди у турнірній таблиці.
 
-A list contains multiple list items `<li>`.
+Кожен елемент у списку позначається тегом `<li>`.
 
 \--- task ---
 
-Within your `<section>` tags, add in `<ol>` tags to create an ordered list.
+Додай теги `<ol>` між тегами `<section>`, щоб створити впорядкований список.
 
 ## --- code ---
 
@@ -131,25 +131,25 @@ line_highlights: 36-38
 
 \--- task ---
 
-Within your `<ol>` tags, add in an `<li>` tag for your first list item. This includes the `rolling on the floor emoji` 🤣. To get the emoji icon, you can **copy and paste** it from below or use the emoji keyboard.
+Додай тег `<li>` між тегами `<ol>` — це буде твій перший елемент списку. Туди ти додаси емоджі 🤣 — «катаюсь по підлозі від сміху». Щоб отримати значок емоджі, ти можеш **скопіювати та вставити** його нижче або ж скористатися клавіатурою емоджі.
 
 ## --- collapse ---
 
-## title: Use the emoji keyboard
+## title: Як користуватися клавіатурою емоджі
 
-Keyboard shortcuts can be used to access the emoji keyboard on your computer. Below are common keyboard shortcuts:
+Для доступу до клавіатури емоджі на комп’ютері можна використовувати комбінації клавіш. Ось поширені комбінації клавіш:
 
 **Windows**
 
-Select Windows and press the dot '.' (full stop or period) at the same time.
+Вибери клавішу Windows і одночасно натисни крапку '.' на англійській розкладці.
 
 **Linux**
 
-Select Ctrl + Alt + E together.
+Одночасно натисни Ctrl + Alt + англійську літеру E.
 
 **Mac**
 
-Select CTRL + CMD + Space together.
+Одночасно натисни CTRL + CMD + пробіл.
 
 \--- /collapse ---
 
@@ -166,7 +166,7 @@ line_highlights: 37
 <main>
   <section>
     <ol>
-      <li>🤣 – Rolling on the floor laughing.</li>
+      <li>🤣 – катаюсь по підлозі від сміху.</li>
     </ol>
   </section>
 
@@ -175,15 +175,15 @@ line_highlights: 37
 
 \--- /code ---
 
-Your emojis will look different on different operating systems.
+Емоджі можуть по-різному виглядати на різних операційних системах.
 
 \--- /task ---
 
 \--- task ---
 
-Add the code for the remaining list items `<li>`.
+Додай код для решти елементів списку `<li>`.
 
-👍👍🏻👍🏼👍🏽👍🏾👍🏿 Some emojis, for example, thumbs up and folded hands, have multiple skin tones to choose from. You can add one or include all of the options in your list.
+👍👍🏻👍🏼👍🏽👍🏾👍🏿 Деякі емоджі, наприклад, великий палець вгору або складені руки, мають варіанти з різними відтінками шкіри. Ти можеш додати до свого списку один варіант або всі одразу.
 
 ## --- code ---
 
@@ -198,11 +198,11 @@ line_highlights: 38-41
 <main>
   <section>
     <ol>
-      <li>🤣 – Rolling on the floor laughing.</li>
-      <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
-      <li>😭 – Loudly crying face.</li>
-      <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
-      <li>😘 – Face blowing a kiss.</li>
+      <li>🤣 – Катаюсь по підлозі від сміху.</li>
+      <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Великий палець догори.</li>
+      <li>😭 – Плачу від сміху.</li>
+      <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Складені долоні.</li>
+      <li>😘 – Шлю поцілунок.</li>
     </ol>
   </section>
 
@@ -215,11 +215,11 @@ line_highlights: 38-41
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Check that your output shows a numbered list. The web browser inserts the numbers for you so it's easy to add and remove list items.
+Перевір, чи видно на твоїй сторінці нумерований список. Веббраузер вставляє числа самостійно, тому додавати та видаляти елементи списку дуже легко.
 
-**Tip:** If your computer doesn't support emojis, then you can make them from characters, such as **;)**.
+**Порада:** якщо твій комп’ютер не підтримує емоджі, ти можеш створити їх із символів, як-от **;)**.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
