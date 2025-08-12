@@ -2,45 +2,45 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Питання 2 з 3
 
-You used different animation styles with `@keyframes` rules to create transitions.
+Ми використовували різні стилі анімації з правилами @keyframes для створення переходів.
 
-How long, in **total**, will the animation using the code below run for?
+Якою буде **загальна** тривалість анімації з таким кодом?
 
 `animation: rotate-center linear 4s 2;`
 
 \--- choices ---
 
-- ( ) 2 seconds
+- ( ) 2 секунди
 
   \--- feedback ---
 
-Take another look. This animation is run twice, but it won't run for two seconds in **total**.
+Спробуй ще раз. Ця анімація запускається двічі, але її **загальна** тривалість не буде дві секунди.
 
 \--- /feedback ---
 
-- ( ) 4 seconds
+- ( ) 4 секунди
 
   \--- feedback ---
 
-Not quite. If this animation was set to run **once**, then it would last four seconds (`4s`). However, this animation runs **twice**.
+Не зовсім так. Якби ця анімація запускалась **один раз**, вона тривала б чотири секунди (`4s`). Але ця анімація виконується **двічі**.
 
 \--- /feedback ---
 
-- ( ) 6 seconds
+- ( ) 6 секунд
 
   \--- feedback ---
 
-  Not quite. The two numbers give the number of seconds that the animation takes and the number of times it should repeat.
+  Не зовсім так. Два числа у коді означаються кількість секунд, яку триває анімація, і кількість її повторень.
 
   \--- /feedback ---
 
-- (x) 8 seconds
+- (x) 8 секунд
 
   \--- feedback ---
 
-  Correct! The animation takes `4s` to run and it repeats **twice**. Two times four means the animation lasts eight seconds in total.
+  Правильно! Анімація триває 4 секунди й повторюється **двічі**. Множимо два на чотири й бачимо, що анімація триватиме вісім секунд.
 
   \--- /feedback ---
 
