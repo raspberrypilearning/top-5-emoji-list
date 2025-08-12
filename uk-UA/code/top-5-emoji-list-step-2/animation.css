@@ -1,11 +1,11 @@
 .spinme {
-  animation: rotate-center linear 8s 2; /* Time taken for animation and number of repetitions */
-  display: inline-block; /* Important to allow rotation */
+  animation: rotate-center linear 8s 2; /* Тривалість анімації та кількість повторень */
+  display: inline-block; /* Потрібно, щоб дозволити обертання */
 }
 
 @keyframes rotate-center {
-/* The spin me animation code */
-  0% { /* Rotate from 0 to 360 degrees */
+/* Код анімації spinme */
+  0% { /* Обертання від 0 до 360 градусів */
     transform: rotate(0);
   }
   100% {
@@ -14,33 +14,33 @@
 }
 
 .bounceme {
-  animation: bounce ease 2s 3; /* runs the 'bounce' animation with ease timing (slow start and end) for two seconds. Runs the animation three times. */
+  animation: bounce ease 2s 3; /* запускає анімацію bounce із плавним початком і кінцем на дві секунди. Виконує анімацію тричі. */
   display: inline-block;
 }
 
 @keyframes bounce {
-  /* The bounce animation code */
+  /* Код анімації bounce */
   0% {
-    transform: scale(1, 1) translateY(0); /* Starting position and actual size */
+    transform: scale(1, 1) translateY(0); /* Початкове положення та фактичний розмір */
   }
   10% {
-    transform: scale(1.1, 0.9) translateY(0); /* Grow width and shrink height for pre bounce squash effect */
+    transform: scale(1.1, 0.9) translateY(0); /* Збільшує ширину та зменшує висоту для ефекту сплющення перед відскоком */
   }
   30% {
-    transform: scale(1, 1) translateY(-6rem); /* Return to actual size and move emoji up 100px from current position */
+    transform: scale(1, 1) translateY(-6rem); /* Повертає до реального розміру та переміщує емоджі на 100 пікселів вгору від поточної позиції */
   }
   50% {
-    transform: scale(1, 1) translateY(0); /* Move emoji back to starting position */
+    transform: scale(1, 1) translateY(0); /* Повертає емоджі у початкове положення */
   }
 }
 
 .scaleme {
-  animation: scale ease 2s infinite; /* runs the 'scale' animation with ease timing (slow start and end) for two seconds. Runs the animation forever. */
+  animation: scale ease 2s infinite; /* запускає анімацію scale із плавним початком і кінцем на дві секунди. Виконує анімацію нескінченно. */
   display: inline-block;
 }
 
 @keyframes scale {
-  /* The twinkle animation code */
+  /* Код анімації twinkle */
   0% {
     transform: scale(1, 1);
   }
@@ -64,7 +64,7 @@
 }
 
 @keyframes rollleft {
-  /* The roll animation code */
+  /* Код анімації roll */
   from {
     transform: translate(-60vw) rotate(0deg);
     transform-origin: center;
@@ -82,7 +82,7 @@
 }
 
 @keyframes rollright {
-  /* The roll animation code */
+  /* Код анімації roll */
   from {
     transform: translate(60vw) rotate(360deg);
     transform-origin: center;
