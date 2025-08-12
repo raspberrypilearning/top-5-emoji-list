@@ -2,9 +2,9 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Питання 3 з 3
 
-This HTML and CSS code is supposed to apply transparency to the section but it’s not working. Which line do you need to change?
+Цей код HTML і CSS має застосувати прозорість до розділу, але він не працює. Який рядок потрібно змінити?
 
 ## --- code ---
 
@@ -28,7 +28,7 @@ line_numbers: true
 
 <main class="transparent">
       <section>    
-        <p>This is the introduction.</p>
+        <p>Це вступ.</p>
       </section>
 </main>
 
@@ -36,35 +36,35 @@ line_numbers: true
 
 \--- choices ---
 
-- ( ) Line 1 in `style.css`
+- ( ) Рядок 1 у `style.css`
 
- \--- feedback ---
+  \--- feedback ---
 
- Try again. This line is correct. You need a dot `.` before the name of the class when writing a rule.
+  Спробуй ще раз. Цей рядок правильний. Коли ти записуєш правило, ти маєш поставити крапку `.` перед назвою класу.
 
- \--- /feedback ---
+  \--- /feedback ---
 
-- (x) Line 2 in `style.css`
+- (x) Рядок 2 у `style.css`
 
- \--- feedback ---
+  \--- feedback ---
 
- Correct. An opacity of `1.0` means not at all transparent! You could change this to a number below one, such as 0.75, to fix the problem.
+  Правильно. Значення opacity в `1.00` означає, що елемент повністю непрозорий! Щоб виправити це, ти можеш змінити 1.0 на число, менше за одиницю (наприклад, 0.75).
 
- \--- /feedback ---
+  \--- /feedback ---
 
-- ( ) Line 1 in `index.html`
+- ( ) Рядок 1 у `index.html`
 
- \--- feedback ---
+  \--- feedback ---
 
-Not quite. This is the correct way to add a CSS class to an HTML element.
+Не зовсім так. Так додається клас CSS до елемента HTML, і цей рядок правильний.
 
 \--- /feedback ---
 
-- ( ) Line 2 in `index.html`
+- ( ) Рядок 2 у `index.html`
 
- \--- feedback ---
+  \--- feedback ---
 
-Not quite. The section is inside the `<main>` element so if opacity is correctly set for `<main>`, the section is also transparent.
+Не зовсім так. Секція знаходиться всередині елемента `<main>`, отже, якщо правильно встановити непрозорість для `<main>`, то секція також буде прозорою.
 
 \--- /feedback ---
 
