@@ -1,9 +1,9 @@
-## Animate more emojis
+## Створи анімації для інших емоджі
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you will add animated emojis to your website header.
+На цьому кроці ти додаси до заголовка свого вебсайту анімовані емоджі.
 
 </div>
 <div>
@@ -11,13 +11,13 @@ In this step, you will add animated emojis to your website header.
 </div>
 </div>
 
-You have made your website header engaging by using bold colours and a stylish font. Header animations make the website really eye-catching for your viewers.
+Заголовок твого вебсайту вже досить цікавий завдяки яскравим кольорам і стильним шрифтам. Анімація заголовку зробить сторінку справді захопливою для твоїх відвідувачів.
 
 \--- task ---
 
-Add five emojis to your header. Use the `bigfont` class to make them large.
+Додай п'ять емоджі до заголовка. Використай клас `bigfont`, щоб зробити їх великими.
 
-The `<span>` tag allows you to add different animations to each emoji later.
+Тег `<span>` дасть тобі змогу додати до кожного емоджі різні анімації.
 
 ## --- code ---
 
@@ -29,7 +29,7 @@ line_highlights: 32-36
 -----------------------------------------------------------
 
   <header class="secondary border-bottom">
-      <h1>Top 5 Emojis!</h1>
+      <h1>Пʼять найкращих емоджі!</h1>
       
       <span class="bigfont">🤣</span>
       <span class="bigfont">😇</span>
@@ -44,9 +44,9 @@ line_highlights: 32-36
 
 \--- task ---
 
-Click on the `animation.css` file and find the `bounceme` class.
+Клацни на файл `animation.css` та знайди клас `bounceme`.
 
-The `bounce` animation runs with `ease` timing so the animation starts and ends slowly but speeds up in the middle.
+Анімація `bounce` має значення `ease`: вона плавно починається та закінчується, але прискорюється в середині.
 
 ## --- code ---
 
@@ -58,7 +58,7 @@ line_highlights: 17-20
 -----------------------------------------------------------
 
 .bounceme {
-animation: bounce ease 2s 3; /\* runs the 'bounce' animation with ease timing (slow start and end) for two seconds. Runs the animation three times. \*/
+animation: bounce ease 2s 3; /\* runs the 'bounce' animation with ease timing (slow start and end) for two seconds. Виконує анімацію тричі. \*/
 display: inline-block;
 }
 
@@ -80,13 +80,13 @@ transform: scale(1, 1) translateY(0); /_ Move emoji back to starting position \*
 
 \--- /code ---
 
-**Look:** To create a bounce effect, the `scale` property adjusts the size and the `translateY` property moves the element up and down the y-axis.
+**Поглянь:** властивість `scale` встановлює розмір, а властивість `translateY` рухає елемент вгору й униз за віссю y. Це створює ефект підстрибування.
 
 \--- /task ---
 
 \--- task ---
 
-Click on the `index.html` file and add the `bounceme` class to the star-struck emoji 🤩.
+Клацни на файлі `index.html` та додай клас `bounceme` до емоджі з зірочками в очах 🤩.
 
 ## --- code ---
 
@@ -98,7 +98,7 @@ line_highlights: 35
 --------------------------------------------------------
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emojis!</h1>
+    <h1>Пʼять найкращих емоджі!</h1>
     
     <span class="bigfont">🤣</span>
     <span class="bigfont">😇</span>
@@ -113,33 +113,33 @@ line_highlights: 35
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Each time you load your page, your star-struck emoji 🤩 should bounce three times.
+Щоразу, коли ти завантажуєш сторінку, емоджі з зірочками 🤩 має підстрибнути тричі.
 
-**Debug:**
+**Налагодження:**
 
 \--- collapse ---
 
 ---
 
-## title: An emoji in the list is bouncing instead of an emoji in the header!
+## title: Замість емоджі в заголовку підстрибує емоджі в списку!
 
-You need to add `bounceme` to an emoji in the `<header>`, not the emoji in the `<ol>`.
+Ти маєш додати `bounceme` до емоджі в заголовку `<header>`, а не до емоджі в списку `<ol>`.
 
 \--- /collapse ---
 
 \--- /task ---
 
-When you look at a webpage, the part that is visible to you is called the **viewport**. A mobile phone has a much smaller viewport than a desktop computer screen.
+Коли ти переглядаєш сторінку, її видима частина називається **полем перегляду**. Екран мобільного телефону має набагато менше поле перегляду, ніж екран комп'ютера.
 
-Your project already has code to control the **viewport** size and scale to adapt to the device width. You can use viewport in animations to make the animation change to fit the viewport.
+У твоєму проєкті вже є код, який підлаштовує розмір та масштаб **поля перегляду** до ширини екрана конкретного пристрою. Ти можеш використовувати поле перегляду в анімаціях, щоб вони підлаштовували розмір відповідно до поля перегляду.
 
 \--- task ---
 
-Click on the `animation.css` file and find the `rollmeleft` class. This creates a rolling animation from the left.
+Клацни на файл `animation.css` та знайди клас `rollmeleft`. Він створює анімацію, що викочується зліва.
 
-A combination of `translate` and `rotate` is used to create the roll.
+Для створення ефекту перекочування використовується два оператори: `translate` та `rotate`.
 
 ## --- code ---
 
@@ -168,13 +168,13 @@ transform: translate(0vw) rotate(360deg);
 
 \--- /code ---
 
-**Look:** This `translate` code uses `vw` (viewport-width). The start point of `-60vw` is 60% left of the coded position on the viewport. The animation ends in the coded position `0vw`.
+**Поглянь:** Цей код `translate` використовує `vw` (viewport-width, з англійської «ширина поля перегляду»). Початкова точка `-60vw` знаходиться на 60% ліворуч від визначеної позиції у полі перегляду. Анімація закінчується у визначеній позиції `0vw`.
 
 \--- /task ---
 
 \--- task ---
 
-Click on the `index.html` file and add the `rollmeleft` class to the rolling on the floor laughing emoji 🤣.
+Клацни на файлі `index.html` та додай клас `rollmeleft` (переворот ліворуч) до емоджі, що котиться по підлозі та сміється 🤣.
 
 ## --- code ---
 
@@ -186,7 +186,7 @@ line_highlights: 32
 --------------------------------------------------------
 
   <header class="secondary border-bottom">
-    <h1>Top 5 Emojis!</h1>
+    <h1>Пʼять найкращих емоджі!</h1>
     
     <span class="bigfont rollmeleft">🤣</span>
     <span class="bigfont">😇</span>
@@ -201,27 +201,27 @@ line_highlights: 32
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Your rolling on the floor laughing emoji 🤣 should move in from the left and rotate as it moves.
+Емоджі, що котиться по підлозі та сміється 🤣, має викотитися з лівої частини екрану та обертатися під час руху.
 
-**Tip:** Click Run to watch the animations again.
+**Порада:** натисни кнопку **Run**, щоб переглянути анімацію ще раз.
 
 \--- /task ---
 
 \--- task ---
 
-**Choose:** Add animation classes to the remaining emojis 😇😭😘 to finish your fun eye-catching header.
+**Вибір:** додай класи анімації до решти емоджі 😇😭😘, щоб надати своєму кумедному заголовку завершеного вигляду.
 
-You can use any animations from the `animation.css` file:
+Ти можеш використовувати будь-які анімації з файлу `animation.css`:
 
-- `spinme`
-- `bounceme`
-- `scaleme`
-- `movemeleft`
-- `movemeright`
-- `rollmeleft`
-- `rollmeright`
+- `spinme` (обертання)
+- `bounceme` (підстрибування)
+- `scaleme` (зміна розміру)
+- `movemeleft` (рух ліворуч)
+- `movemeright` (рух праворуч)
+- `rollmeleft` (переворот ліворуч)
+- `rollmeright` (переворот праворуч)
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-6" width="500" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
