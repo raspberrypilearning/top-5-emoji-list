@@ -1,9 +1,9 @@
-## Add a background image
+## Додай фонове зображення
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-Add a colourful emoji background and make the main part of the page transparent so you can see the image through the main content.
+Додай барвисте тло з емоджі та зроби основну частину сторінки прозорою, щоби фонове зображення було видно крізь основний вміст.
 
 </div>
 <div>
@@ -11,11 +11,11 @@ Add a colourful emoji background and make the main part of the page transparent 
 </div>
 </div>
 
-The CSS `background-image` property allows you to set an image to be the background for your webpage.
+Властивість CSS `background-image` дозволяє встановити зображення як фон для вебсторінки.
 
 \--- task ---
 
-**Find:** In `style.css`, find the CSS `body` rule and **uncomment** the `background-image` line to set the background image for your webpage.
+**Знайди** у файлі `style.css` правило CSS `body` та **розкоментуй** рядок `background-image`, щоб встановити фонове зображення для своєї сторінки.
 
 ## --- code ---
 
@@ -26,7 +26,7 @@ line_number_start: 44
 line_highlights: 47
 --------------------------------------------------------
 
-/\* add a background image to body \*/
+/\* додай фонове зображення до основної частини \*/
 
 body {
 background-image: url('emojis.png'); /\* Uncomment and change filename to add a background image
@@ -40,21 +40,21 @@ background-image: url('emojis.png'); /\* Uncomment and change filename to add a 
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-You should see the colourful emoji image at the edges of your webpage.
+Ти маєш побачити барвисті зображення емоджі по краях своєї сторінки.
 
-**Tip** You may need to see your output area to view the background image.
+**Порада:** щоби переглянути фонове зображення, тобі може знадобитися ширша область виводу.
 
-**Tip:** If you view your webpage on a mobile phone, rotate the screen into landscape mode.
+**Порада:** якщо ти переглядаєш сторінку на мобільному телефоні, поверни екран в альбомний режим.
 
 \--- /task ---
 
-**Opacity** means how difficult it is to see through an object. An opacity of 1 means an HTML element is fully solid and you cannot see through it. An opacity of 0 means that an element is completely transparent.
+**Непрозорість** означає, наскільки добре видно крізь елемент. Якщо непрозорість дорівнює 1, то HTML-елемент є суцільним, і крізь нього нічого не видно. Якщо непрозорість дорівнює 0, то елемент повністю прозорий.
 
 \--- task ---
 
-**Find:** In the `style.css` file, find the `/* Add a transparent effect */` comment.
+**Знайди** у файлі `style.css` коментар `/* Додай ефект прозорості */`.
 
 ## --- code ---
 
@@ -65,17 +65,17 @@ line_number_start: 93
 line_highlights: 93
 --------------------------------------------------------
 
-/\* Add a transparent effect \*/
+/\* Додай ефект прозорості \*/
 
 \--- /code ---
 
 \--- /task ---
 
-So far, you have used CSS classes that were created for you. Now you are going to create a new CSS class called `transparent`, which you can use to make the `<main>` HTML element transparent.
+Досі ми використовували класи CSS, які були створені спеціально для цього проєкту. Тепер ти самостійно створиш новий CSS-клас під назвою `transparent`, за допомогою якого можна зробити HTML-елемент `<main>` прозорим.
 
-An opacity of `0.95` is slightly transparent.
+Значення непрозорості (opacity) в `0.95` означає, що елемент трохи прозорий.
 
-Add the `.transparent` rule below the comment.
+Додай правило `.transparent` під коментарем.
 
 \--- task ---
 
@@ -88,7 +88,7 @@ line_number_start: 93
 line_highlights: 95-97
 -----------------------------------------------------------
 
-/\* Add a transparent effect \*/
+/\* Додай ефект прозорості \*/
 
 .transparent {
 opacity: 0.95;
@@ -98,11 +98,11 @@ opacity: 0.95;
 
 \--- /task ---
 
-You have added a new CSS class, but now you need to use it.
+Тепер ти маєш застосувати щойно створений CSS-клас.
 
 \--- task ---
 
-Add your new `transparent` class to `<main>` in your HTML file.
+Додай свій новий клас `transparent` до секції `<main>` у HTML-файлі.
 
 ## --- code ---
 
@@ -123,11 +123,11 @@ line_highlights: 34
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Check that the main part of your page is slightly transparent.
+Переконайся, що основна частина твоєї сторінки трохи прозора.
 
-What happens if you change the `opacity` to `0.50`, `0.75`, or `0.90`? Try different values in your CSS rule and see which you prefer.
+Що станеться, якщо змінити значення `opacity` на `0.50`, `0.75` або `0.90`? Спробуй використати різні значення у своєму CSS-правилі та вибери, яке тобі більше подобається.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-4" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
