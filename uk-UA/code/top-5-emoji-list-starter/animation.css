@@ -1,0 +1,128 @@
+.spinme {
+  animation: rotate-center linear 8s 2; /* запускає анімацію rotate-centre з лінійною тривалістю (з однаковою швидкістю увесь час) на вісім секунд. Виконує анімацію двічі. */
+  display: inline-block; /* Важливо, щоб анімований елемент не переносився на новий рядок */
+}
+
+@keyframes rotate-center {
+  /* Код анімації rotate */
+  0% {
+    /* Обертання від 0 до 360 градусів */
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bounceme {
+  animation: bounce ease 2s 3; /* запускає анімацію bounce із плавним початком і кінцем на дві секунди. Виконує анімацію тричі. */
+  display: inline-block;
+}
+
+@keyframes bounce {
+  /* Код анімації bounce */
+  0% {
+    transform: scale(1, 1) translateY(0); /* Початкове положення та фактичний розмір */
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0); /* Збільшує ширину та зменшує висоту для ефекту сплющення перед відскоком */
+  }
+  30% {
+    transform: scale(1, 1) translateY(-6rem); /* Повертає до реального розміру та переміщує емоджі на 100 пікселів вгору від поточної позиції */
+  }
+  50% {
+    transform: scale(1, 1) translateY(0); /* Повертає емоджі у початкове положення */
+  }
+}
+
+.scaleme {
+  animation: scale ease 2s infinite; /* запускає анімацію scale із плавним початком і кінцем на дві секунди. Виконує анімацію нескінченно. */
+  display: inline-block;
+}
+
+@keyframes scale {
+  /* Код анімації scale */
+  0% {
+    transform: scale(1, 1);
+  }
+  20% {
+    transform: scale(1.1, 1.1);
+  }
+  40% {
+    transform: scale(1.2, 1.2);
+  }
+  60% {
+    transform: scale(1.1, 1.1);
+  }
+  80% {
+    transform: scale(1, 1);
+  }
+}
+
+.rollmeleft {
+  animation: rollleft ease 8s 1;
+  display: inline-block;
+}
+
+@keyframes rollleft {
+  /* Код анімації roll */
+  from {
+    transform: translate(-60vw) rotate(0deg);
+  }
+
+  to {
+    transform: translate(0vw) rotate(360deg);
+  }
+}
+
+.rollmeright {
+  animation: rollright ease 8s 1;
+  display: inline-block;
+}
+
+@keyframes rollright {
+  /* Код анімації roll */
+  from {
+    transform: translate(60vw) rotate(360deg);
+  }
+
+  to {
+    transform: translate(0vw) rotate(00deg);
+  }
+}
+
+.movemeleft {
+  animation: moveleft ease 8s 1;
+  display: inline-block;
+}
+
+@keyframes moveleft {
+  /* Код анімації move */
+  from {
+    transform: translate(-60vw);
+  }
+
+  to {
+    transform: translate(0vw);
+  }
+}
+
+.movemeright {
+  animation: moveright ease 8s 1;
+  display: inline-block;
+}
+
+@keyframes moveright {
+  /* Код анімації move */
+  from {
+    transform: translate(60vw);
+  }
+
+  to {
+    transform: translate(0vw);
+  }
+}
+
+.flipme {
+  transform: rotateY(180deg);
+}

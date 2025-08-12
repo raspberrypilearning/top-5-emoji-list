@@ -1,0 +1,310 @@
+/* Поєднання кольорів */
+
+.primary {
+  background: var(--primary);
+  color: var(--onprimary);
+}
+
+.secondary {
+  background: var(--secondary);
+  color: var(--onsecondary);
+}
+
+.tertiary {
+  background: var(--tertiary);
+  color: var(--ontertiary);
+}
+
+.page {
+  background: var(--page);
+  color: var(--onpage);
+}
+
+/* Застосувати скрізь */
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box; /* Відступи та рамки не збільшують поле */
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0rem auto;
+  background: var(--page);
+  color: var(--onpage);
+  font: var(--body-font);
+  min-height: 100vh; /* Зроби так, щоб вміст заповнив сторінку, і тоді нижній колонтитул буде в самому низу */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* додай фонове зображення до основної частини */
+
+body {
+  background-image: url('emojis.png'); /* Прибери позначки коментаря і зміни назву файлу, щоб додати фонове зображення
+  /*background-repeat: repeat;*/ /* Зроби зображення повторюваним */
+  /*background-size: cover;*/ /* Зроби так, щоб зображення заповнило весь контейнер */
+}
+
+/* Основний вміст сторінки між верхнім та нижнім колонтитулами */
+main {
+  background: var(--primary); /* Задай колір фону */
+  color: var(--onprimary); /* Задай колір тексту */
+  margin: 0 auto; /* Розміщувати по центру, якщо браузер заширокий */
+  min-width: 25rem; /* Щоб вміст не стискався по горизонталі */
+  max-width: 70rem; /*  Щоб вміст не розтягувався по горизонталі */
+  padding: 0;
+  padding-top: 0.5rem; /* Відступ зверху */
+  margin-bottom: 1em; /* Розрив над нижнім колонтитулом */
+}
+
+/* Стиль елементів верхнього й нижнього колонтитулів */
+
+header,
+footer {
+  text-align: center;
+  width: 100%; /* Заповнити вікно на всю ширину */
+  margin: 0; /* Прибрати стандартний інтервал */
+  min-height: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Стилі секцій */
+
+section {
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+}
+
+/* Стилі меж */
+
+.border-bottom {
+  border-bottom: 20px solid var(--detail); /* Додай суцільну межу */
+}
+
+.border-top {
+  border-top: 10px solid var(--detail2); /* Додай суцільну лінію над нижнім колонтитулом */
+}
+
+/* Додай ефект прозорості */
+
+.transparent {
+  opacity: 0.95;
+}
+
+/* Стилі тільки для елементів h1 */
+
+h1 {
+  font: var(--header-font); /* Стиль шрифту зберігається у змінній header-font */
+  padding: 2rem;
+  margin: 0; /* Розміщувати по центру, якщо браузер заширокий */
+}
+
+/* Стилі тільки для елементів h2 */
+
+h2 {
+  font: var(--title-font); /* Стиль шрифту зберігається у змінній title-font */
+  text-align: center; /* Вирівняй текст */
+  padding: 1.5rem; /* Додай трохи місця навколо заголовка */
+}
+
+/* Виділити ключові слова жирним шрифтом і альтернативним кольором тексту */
+
+strong {
+  color: var(--detail2); /* Колір тексту зберігається у змінній caption */
+  font-weight: bold; /* Робить текст жирнішим за стандартний */
+}
+
+/* Стиль для впорядкованих і невпорядкованих списків */
+
+ol,
+ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+/* Відступи навколо абзаців */
+
+p {
+  padding: 1rem 1rem;
+}
+
+/* Стиль для посилань */
+
+a:link,
+a:visited {
+  font-weight: bold;
+  color: inherit; /* Використати колір батьківського елементу */
+}
+
+.xcenter {
+  text-align: center;
+}
+
+.ycenter {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+/* Стилі тільки для класу .wrap */
+
+.wrap {
+  /* Зробити так, щоби вміст переносився на декілька рядків */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 0rem 0rem; /* горизонтальний і вертикальний розрив */ 
+}
+
+/* Для створення красивих полів */
+
+.dashed-border {
+  border: 0.25rem dashed var(--detail2);
+}
+
+.solid-border {
+  border: 0.25rem solid var(--detail2);
+}
+
+/* Стилі для тегів div, що знаходяться всередині класу .wrap */
+
+.wrap > div {
+  width: 14rem;
+  padding: 0rem;
+}
+
+/* Стилі для тегів img, що знаходяться всередині класу .wrap */
+
+.wrap > img {
+  width: 14rem;
+  display: block;
+}
+
+/* Стилі для тегів p, що знаходяться всередині класу .wrap */
+
+.wrap > p,
+.wrap > span {
+  width: 14rem;
+  display: block;
+}
+
+/* Особливі стилі для цього проєкту */
+
+.bigfont {
+  font-size: 3rem;
+}
+
+.hugefont {
+  /* Використовується для створення великих емоджі */
+  font-size: 6rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.wrap .narrow {
+  width: 10rem;
+}
+
+.wrap .wide {
+  width: 20rem;
+}
+
+blockquote {
+  font: var(--quote-font);
+  color: var(--detail);
+  text-align: center;
+  padding: 0rem;
+  max-width: 25rem;
+}
+
+cite {
+  color: var(--detail);
+  font-size: small;
+}
+
+/* Особливі стилі для цього проєкту */
+
+.tile {
+  height: 9.4rem;
+}
+
+.rounded {
+  border-radius: 1rem;
+}
+
+.gradient1 {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--secondary),
+    var(--detail)
+  );
+  color: var(--onsecondary);
+}
+
+.gradient2 {
+  background-image: linear-gradient(
+    to top right,
+    var(--tertiary),
+    var(--detail2)
+  );
+  color: var(--ontertiary);
+}
+
+.shadow {
+   box-shadow: 5px 5px 3px 0px #888888; /* Розмір, розмиття, поширення та колір тіні справа та знизу */
+   /*box-shadow: 5px 5px 4px 2px var(--detail);*/
+}
+
+.wrap .card {
+  width: 12rem;
+  height: 12rem;
+  border: 0.1rem solid transparent;
+}
+
+.card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  perspective: 60rem;
+}
+
+.card:hover .card-content {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card p {
+  padding: 0.5rem;
+}
+
+/* Стиль друкованої фотографії */
+
+.photo {
+  border: 1px solid #D0D0D0; /* Додати суцільну межу */
+  width: 14rem;
+  height: 15rem;
+  background: #ffffff;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+  box-shadow: 8px 8px 10px 4px #888888; /* Розмір, розмиття, поширення та колір тіні справа та знизу */
+  transform: rotate(3deg);
+}
