@@ -1,8 +1,8 @@
-## Animate an emoji
+## Створи анімацію емоджі
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a large animated emoji to make your webpage more engaging for viewers.
+На цьому кроці ти додаси до своєї сторінки велике анімоване емоджі, щоб зробити її цікавішою для відвідувачів.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -11,11 +11,11 @@ In this step, you will add a large animated emoji to make your webpage more enga
 
 \--- task ---
 
-You will use a large trophy emoji to highlight that these are the most popular emojis.
+Ти використаєш велике емоджі трофея, яке означатиме, що це найпопулярніші емоджі.
 
-Add a new paragraph `<p>` to your `<section>` to display the trophy emoji 🏆.
+Додай новий абзац за допомогою тегу `<p>` до своєї секції (`<section>`) і розмісти там емоджі 🏆.
 
-The `hugefont` class makes the emoji text really big.
+Клас `hugefont` робить текст з емоджі величезним!
 
 ## --- code ---
 
@@ -29,11 +29,11 @@ line_highlights: 43
 ```
   <section>
     <ol>
-      <li>🤣 – Rolling on the floor laughing.</li>
-      <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
-      <li>😭 – Loudly crying face.</li>
-      <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
-      <li>😘 – Face blowing a kiss.</li>
+      <li>🤣 – Катаюсь по підлозі від сміху.</li>
+      <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Великий палець догори.</li>
+      <li>😭 – Плачу від сміху.</li>
+      <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Складені долоні.</li>
+      <li>😘 – Шлю поцілунок.</li>
     </ol>
     <p class="hugefont">🏆</p>  
   </section>
@@ -45,15 +45,15 @@ line_highlights: 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Check the big trophy emoji appears underneath the list.
+Подивись, чи з'являється під списком великий емоджі-трофей.
 
 \--- /task ---
 
 \--- task ---
 
-Add the `wrap` class to your `<section>` to make your website responsive by adjusting the layout to fit the available space.
+Додай клас `wrap` до секції `<section>`, щоб зробити свій вебсайт більш адаптивним. Цей клас буде налаштовувати макет відповідно до розміру екрану.
 
 ## --- code ---
 
@@ -66,14 +66,14 @@ line_highlights: 35
 
 ```
   <section class="wrap">   
-     <ol>
-       <li>🤣 – Rolling on the floor laughing.</li>
-       <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
-       <li>😭 – Loudly crying face.</li>
-       <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
-       <li>😘 – Face blowing a kiss.</li>
-     </ol>
-     <p class="hugefont">🏆</p>        
+    <ol>
+      <li>🤣 – Катаюсь по підлозі від сміху.</li>
+      <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Великий палець догори.</li>
+      <li>😭 – Плачу від сміху.</li>
+      <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Складені долоні.</li>
+      <li>😘 – Шлю поцілунок.</li>
+    </ol>
+    <p class="hugefont">🏆</p>  
   </section>
 ```
 
@@ -83,17 +83,17 @@ line_highlights: 35
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Check that the trophy appears next in the list, if the webpage is wide enough. The list and the trophy should have the same width.
+Перевір, чи відображається трофей наступним у списку, якщо сторінка достатньо широка. Список і трофей повинні мати однакову ширину.
 
 \--- /task ---
 
-The style sheet also includes `wide` and `narrow` classes that you can use to change the width of different elements:
+Таблиця стилів також містить класи `wide` та `narrow`, які можна використовувати для зміни ширини різних елементів:
 
-- Add the `wide` class to the `<ol>` tag
+- Додай клас `wide` до тегу `<ol>`.
 
-- Add the `narrow` class to your trophy emoji paragraph
+- Додай клас `narrow` до абзацу з емоджі-трофеєм.
 
 \--- task ---
 
@@ -109,14 +109,14 @@ line_highlights: 36, 43
 ```
 <section class="wrap">   
      <ol class="wide">
-       <li>🤣 – Rolling on the floor laughing.</li>
-       <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Thumbs up.</li>
-       <li>😭 – Loudly crying face.</li>
-       <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Folded hands.</li>
-       <li>😘 – Face blowing a kiss.</li>
-     </ol>
+      <li>🤣 – Катаюсь по підлозі від сміху.</li>
+      <li>👍👍🏻👍🏼👍🏽👍🏾👍🏿 – Великий палець догори.</li>
+      <li>😭 – Плачу від сміху.</li>
+      <li>🙏🙏🏻🙏🏽🙏🏽🙏🏾🙏🏿 – Складені долоні.</li>
+      <li>😘 – Шлю поцілунок.</li>
+    </ol>
    <p class="hugefont narrow">🏆</p>     
- </section>
+  </section>
 ```
 
 \--- /code ---
@@ -125,23 +125,23 @@ line_highlights: 36, 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Check that the list is wider. If your webpage is wide enough, then the trophy appears to the right.
+Подивись, чи став список ширшим. Якщо твоя сторінка достатньо широка, трофей буде видно праворуч.
 
 \--- /task ---
 
-You can also use HTML and CSS to create **animations** that change elements on a webpage.
+Ти також можеш використовувати HTML та CSS для створення **анімацій**, які змінюють елементи на вебсторінці.
 
-A CSS `@keyframes` rule can be set to change over time. You can change an element's colour, position, size, and rotation, as well as changing many more properties.
+Правило CSS `@keyframes` (ключові кадри) можна налаштувати так, щоб вони змінювалися з часом. Можна змінювати колір, положення, розмір та тип обертання елемента, а також багато інших властивостей.
 
-`@keyframes` control how the element should look when a percentage of the running animation is complete.
+Правило `@keyframes` контролює вигляд елементу після виконання певного відсотка анімації.
 
 \--- task ---
 
-**Find:** Search for the `.spinme` class at the top of the `animation.css` file. The `.spinme` class has been created for you and it runs a CSS animation called `rotate-center` that rotates from a start position of 0 degrees and ends at 360 degrees.
+**Знайди** клас `.spinme` на початку файлу `animation.css`. Ми створили клас `.spinme` спеціально для цього проєкту. Він запускає CSS-анімацію під назвою `rotate-center`, яка обертає елемент від початкової позиції в 0 градусів і до 360 градусів.
 
-The line `animation: rotate-center linear 8s 2;` tells the class to use the `rotate-center` animation with `linear` timing so that it runs at the same speed all the way through. The animation runs for eight seconds and repeats twice.
+Рядок `animation: rotate-center linear 8s 2;` каже класу використовувати анімацію `rotate-center` з лінійною тривалістю, тобто з однаковою швидкістю увесь час. Анімація триває вісім секунд і повторюється двічі.
 
 ## --- code ---
 
@@ -174,9 +174,9 @@ transform: rotate(360deg);
 
 \--- task ---
 
-Go back to the `index.html` file.
+Повернися до файлу `index.html`.
 
-Add the `spinme` class to the paragraph containing the trophy.
+Додай клас `spinme` до абзацу з трофеєм.
 
 ## --- code ---
 
@@ -206,20 +206,20 @@ line_highlights: 43
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Your trophy should spin twice each time you load the page (by clicking the **Run** button).
+Твій трофей має обертатися двічі щоразу, коли ти завантажуєш сторінку (кнопкою \*\* Run\*\*).
 
 \--- /task ---
 
 \--- task ---
 
-Go back to the `animation.css` file.
+Повернися до файлу `animation.css`.
 
-**Choose:** Change the last two values in the line `animation: rotate-center linear 8s 2;` to customise your animation.
+**Вибери:** Зміни два останні значення в рядку `animation: rotate-center linear 8s 2;` на свій смак.
 
-- What happens if you run the animation longer than eight seconds?
-- Do you want your animation to run more than twice?
+- Що станеться, якщо виконувати анімацію понад вісім секунд?
+- Ти хочеш, щоб анімація виконувалася більше двох разів?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list-step-3" width="600" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
