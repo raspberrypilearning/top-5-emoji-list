@@ -1,19 +1,19 @@
-This part is for extra information the browser needs to load the page correctly
+Ця частина містить додаткову інформацію, необхідну браузеру для правильного завантаження сторінки
 
-Don't shrink the page on mobile
+Щоби сторінка не зменшувалася на мобільних пристроях
 
-Appears on the web browser tab and search results
+Показується на вкладці браузера та в результатах пошуку
 
-Import fonts from Google
+Імпортуємо шрифти з Google
 
-Include CSS style file
+Додаємо файл стилів CSS
 
-The content that appears in the browser
+Вміст, який показується у браузері
 
-Heading text with five bouncing emoji
+Текст заголовка з пʼятьма стрибучими емоджі
 
-A wrapped list with a spinning trophy
+Список із переносами та трофей, що обертається
 
-A block quote with a citation
+Цитата з посиланням
 
-An empty footer with colour styles applied
+Порожній нижній колонтитул із застосованими стилями кольорів
