@@ -1,42 +1,42 @@
-## Reflection
+## Поміркуй
 
-Well done. You have created a webpage using several different HTML tags and CSS animations.
+Молодець! Ти створив/-ла вебсторінку з використанням різних тегів HTML та анімацій CSS.
 
-Answer the three questions below to reflect on what you've learnt.
+Поміркуй над вивченим і дай відповіді на ці три запитання.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Ти побачиш пояснення після кожної відповіді. Це завдання можна виконувати скільки завгодно разів.
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Питання 1 з 3
 
-In this project you created a numbered top 5 list of emojis. Which HTML tags are used to create an ordered list?
+У цьому проєкті ми створили нумерований список пʼятьох найкращих емоджі. Які теги HTML використовуються для створення впорядкованого списку?
 
 \--- choices ---
 
-- ( ) `<ul>` and `<li>`
+- ( ) `<ul>` і `<li>`
 
   \--- feedback ---
 
-  Very close. The `<ul>` tag is used to create unordered lists where each item starts with a bullet. `<ul>` is used to create lists of items where the order is not important.
+  Майже. Тег `<ul>` використовується для створення невпорядкованих списків, де кожен елемент починається з маркера. `<ul>` використовується для створення списків, де порядок елементів не має значення.
 
   \--- /feedback ---
 
-- (x) `<ol>` and `<li>`
+- (x) `<ol>` і `<li>`
 
   \--- feedback ---
 
-Correct! `<ol>` means ordered list. `<li>` is used to create list items inside an ordered list. When you use `<ol>`, the items are numbered automatically.
+Правильно! `<ol>` означає впорядкований список. `<li>` використовується для створення елементів списку всередині впорядкованого списку. Коли ти використовуєш `<ol>`, елементи нумеруються автоматично.
 
 \--- /feedback ---
 
-- ( ) `<ul>` and `<ol>`
+- ( ) `<ul>` і `<ol>`
 
   \--- feedback ---
 
-Not quite. `<ul>` and `<ol>` are used to create different kinds of lists in HTML.
+Не зовсім так. `<ul>` і `<ol>` використовуються для створення двох різних видів списків у HTML.
 
 \--- /feedback ---
 
