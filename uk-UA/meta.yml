@@ -1,0 +1,27 @@
+---
+title: Пʼять найкращих емоджі
+hero_image: images/banner.png
+description: Створи вебсторінку про пʼять найкращих емоджі.
+meta_title: Анімація CSS | Вивчай веброзробку | Найкращі емоджі
+meta_description: Вивчай веброзробку для початківців із Raspberry Pi Foundation. За допомогою анімації CSS створи список 5 найкращих емоджі та зроби свій вебсайт цікавим.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2022-05-11"
+steps:
+  - title: Вступ
+  - title: Створи список «пʼять найкращих»
+  - title: Створи анімацію емоджі
+    completion: engaged
+  - title: Додай фонове зображення
+  - title: Додай цитату та посилання
+  - title: Створи анімації для інших емоджі
+    completion: internal
+  - title: Поміркуй
+    completion: external
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Вдоскональ свій проєкт
