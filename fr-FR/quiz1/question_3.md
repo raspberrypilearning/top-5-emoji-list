@@ -38,23 +38,23 @@ line_numbers: true
 
 - ( ) Ligne 1 dans `style.css`
 
- \--- feedback ---
+  \--- feedback ---
 
- Réessaie. Cette ligne est correcte. Tu as besoin d'un point `.` avant le nom de la classe lors de l'écriture d'une règle.
+  Réessaie. Cette ligne est correcte. Tu as besoin d'un point `.` avant le nom de la classe lors de l'écriture d'une règle.
 
- \--- /feedback ---
+  \--- /feedback ---
 
 - (x) Ligne 2 dans `style.css`
 
- \--- feedback ---
+  \--- feedback ---
 
- Correct. Une opacité de '1.0' signifie pas du tout transparent ! Tu peux remplacer ce chiffre par un nombre inférieur à un, tel que 0.75, pour résoudre le problème.
+  Correct. Une opacité de '1.0' signifie pas du tout transparent ! Tu peux remplacer ce chiffre par un nombre inférieur à un, tel que 0.75, pour résoudre le problème.
 
- \--- /feedback ---
+  \--- /feedback ---
 
 - ( ) Ligne 1 dans `index.html`
 
- \--- feedback ---
+  \--- feedback ---
 
 Pas tout à fait. C'est la bonne façon d'ajouter une classe CSS à un élément HTML.
 
@@ -62,7 +62,7 @@ Pas tout à fait. C'est la bonne façon d'ajouter une classe CSS à un élément
 
 - ( ) Ligne 2 dans `index.html`
 
- \--- feedback ---
+  \--- feedback ---
 
 Pas tout à fait. La section est à l'intérieur de l'élément `<main>`, donc si l'opacité est correctement définie pour `<main>`, la section est également transparente.
 
