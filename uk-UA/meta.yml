@@ -1,6 +1,7 @@
 title: Пʼять найкращих емоджі
 hero_image: images/banner.png
 description: Створи вебсторінку про пʼять найкращих емоджі.
+pdf: resources/rpfi-top5-emojis.pdf
 meta_title: Анімація CSS | Вивчай веброзробку | Найкращі емоджі
 meta_description: Вивчай веброзробку для початківців із Raspberry Pi Foundation. За допомогою анімації CSS створи список 5 найкращих емоджі та зроби свій вебсайт цікавим.
 version: 4
